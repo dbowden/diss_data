@@ -1,5 +1,5 @@
 # networkcreation
-Scripts to create social networks from ICEWS data. This is primarily intended as a set of notes for myself, but others may find something useful here.
+Scripts to reshape data for my dissertation work. This is primarily intended as a set of notes for myself, but others may find something useful here.
 
 <!-- # The Raw Data
 
