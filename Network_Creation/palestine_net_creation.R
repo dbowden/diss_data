@@ -13,7 +13,7 @@ elapsed_months <- function(end_date, start_date) {
 #### 1. Create node spells ####
 
 #import node data
-nodes <- read_csv("~/Dissertation Data/networkcreation/Network_Creation/nodes/palestine_nodes.csv")
+nodes <- read_csv("~/Google Drive/Dissertation Data/networkcreation/Network_Creation/nodes/palestine_nodes.csv")
 
 #aggregate to monthly summaries
 nodes <- nodes %>% 

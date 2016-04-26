@@ -4,11 +4,11 @@ library(tidyr)
 library(dplyr)
 library(readr)
 
-setwd("processed_with_names/")
+setwd("ICEWS_Processing/processed_with_names/")
 files <- list.files(pattern='reduced.ICEWS.events.*.txt')
 icews <- do.call('rbind', lapply(files, function(x) read_delim(x, delim="\t", quote="\"", col_names = F, escape_double = F)))
 rm(files)
-setwd("~/Dissertation Data/networkcreation/")
+setwd("~/Google Drive/Dissertation Data/networkcreation/")
 
 colnames(icews) = c('date','location','country.src','country.tgt','name.src','name.tgt','iso.src','cow.src','agent.src','iso.tgt','cow.tgt','agent.tgt','cameo','goldstein','quad')
 
