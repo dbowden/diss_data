@@ -15,7 +15,7 @@ icews <- read.csv("~/Dissertation Data/networkcreation/icews_groups.csv", string
 
 #fix dates
 icews$date <- ymd(icews$date)
-icews$ym <- ymd(icews$date)
+icews$ym <- floor_date(icews$date,"month")
 
 #subset to actors likely to be palestinian dissidents
 pal.diss <- subset(icews, (cow.src==0 & iso.src=="PSE" & agent.src!="BUS" & (location=="Israel" | location=="Occupied Palestinian Territories")))
@@ -31,7 +31,7 @@ pal.diss <- pal.diss %>%
 pal.diss$alt.src <- ifelse(is.na(pal.diss$src.groups)==T, pal.diss$alt.src, pal.diss$src.groups)
 
 #remove extraneous/invalid groups
-pal.diss <- subset(pal.diss, alt.src!="Palestinian Territory, Occupied" & alt.src!="c(\"Govt\", \"Palestinian Territory, Occupied\")" & alt.src!="Riyad Mansour" & alt.src!="Muhammad Abu Khdeir" & alt.src!="Finance / Economy / Commerce / Trade Ministry (Palestinian Territory, Occupied)" & alt.src!="Intelligence Ministry (Palestinian Territory, Occupied)")
+pal.diss <- subset(pal.diss, alt.src!="Palestinian Territory, Occupied" & alt.src!="c(\"Govt\", \"Palestinian Territory, Occupied\")" & alt.src!="Riyad Mansour" & alt.src!="Muhammad Abu Khdeir" & alt.src!="Finance / Economy / Commerce / Trade Ministry (Palestinian Territory, Occupied)" & alt.src!="Intelligence Ministry (Palestinian Territory, Occupied)" & alt.src!="Human Rights NGOs (Palestinian Territory, Occupied)")
 
 #code a few individuals that weren't in the dictionary
 pal.diss$alt.src[pal.diss$alt.src=="Palestinian Islamic Jihad"] <- "Islamic Jihad"
@@ -63,7 +63,7 @@ pal.diss$alt.src[pal.diss$name.src=="Yasir Arafat"] <- "Palestine Liberation Org
 pal.diss$alt.src[pal.diss$name.src=="Rami Hamdallah"] <- "Fatah"
 pal.diss$alt.src[pal.diss$name.src=="Tayyib Abd-al-Rahim"] <- "Fatah"
 pal.diss$alt.src[pal.diss$name.src=="Riyad al-Malki"] <- "Fatah"
-pal.diss$alt.src[pal.diss$name.src=="Hanan Ashrawi"] <- "Third Way"
+pal.diss$alt.src[pal.diss$name.src=="Hanan Ashrawi" & pal.diss$date > "2005-12-01"] <- "Third Way"
 pal.diss$alt.src[pal.diss$name.src=="Ghazi Al-Jabali"] <- "Palestinian Preventive Security Agency"
 pal.diss$alt.src[pal.diss$alt.src=="Media (Hamas)"] <- "Hamas"
 pal.diss$alt.src[pal.diss$alt.src=="Government (Hamas)"] <- "Hamas"
@@ -113,7 +113,7 @@ group.months <- group.months %>%
 
 group.months$gov.gold <- as.numeric(group.months$gov.gold)
 
-#get size of gap from last obs, drop if more than 18 mo (78 weeks)
+#get size of gap from last obs, drop if more than 18
 elapsed_months <- function(end_date, start_date) {
   ed <- as.POSIXlt(end_date)
   sd <- as.POSIXlt(start_date)
