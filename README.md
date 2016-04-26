@@ -1,7 +1,7 @@
 # networkcreation
 Scripts to create social networks from ICEWS data. This is primarily intended as a set of notes for myself, but others may find something useful here.
 
-# The Raw Data
+<!-- # The Raw Data
 
 The raw data from which I construct networks comes from the ICEWS project (Boschee, Elizabeth; Lautenschlager, Jennifer; O'Brien, Sean; Shellman, Steve; Starz, James; Ward, Michael, 2015, "ICEWS Coded Event Data", http://dx.doi.org/10.7910/DVN/28075, Harvard Dataverse, V13), and is hosted at the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28075). The proper files can be found under the "ICEWS Coded Event Data" dataset. There are a number of codebooks, quality checks, etc. included in the folder. The events are contained in yearly files with names such as "events.1995.20150313082510.tab.zip". I accessed the data in March 2016, and use the annual event files for the years 1995-2014.
 
@@ -11,4 +11,4 @@ To obtain Correlates of War countrycodes, more useful agent codes, and other nic
 
 # Add Group Names
 
-ICEWS tends to be overly disaggregated - it codes inviduals, whereas I am interested in constructing networks of groups. I thus use the actors dictionary provided on [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28118) to add the group affiliations when available. This is done in the "icews_actor_names.R" script. The script takes a while to run, and also cleans up two other issues - actor names often have a **Generic (Specific)** format and so I must extract the specific name, and I remove duplicate observations which usually result from the same event being covered in multiple media sources. The script results in a slimmed-down file that can be used to construct dissident networks for individual countries.
+ICEWS tends to be overly disaggregated - it codes inviduals, whereas I am interested in constructing networks of groups. I thus use the actors dictionary provided on [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/28118) to add the group affiliations when available. This is done in the "icews_actor_names.R" script. The script takes a while to run, and also cleans up two other issues - actor names often have a **Generic (Specific)** format and so I must extract the specific name, and I remove duplicate observations which usually result from the same event being covered in multiple media sources. The script results in a slimmed-down file that can be used to construct dissident networks for individual countries. -->
