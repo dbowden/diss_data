@@ -2,6 +2,7 @@
 library(dplyr)
 library(lubridate)
 library(zoo)
+library(readr)
 
 #function to count months between dates
 elapsed_months <- function(end_date, start_date) {
@@ -56,3 +57,6 @@ nodes <- merge(nodes,nums)
 nodes <- subset(nodes, select=c(id1,start,end))
 
 #### 2. Create Edge Spells ####
+
+edges <- read_csv("Network_Creation/edges/palestine_edge_events.csv")
+
