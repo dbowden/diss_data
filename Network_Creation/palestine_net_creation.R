@@ -58,5 +58,19 @@ nodes <- subset(nodes, select=c(id1,start,end))
 
 #### 2. Create Edge Spells ####
 
-edges <- read_csv("Network_Creation/edges/palestine_edge_events.csv")
+edges <- read_csv("~/Google Drive/Dissertation Data/networkcreation/Network_Creation/edges/palestine_edge_events.csv")
 
+#add actor numbers for source
+edges <- merge(edges,nums)
+
+#add actor numbers for target
+colnames(nums) <- c("alt.tgt","id2")
+edges <- merge(edges,nums)
+
+#create non-directed dyad number
+edges$dyad <- ifelse(edges$id1 < edges$id2, paste(edges$id1,edges$id2,sep="-"), paste(edges$id2,edges$id1,sep="-"))
+
+#aggregate to monthly summaries
+edges.ym <- edges %>%
+  group_by(dyad,ym) %>% 
+  summarize(gold=mean(goldstein))
