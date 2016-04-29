@@ -74,7 +74,7 @@ pal.diss <- pal.diss %>%
   mutate(alt.src=strsplit(alt.src,"; ")) %>% 
   unnest(alt.src)
 
-#### 2. ID Months in which groups are dissidents - Nodes for Networks ####
+#### 2. ID which groups are dissidents - Nodes for Networks ####
 
 group.months <- pal.diss
 
@@ -83,75 +83,17 @@ group.months$gov.gold <- ifelse((group.months$cow.tgt==666) , group.months$golds
 
 #create monthly summaries of mean gold vs. gov
 group.months <- group.months %>% 
-  group_by(alt.src,ym) %>% 
-  summarize(gov.gold=mean(gov.gold,na.rm=T))
-
-#calculate time since last month w/ events
-group.months <- group.months %>% 
   group_by(alt.src) %>% 
-  mutate(last=lag(ym))
+  summarize(gov.gold=min(gov.gold,na.rm=T),start=min(ym),end=max(ym))
 
-group.months$last <- ifelse(is.na(group.months$last)==T, paste(group.months$ym), paste(group.months$last))
-
-group.months$last <- ymd(group.months$last)
-
-##create max active date for groups - 18 mos after last event, or end of ICEWS
-
-#get max date
-group.months <- group.months %>% 
-  group_by(alt.src) %>% 
-  mutate(end=max(ym))
-
-#add 18 mos
-group.months$end <- group.months$end + months(18)
-
-#if it exceeds max ICEWS date, reset to end of data
-group.months$end <- ifelse(group.months$end > ymd("2014-09-01"), paste("2014-09-01"), paste(group.months$end))
-group.months$end <- ymd(group.months$end)
-
-##create empty frame of all months while a group is active
-frame <- group.months %>% 
-  group_by(alt.src) %>% 
-  summarize(start=min(ym),end=max(end)) %>% 
-  rowwise() %>% 
-  do(data.frame(alt.src=.$alt.src, ym=seq(.$start, .$end, by="1 month")))
-
-#merge
-group.months <- merge(frame,group.months,all=T)
-rm(frame)
-
-#roll last obs forward
-group.months <- group.months %>% 
-  group_by(alt.src) %>% 
-  do(na.locf(.))
-
-group.months$gov.gold <- as.numeric(group.months$gov.gold)
-
-#get size of gap from last obs, drop if more than 18
-elapsed_months <- function(end_date, start_date) {
-  ed <- as.POSIXlt(end_date)
-  sd <- as.POSIXlt(start_date)
-  12 * (ed$year - sd$year) + (ed$mon - sd$mon)
-}
-
-group.months$gov.gold <- ifelse(elapsed_months(group.months$ym,group.months$last)>18, NA, group.months$gov.gold)
-rm(elapsed_months)
-
-#remove non-diss obs
-group.months <- subset(group.months,gov.gold<0)
+group.months <- subset(group.months, gov.gold<0)
 
 ## Use frame as list of nodes ##
 write.csv(group.months, "~/Google Drive/Dissertation Data/networkcreation/Network_Creation/nodes/palestine_nodes.csv")
 
 ## Use frame to remove events that occur while a group is out of dissident network ##
 
-#create group-month id
-group.months$conmo <- paste(group.months$alt.src, group.months$ym, sep="")
-
-#subset
-pal.diss$conmo <- paste(pal.diss$alt.src, pal.diss$ym, sep="")
-
-pal.diss <- subset(pal.diss, conmo %in% group.months$conmo)
+pal.diss <- subset(pal.diss, alt.src %in% group.months$alt.src)
 
 
 #### 3. Attach TGT invididuals to Groups ####
@@ -188,15 +130,10 @@ pal.diss <- pal.diss %>%
   unnest(tgt.groups)
 
 ## remove events that don't occur during dissident period
-pal.diss$conmo <- paste(pal.diss$alt.tgt, pal.diss$ym, sep="")
-
-pal.diss <- subset(pal.diss, conmo %in% group.months$conmo)
+pal.diss <- subset(pal.diss, alt.tgt %in% group.months$alt.src)
 
 #remove events w/ self
 pal.diss <- subset(pal.diss, alt.src!=alt.tgt)
-
-#remove unneeeded column
-pal.diss <- subset(pal.diss,select=-conmo)
 
 #write
 write_csv(pal.diss,"~/Google Drive/Dissertation Data/networkcreation/Network_Creation/edges/palestine_edge_events.csv")
