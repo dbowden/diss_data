@@ -21,37 +21,6 @@ elapsed_months <- function(end_date, start_date) {
 #import node data
 nodes <- read_csv("~/Google Drive/Dissertation Data/networkcreation/Network_Creation/nodes/palestine_nodes.csv")
 
-#aggregate to monthly summaries
-nodes <- nodes %>% 
-  group_by(alt.src,ym) %>% 
-  summarize(goldstein=mean(gov.gold))
-
-#create lag month var
-nodes <- nodes %>% 
-  group_by(alt.src) %>% 
-  mutate(last=lag(ym),rev.lag=lead(ym))
-
-#code start of new spells
-nodes$new <- ifelse(elapsed_months(nodes$ym, nodes$last)>18 | is.na(nodes$last)==T, 1, 0)
-
-#code end of spells
-nodes$end <- ifelse(elapsed_months(nodes$rev.lag,nodes$ym)>18 | is.na(nodes$rev.lag)==T, 1, 0)
-
-#subset to months that were start or end of a spell
-nodes <- subset(nodes, new==1 | end==1)
-nodes <- subset(nodes, select=-c(last,rev.lag))
-
-#get start dates and roll forward
-nodes$start <- ifelse(nodes$new==1, paste(nodes$ym), NA)
-
-nodes <- nodes %>% 
-  group_by(alt.src) %>% 
-  do(na.locf(.))
-
-nodes$end <- ifelse(nodes$end==1, paste(nodes$ym), NA)
-
-#subset to complete spell
-nodes <- subset(nodes, !is.na(end)==T)
 
 #create id nums for groups
 nums <- data.frame(alt.src=unique(nodes$alt.src), id1=seq(1,length(unique(nodes$alt.src))))
@@ -106,7 +75,6 @@ frame <- edges %>%
 edges <- merge(frame,edges,all=T)
 rm(frame)
 edges <- subset(edges,select=-end)
-
 
 #roll previous goldstein score forward
 edges <- edges %>% 
@@ -171,7 +139,7 @@ edges$start <- ymd(edges$start)
 edges$end <- ymd(edges$end)
 
 #make a dataframe with all dates in range, and identifier for each
-dates <- data.frame(ym=seq.Date(min(nodes$start),max(nodes$end),"months"))
+dates <- data.frame(ym=seq.Date(ymd("1995-01-01"),max(edges$end),"months"))
 dates$num <- seq(1:length(dates$ym))
 
 #merge identifiers into node & edge data
@@ -195,9 +163,9 @@ att$time.unit <- "months"
 set.network.attribute(pal, 'net.obs.period', att)
 
 #plot density over time
-series <- get.networks(pal, start=6, end=226, time.increment = 5, rule='latest')
+series <- get.networks(pal, start=0, end=237, time.increment = 1, rule='latest')
 series.density <- sapply(series, network.density)
 plot(series.density,type='l',xlab="Month",ylab="Network Density")
 
 #plot networks
-plot(network.extract(pal,onset=0,length=226,rule="any"),main="Palestinian Dissident Network")
+plot(network.extract(pal,onset=100,length=40,rule="any"),main="Palestinian Dissident Network")
