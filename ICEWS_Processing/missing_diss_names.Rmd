@@ -1,7 +1,5 @@
 ---
 title: "Missing Actor Names in ICEWS"
-author: "David Bowden"
-date: "April 15, 2016"
 output: pdf_document
 ---
 
@@ -13,7 +11,7 @@ knitr::opts_chunk$set(message = FALSE)
 ```{r data, cache=FALSE, cache.lazy=FALSE}
 library(readr)
 
-icews <- read_csv("icews_missing.csv")
+icews <- read_csv("~/Documents/Data/icews/icews_missing.csv")
 
 ```
 
@@ -32,8 +30,10 @@ icews$ym <- floor_date(icews$date,"month")
 
 reb <- subset(icews,(agent.src=="REB" | agent.src=="OPP") & (agent.tgt=="REB" | agent.tgt=="OPP"))
 
-reb.ym <- reb %>% 
-  group_by(ym) %>% 
+rm(icews)
+
+reb.ym <- reb %>%
+  group_by(ym) %>%
   summarize(na.src=sum(alt.src=="Unattributed"), na.tgt=sum(alt.tgt=="Unattributed"), na.both=sum(alt.src=="Unattributed" & alt.tgt=="Unattributed"), na.either=sum(alt.src=="Unattributed" | alt.tgt=="Unattributed"), tot.events=length(date))
 
 #t1 <- ggplot(reb.ym,aes(x=ym,y=na.src/tot.events*100)) + geom_line() + xlab("Date") + ylab("% Missing") + ggtitle("Missing Source Name") + ylim(0,80)
@@ -42,25 +42,38 @@ reb.ym <- reb %>%
 
 #t3 <- ggplot(reb.ym,aes(x=ym,y=na.both/tot.events*100)) + geom_line() + xlab("Date") + ylab("% Missing") + ggtitle("Missing Both Names") + ylim(0,80)
 
-ggplot(reb.ym,aes(x=ym,y=na.either/tot.events*100)) + geom_line() + xlab("Date") + ylab("% Missing") + ggtitle("1+ Actor Name Missing") + ylim(0,80)
+ggplot(reb.ym,aes(x=ym,y=na.either/tot.events*100)) + geom_line() + xlab("Date") + ylab("% Missing") + ggtitle("1+ Actor Name Missing") + ylim(0,80) + geom_smooth(method="lm")
 
 #grid.arrange(t1,t2,t3,t4,ncol=2)
 ```
 
 ## Missing Values by Country
 
-```{r reb.map1, fig.width=7.5, cache=TRUE}
+```{r reb.map1, fig.width=7.5, cache=TRUE, warning=FALSE}
 library(countrycode)
 
-country.reb <- reb %>% 
-  group_by(location) %>% 
+country.reb <- reb %>%
+  group_by(location) %>%
   summarize(na.src=sum(alt.src=="Unattributed"), na.tgt=sum(alt.tgt=="Unattributed"), na.both=sum(alt.src=="Unattributed" & alt.tgt=="Unattributed"), na.either=sum(alt.src=="Unattributed" | alt.tgt=="Unattributed"), tot.events=length(date))
+
+country.reb$region <- countrycode(country.reb$location, "country.name","iso3c")
+
+#remove countries w/ no conflict
+ucdp <- read_csv("http://www.pcr.uu.se/digitalAssets/124/124920_1ucdpprio-armed-conflict-dataset_v.4-2015_fixed.csv")
+ucdp <- subset(ucdp, Year>=1995)
+ucdp <- subset(ucdp, TypeOfConflict>2)
+ucdp <- subset(ucdp, Location!="United Kingdom" & Location!="United States of America")
+ucdp$iso3c <- countrycode(ucdp$GWNoLoc, "cown", "iso3c")
+
+#country.reb <- subset(country.reb, cow.src %in% ucdp$GWNoLoc)
+country.reb$na.either <- ifelse(country.reb$region %in% ucdp$iso3c, country.reb$na.either, NA)
+
+rm(ucdp)
 
 map <- map_data("world")
 
 map$region <- countrycode(map$region,"country.name","iso3c")
 
-country.reb$region <- countrycode(country.reb$location, "country.name","iso3c")
 
 ggplot(country.reb, aes(map_id = region)) + geom_map(aes(fill=na.either/tot.events*100), map=map) + expand_limits(x=map$long, y=map$lat) + theme_minimal() + xlab("") + ylab("") + theme(axis.ticks = element_blank(), axis.text.x = element_blank(), axis.text.y = element_blank(), panel.grid.minor=element_blank(), panel.grid.major=element_blank()) + scale_fill_gradient(low="green", high="black", name="% Missing") + ggtitle("1+ Actor Name Missing")
 ```
@@ -68,22 +81,22 @@ ggplot(country.reb, aes(map_id = region)) + geom_map(aes(fill=na.either/tot.even
 ## Missing Values by Event Type
 
 ```{r reb.etype, cache=TRUE}
-quad <- reb %>% 
-  group_by(quad) %>% 
+quad <- reb %>%
+  group_by(quad) %>%
   summarize(na.src=sum(alt.src=="Unattributed"), na.tgt=sum(alt.tgt=="Unattributed"), na.both=sum(alt.src=="Unattributed" & alt.tgt=="Unattributed"), na.either=sum(alt.src=="Unattributed" | alt.tgt=="Unattributed"), tot.events=length(date))
 
 ggplot(quad,aes(x=quad,y=na.either/tot.events*100)) + geom_bar(stat="identity") + xlab("Event Type") + ylab("% Missing") + ggtitle("1+ Actor Name Missing") + scale_x_continuous(breaks=c(1,2,3,4),labels=c("Verbal \n Cooperation","Material \n Cooperation","Verbal \n Conflict","Material \n Conflict"))
 
 ```
 
-## Missing Values by Source
+## Missing Values by Media Source
 
 ```{r sources}
 library(stargazer)
 library(knitr)
 
-source <- reb %>% 
-  group_by(source) %>% 
+source <- reb %>%
+  group_by(source) %>%
   summarize(na.src=sum(alt.src=="Unattributed"), na.tgt=sum(alt.tgt=="Unattributed"), na.both=sum(alt.src=="Unattributed" & alt.tgt=="Unattributed"), na.either=sum(alt.src=="Unattributed" | alt.tgt=="Unattributed"), tot.events=length(date))
 
 source$pc.either <- source$na.either / source$tot.events * 100
@@ -98,22 +111,21 @@ kable(source[1:47,c(1,6:7)],col.names = c("Media Source","Total Events","% Missi
 
 ```
 
-## Missing Values and Duplicates
+<!-- ## Missing Values and Duplicates -->
 
-```{r dups}
-reb$dup <- duplicated(subset(reb,select=c(location,date,agent.src,agent.tgt,cameo)))
-reb$dup2 <- duplicated(subset(reb,select=c(location,date,agent.src,agent.tgt,cameo)),fromLast = T)
+<!-- ```{r dups} -->
+<!-- reb$dup <- duplicated(subset(reb,select=c(location,date,agent.src,agent.tgt,cameo))) -->
+<!-- reb$dup2 <- duplicated(subset(reb,select=c(location,date,agent.src,agent.tgt,cameo)),fromLast = T) -->
 
-with(subset(reb,dup==T | dup2==T),table(alt.src=="Unattributed" | alt.tgt=="Unattributed"))
+<!-- with(subset(reb,dup==T | dup2==T),table(alt.src=="Unattributed" | alt.tgt=="Unattributed")) -->
 
-with(subset(reb,alt.src=="Unattributed" | alt.tgt=="Unattributed"),table(dup==T | dup2==T))
+<!-- with(subset(reb,alt.src=="Unattributed" | alt.tgt=="Unattributed"),table(dup==T | dup2==T)) -->
 
-dup <- reb %>% 
-  group_by(location,date,agent.src,agent.tgt,cameo) %>% 
-  summarize(names=sum(alt.src!="Unattributed" & alt.tgt!="Unattributed"),tot.events=length(location))
+<!-- dup <- reb %>% -->
+<!--   group_by(location,date,agent.src,agent.tgt,cameo) %>% -->
+<!--   summarize(names=sum(alt.src!="Unattributed" & alt.tgt!="Unattributed"),tot.events=length(location)) -->
 
-table(dup$names>0)
-table(dup$names>0 & dup$names < dup$tot.events)
+<!-- table(dup$names>0) -->
+<!-- table(dup$names>0 & dup$names < dup$tot.events) -->
 
-```
-
+<!-- ``` -->

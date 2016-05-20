@@ -95,12 +95,12 @@ group.months$last <- ifelse(is.na(group.months$last)==T, paste(group.months$ym),
 
 group.months$last <- ymd(group.months$last)
 
-#create end date + 18mos
+#create end date + 24mos
 group.months <- group.months %>% 
   group_by(alt.src) %>% 
   mutate(end=max(ym))
 
-group.months$end <- group.months$end + month(18)
+group.months$end <- group.months$end + month(24)
 
 group.months$end <- ifelse(group.months$end > ymd("2014-09-01"), paste("2014-09-01"), paste(group.months$end))
 

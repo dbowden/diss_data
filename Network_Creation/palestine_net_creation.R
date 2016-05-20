@@ -21,6 +21,37 @@ elapsed_months <- function(end_date, start_date) {
 #import node data
 nodes <- read_csv("~/Google Drive/Dissertation Data/networkcreation/Network_Creation/nodes/palestine_nodes.csv")
 
+#aggregate to monthly summaries
+nodes <- nodes %>% 
+  group_by(alt.src,ym) %>% 
+  summarize(goldstein=mean(gov.gold))
+
+#create lag month var
+nodes <- nodes %>% 
+  group_by(alt.src) %>% 
+  mutate(last=lag(ym),rev.lag=lead(ym))
+
+#code start of new spells
+nodes$new <- ifelse(elapsed_months(nodes$ym, nodes$last)>24 | is.na(nodes$last)==T, 1, 0)
+
+#code end of spells
+nodes$end <- ifelse(elapsed_months(nodes$rev.lag,nodes$ym)>24 | is.na(nodes$rev.lag)==T, 1, 0)
+
+#subset to months that were start or end of a spell
+nodes <- subset(nodes, new==1 | end==1)
+nodes <- subset(nodes, select=-c(last,rev.lag))
+
+#get start dates and roll forward
+nodes$start <- ifelse(nodes$new==1, paste(nodes$ym), NA)
+
+nodes <- nodes %>% 
+  group_by(alt.src) %>% 
+  do(na.locf(.))
+
+nodes$end <- ifelse(nodes$end==1, paste(nodes$ym), NA)
+
+#subset to complete spell
+nodes <- subset(nodes, !is.na(end)==T)
 
 #create id nums for groups
 nums <- data.frame(alt.src=unique(nodes$alt.src), id1=seq(1,length(unique(nodes$alt.src))))
@@ -58,8 +89,8 @@ edges <- edges %>%
 edges$last <- ifelse(is.na(edges$last)==T, paste(edges$ym), paste(edges$last))
 edges$last <- ymd(edges$last)
 
-#add 18 mos to last date
-edges$end <- edges$end + months(18)
+#add 24 mos to last date
+edges$end <- edges$end + months(24)
 
 #reset to max date in data if it's exceeded
 edges$end <- ifelse(edges$end > ymd("2014-09-01"), paste("2014-09-01"), paste(edges$end))
@@ -81,8 +112,8 @@ edges <- edges %>%
   group_by(dyad) %>% 
   do(na.locf(.))
 
-#remove goldstein if it has been > 18 mos since last event
-edges$gold <- ifelse(elapsed_months(edges$ym, edges$last)>18, NA, edges$gold)
+#remove goldstein if it has been > 24 mos since last event
+edges$gold <- ifelse(elapsed_months(edges$ym, edges$last)>24, NA, edges$gold)
 edges$gold <- as.numeric(edges$gold)
 
 #for now we won't do signed edges - just keep cooperation
@@ -99,10 +130,10 @@ edges <- edges %>%
   mutate(lag=lag(ym),rev.lag=lead(ym))
 
 #code start of new spells
-edges$new <- ifelse(elapsed_months(edges$ym, edges$lag)>18 | is.na(edges$lag)==T, 1, 0)
+edges$new <- ifelse(elapsed_months(edges$ym, edges$lag)>24 | is.na(edges$lag)==T, 1, 0)
 
 #code end of spells
-edges$end <- ifelse(elapsed_months(edges$rev.lag, edges$ym)>18 | is.na(edges$rev.lag)==T, 1, 0)
+edges$end <- ifelse(elapsed_months(edges$rev.lag, edges$ym)>24 | is.na(edges$rev.lag)==T, 1, 0)
 
 #subset to obs that are at start or end of spell
 edges <- subset(edges, new==1 | end==1)
@@ -163,9 +194,9 @@ att$time.unit <- "months"
 set.network.attribute(pal, 'net.obs.period', att)
 
 #plot density over time
-series <- get.networks(pal, start=0, end=237, time.increment = 1, rule='latest')
+series <- get.networks(pal, start=0, end=237, time.increment = 5, rule='latest')
 series.density <- sapply(series, network.density)
 plot(series.density,type='l',xlab="Month",ylab="Network Density")
 
 #plot networks
-plot(network.extract(pal,onset=100,length=40,rule="any"),main="Palestinian Dissident Network")
+plot(network.extract(pal,onset=100,terminus=230,rule="any"),main="Palestinian Dissident Network")
