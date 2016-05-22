@@ -10,6 +10,7 @@ library(zoo)
 library(ggplot2)
 theme_set(theme_bw())
 
+
 #import icews w/ group names added for individuals
 icews <- read.csv("~/Google Drive/Dissertation Data/networkcreation/icews_groups.csv", stringsAsFactors = FALSE)
 
@@ -29,32 +30,16 @@ iraq <- subset(icews, cow.src==645 & agent.src!="BUS" & (cow.tgt==645 | cow.tgt=
 
 #use group name instead of individual name when available
 #iraq$alt.src <- ifelse(is.na(iraq$src.groups)==T, iraq$alt.src, iraq$src.groups)
+unique(iraq$alt.src)
 
-#remove extraneous/invalid groups
-iraq <- subset(iraq, alt.src!="Elite (Afghanistan)" & alt.src!="Tajik" & alt.src!="Uzbek" & alt.src!="Pashtun" & alt.src!="Muslim" & alt.src!="Agency Co-ordinating Body for Afghan Relief" & alt.src!="Shia" & alt.src!="Shia (Afghanistan)" & alt.src!="(National) Minor Party (Afghanistan)" & alt.src!="Mohammad Daoud" & alt.src!="Ministry of Foreign Affairs")
+with(subset(iraq, alt.src=="Jalal Talabani"),unique(name.src))
+
+#remove a few things that aren't formal groups
+iraq <- subset(iraq, alt.src!="Iraqi Kurdistan" & alt.src!="Iraqi Kurds" & alt.src!="Naji Sabri" & alt.src!="Jalal Talabani" & alt.src!="Hoshyar Zebari" & alt.src!="Adnan Pachachi")
 
 #code a few individuals that weren't in the dictionary
-iraq$alt.src[iraq$name.src=="Burhanuddin Rabbani" & iraq$date < "1996-09-28"] <- "Government"
-iraq$alt.src[iraq$name.src=="Burhanuddin Rabbani" & iraq$date > "1996-09-27" & iraq$date < "2001-11-13"] <- "Jamiat-e Islami"
-iraq$alt.src[iraq$name.src=="Burhanuddin Rabbani" & iraq$date < "2001-12-23" & iraq$date > "2001-11-12"] <- "Government"
-iraq$alt.src[iraq$name.src=="Burhanuddin Rabbani" & iraq$date > "2001-12-22"] <- "Jamiat-e Islami"
-iraq$alt.src[iraq$name.src=="Abdullah Abdullah" & iraq$alt.src=="(National) Major Party (Afghanistan)"] <- "National Coaltion of Afghanistan"
-iraq$alt.src[iraq$name.src=="Abdullah Abdullah" & iraq$date > "2014-09-13"] <- "Government"
-iraq$alt.src[iraq$name.src=="Abdullah Abdullah" & iraq$date > "2001-10-01" & iraq$date < "2005-04-21"] <- "Government"
-iraq$alt.src[iraq$name.src=="Atta Mohammed Nur" & iraq$date > "2004-01-01"] <- "Government"
-iraq$alt.src[iraq$name.src=="Gulbuddin Hekmatyar" & iraq$date > "1996-06-25" & iraq$date < "1996-09-28"] <- "Government"
-iraq$alt.src[iraq$name.src=="Ahmad Shah Masood" & iraq$date < "1996-09-28"] <- "Government"
-iraq$alt.src[iraq$name.src=="Mohammed Omar" & iraq$date > "1996-09-26" & iraq$date < "2001-11-14"] <- "Government"
-iraq$alt.src[iraq$name.src=="Abdul Qadir" & iraq$date > "2001-11-13"] <- "Government"
-iraq$alt.src[iraq$name.src=="Hamid Karzai" & iraq$date > "2001-12-21"] <- "Government"
-iraq$alt.src[iraq$name.src=="Abdul Rashid Dostum" & iraq$date > "2001-11-13"] <- "Government"
-iraq$alt.src[iraq$alt.src=="Taliban" & iraq$date > "1996-09-28" & iraq$date < "2001-11-13"] <- "Government"
-iraq$alt.src[iraq$alt.src=="Karim Khalili"] <- "Government"
-iraq$alt.src[iraq$alt.src=="Opposition Major Party (Out Of Government) (United National Front)"] <- "United National Front"
-iraq$alt.src[iraq$alt.src=="Zalmai Rassoul"] <- "Government"
-iraq$alt.src[iraq$alt.src=="Ismail Khan"] <- "Jamiat-e Islami"
-iraq$alt.src[iraq$alt.src=="Mohammad Yunus Khalis"] <- "Hizb-e-Islami Khalis"
-iraq$alt.src[iraq$alt.src=="Sayed Raz Mohammad Agha"] <- "Taliban"
+iraq$alt.src[iraq$alt.src=="Massoud Barzani"] <- "Kurdistan Democratic Party"
+iraq$alt.src[iraq$alt.src=="Ahmad Chalabi"] <- "Iraqi National Congress"
 
 #split again
 iraq <- iraq %>%
