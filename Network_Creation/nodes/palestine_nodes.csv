@@ -1,1403 +1,1815 @@
-"","alt.src","ym","events"
-"1","al-Aqsa Martyrs' Brigades",2001-06-01,2
-"2","al-Aqsa Martyrs' Brigades",2001-08-01,1
-"3","al-Aqsa Martyrs' Brigades",2002-01-01,3
-"4","al-Aqsa Martyrs' Brigades",2002-03-01,21
-"5","al-Aqsa Martyrs' Brigades",2002-05-01,7
-"6","al-Aqsa Martyrs' Brigades",2002-06-01,5
-"7","al-Aqsa Martyrs' Brigades",2002-07-01,4
-"8","al-Aqsa Martyrs' Brigades",2002-09-01,7
-"9","al-Aqsa Martyrs' Brigades",2002-10-01,6
-"10","al-Aqsa Martyrs' Brigades",2002-12-01,2
-"11","al-Aqsa Martyrs' Brigades",2003-01-01,4
-"12","al-Aqsa Martyrs' Brigades",2003-04-01,4
-"13","al-Aqsa Martyrs' Brigades",2003-05-01,1
-"14","al-Aqsa Martyrs' Brigades",2003-06-01,1
-"15","al-Aqsa Martyrs' Brigades",2003-07-01,3
-"16","al-Aqsa Martyrs' Brigades",2003-08-01,2
-"17","al-Aqsa Martyrs' Brigades",2003-09-01,5
-"18","al-Aqsa Martyrs' Brigades",2003-10-01,1
-"19","al-Aqsa Martyrs' Brigades",2003-12-01,1
-"20","al-Aqsa Martyrs' Brigades",2004-01-01,2
-"21","al-Aqsa Martyrs' Brigades",2004-02-01,3
-"22","al-Aqsa Martyrs' Brigades",2004-03-01,6
-"23","al-Aqsa Martyrs' Brigades",2004-05-01,4
-"24","al-Aqsa Martyrs' Brigades",2004-06-01,5
-"25","al-Aqsa Martyrs' Brigades",2004-07-01,5
-"26","al-Aqsa Martyrs' Brigades",2004-08-01,3
-"27","al-Aqsa Martyrs' Brigades",2004-09-01,5
-"28","al-Aqsa Martyrs' Brigades",2004-11-01,12
-"29","al-Aqsa Martyrs' Brigades",2004-12-01,9
-"30","al-Aqsa Martyrs' Brigades",2005-01-01,4
-"31","al-Aqsa Martyrs' Brigades",2005-02-01,3
-"32","al-Aqsa Martyrs' Brigades",2005-06-01,1
-"33","al-Aqsa Martyrs' Brigades",2005-07-01,4
-"34","al-Aqsa Martyrs' Brigades",2005-10-01,1
-"35","al-Aqsa Martyrs' Brigades",2005-11-01,1
-"36","al-Aqsa Martyrs' Brigades",2005-12-01,6
-"37","al-Aqsa Martyrs' Brigades",2006-01-01,10
-"38","al-Aqsa Martyrs' Brigades",2006-02-01,1
-"39","al-Aqsa Martyrs' Brigades",2006-03-01,1
-"40","al-Aqsa Martyrs' Brigades",2006-04-01,6
-"41","al-Aqsa Martyrs' Brigades",2006-05-01,1
-"42","al-Aqsa Martyrs' Brigades",2006-06-01,3
-"43","al-Aqsa Martyrs' Brigades",2006-08-01,2
-"44","al-Aqsa Martyrs' Brigades",2006-09-01,1
-"45","al-Aqsa Martyrs' Brigades",2006-11-01,1
-"46","al-Aqsa Martyrs' Brigades",2006-12-01,2
-"47","al-Aqsa Martyrs' Brigades",2007-01-01,5
-"48","al-Aqsa Martyrs' Brigades",2007-02-01,3
-"49","al-Aqsa Martyrs' Brigades",2007-03-01,5
-"50","al-Aqsa Martyrs' Brigades",2007-04-01,4
-"51","al-Aqsa Martyrs' Brigades",2007-05-01,1
-"52","al-Aqsa Martyrs' Brigades",2007-06-01,1
-"53","al-Aqsa Martyrs' Brigades",2007-07-01,1
-"54","al-Aqsa Martyrs' Brigades",2007-08-01,3
-"55","al-Aqsa Martyrs' Brigades",2007-09-01,3
-"56","al-Aqsa Martyrs' Brigades",2007-10-01,5
-"57","al-Aqsa Martyrs' Brigades",2007-11-01,5
-"58","al-Aqsa Martyrs' Brigades",2007-12-01,3
-"59","al-Aqsa Martyrs' Brigades",2008-01-01,6
-"60","al-Aqsa Martyrs' Brigades",2008-02-01,2
-"61","al-Aqsa Martyrs' Brigades",2008-03-01,1
-"62","al-Aqsa Martyrs' Brigades",2008-04-01,1
-"63","al-Aqsa Martyrs' Brigades",2008-05-01,2
-"64","al-Aqsa Martyrs' Brigades",2008-06-01,3
-"65","al-Aqsa Martyrs' Brigades",2008-11-01,1
-"66","al-Aqsa Martyrs' Brigades",2008-12-01,2
-"67","al-Aqsa Martyrs' Brigades",2009-01-01,2
-"68","al-Aqsa Martyrs' Brigades",2010-03-01,1
-"69","al-Aqsa Martyrs' Brigades",2011-01-01,1
-"70","al-Aqsa Martyrs' Brigades",2011-12-01,1
-"71","al-Aqsa Martyrs' Brigades",2012-01-01,1
-"72","al-Aqsa Martyrs' Brigades",2012-03-01,2
-"73","al-Aqsa Martyrs' Brigades",2012-12-01,3
-"74","al-Aqsa Martyrs' Brigades",2014-04-01,1
-"75","Al-Quds",1996-01-01,1
-"76","Al-Quds",1998-12-01,1
-"77","Al-Quds",2000-08-01,2
-"78","Al-Quds",2001-04-01,1
-"79","Al-Quds",2001-08-01,1
-"80","Al-Quds",2001-09-01,1
-"81","Al-Quds",2002-01-01,1
-"82","Al-Quds",2002-05-01,2
-"83","Al-Quds",2002-10-01,1
-"84","Al-Quds",2002-11-01,1
-"85","Al-Quds",2002-12-01,1
-"86","Al-Quds",2003-04-01,2
-"87","Al-Quds",2003-08-01,1
-"88","Al-Quds",2003-09-01,1
-"89","Al-Quds",2004-02-01,2
-"90","Al-Quds",2005-03-01,1
-"91","Al-Quds",2007-02-01,2
-"92","Al-Quds",2007-07-01,1
-"93","Al-Quds",2008-04-01,1
-"94","Al-Quds",2009-12-01,1
-"95","Al-Quds",2012-06-01,1
-"96","Al-Quds",2014-01-01,1
-"97","Army of Islam",2014-08-01,2
-"98","Democratic Front for the Liberation of Palestine",1996-01-01,1
-"99","Democratic Front for the Liberation of Palestine",1996-02-01,2
-"100","Democratic Front for the Liberation of Palestine",1996-04-01,2
-"101","Democratic Front for the Liberation of Palestine",1996-05-01,1
-"102","Democratic Front for the Liberation of Palestine",1997-02-01,2
-"103","Democratic Front for the Liberation of Palestine",1999-02-01,2
-"104","Democratic Front for the Liberation of Palestine",1999-09-01,1
-"105","Democratic Front for the Liberation of Palestine",1999-10-01,1
-"106","Democratic Front for the Liberation of Palestine",2000-07-01,1
-"107","Democratic Front for the Liberation of Palestine",2000-08-01,1
-"108","Democratic Front for the Liberation of Palestine",2000-10-01,1
-"109","Democratic Front for the Liberation of Palestine",2002-06-01,2
-"110","Democratic Front for the Liberation of Palestine",2002-08-01,1
-"111","Democratic Front for the Liberation of Palestine",2002-12-01,1
-"112","Democratic Front for the Liberation of Palestine",2003-05-01,2
-"113","Democratic Front for the Liberation of Palestine",2003-07-01,2
-"114","Democratic Front for the Liberation of Palestine",2003-12-01,1
-"115","Democratic Front for the Liberation of Palestine",2005-01-01,3
-"116","Democratic Front for the Liberation of Palestine",2005-08-01,1
-"117","Democratic Front for the Liberation of Palestine",2006-01-01,1
-"118","Democratic Front for the Liberation of Palestine",2006-07-01,1
-"119","Democratic Front for the Liberation of Palestine",2006-11-01,2
-"120","Democratic Front for the Liberation of Palestine",2007-02-01,1
-"121","Democratic Front for the Liberation of Palestine",2007-03-01,1
-"122","Democratic Front for the Liberation of Palestine",2007-08-01,2
-"123","Democratic Front for the Liberation of Palestine",2007-09-01,2
-"124","Democratic Front for the Liberation of Palestine",2007-10-01,1
-"125","Democratic Front for the Liberation of Palestine",2007-11-01,1
-"126","Democratic Front for the Liberation of Palestine",2007-12-01,1
-"127","Democratic Front for the Liberation of Palestine",2008-01-01,2
-"128","Democratic Front for the Liberation of Palestine",2008-02-01,2
-"129","Democratic Front for the Liberation of Palestine",2008-05-01,2
-"130","Democratic Front for the Liberation of Palestine",2008-09-01,1
-"131","Democratic Front for the Liberation of Palestine",2010-09-01,1
-"132","Democratic Front for the Liberation of Palestine",2010-11-01,1
-"133","Democratic Front for the Liberation of Palestine",2011-03-01,1
-"134","Democratic Front for the Liberation of Palestine",2012-02-01,1
-"135","Democratic Front for the Liberation of Palestine",2013-05-01,1
-"136","Fatah",1995-01-01,4
-"137","Fatah",1995-02-01,7
-"138","Fatah",1995-03-01,5
-"139","Fatah",1995-05-01,14
-"140","Fatah",1995-06-01,9
-"141","Fatah",1995-07-01,14
-"142","Fatah",1995-08-01,16
-"143","Fatah",1995-09-01,9
-"144","Fatah",1995-10-01,16
-"145","Fatah",1995-11-01,21
-"146","Fatah",1995-12-01,5
-"147","Fatah",1996-01-01,19
-"148","Fatah",1996-02-01,11
-"149","Fatah",1996-03-01,32
-"150","Fatah",1996-04-01,2
-"151","Fatah",1996-05-01,7
-"152","Fatah",1996-06-01,16
-"153","Fatah",1996-07-01,20
-"154","Fatah",1996-08-01,22
-"155","Fatah",1996-09-01,57
-"156","Fatah",1996-10-01,20
-"157","Fatah",1996-11-01,17
-"158","Fatah",1996-12-01,7
-"159","Fatah",1997-01-01,14
-"160","Fatah",1997-02-01,11
-"161","Fatah",1997-03-01,56
-"162","Fatah",1997-04-01,19
-"163","Fatah",1997-05-01,27
-"164","Fatah",1997-06-01,10
-"165","Fatah",1997-07-01,25
-"166","Fatah",1997-08-01,53
-"167","Fatah",1997-09-01,30
-"168","Fatah",1997-10-01,24
-"169","Fatah",1997-11-01,9
-"170","Fatah",1997-12-01,10
-"171","Fatah",1998-01-01,11
-"172","Fatah",1998-02-01,9
-"173","Fatah",1998-03-01,16
-"174","Fatah",1998-04-01,13
-"175","Fatah",1998-05-01,13
-"176","Fatah",1998-06-01,17
-"177","Fatah",1998-07-01,29
-"178","Fatah",1998-08-01,17
-"179","Fatah",1998-09-01,26
-"180","Fatah",1998-10-01,23
-"181","Fatah",1998-11-01,33
-"182","Fatah",1998-12-01,17
-"183","Fatah",1999-01-01,13
-"184","Fatah",1999-02-01,12
-"185","Fatah",1999-03-01,13
-"186","Fatah",1999-04-01,17
-"187","Fatah",1999-05-01,14
-"188","Fatah",1999-06-01,9
-"189","Fatah",1999-07-01,38
-"190","Fatah",1999-08-01,26
-"191","Fatah",1999-09-01,31
-"192","Fatah",1999-10-01,13
-"193","Fatah",1999-11-01,24
-"194","Fatah",1999-12-01,19
-"195","Fatah",2000-01-01,25
-"196","Fatah",2000-02-01,11
-"197","Fatah",2000-03-01,14
-"198","Fatah",2000-04-01,13
-"199","Fatah",2000-05-01,23
-"200","Fatah",2000-06-01,37
-"201","Fatah",2000-07-01,121
-"202","Fatah",2000-08-01,89
-"203","Fatah",2000-09-01,74
-"204","Fatah",2000-10-01,87
-"205","Fatah",2000-11-01,42
-"206","Fatah",2000-12-01,44
-"207","Fatah",2001-01-01,53
-"208","Fatah",2001-02-01,45
-"209","Fatah",2001-03-01,61
-"210","Fatah",2001-04-01,30
-"211","Fatah",2001-05-01,31
-"212","Fatah",2001-06-01,83
-"213","Fatah",2001-07-01,25
-"214","Fatah",2001-08-01,49
-"215","Fatah",2001-09-01,99
-"216","Fatah",2001-10-01,51
-"217","Fatah",2001-11-01,44
-"218","Fatah",2001-12-01,103
-"219","Fatah",2002-01-01,48
-"220","Fatah",2002-02-01,42
-"221","Fatah",2002-03-01,53
-"222","Fatah",2002-04-01,68
-"223","Fatah",2002-05-01,35
-"224","Fatah",2002-06-01,29
-"225","Fatah",2002-07-01,33
-"226","Fatah",2002-08-01,9
-"227","Fatah",2002-09-01,22
-"228","Fatah",2002-10-01,25
-"229","Fatah",2002-11-01,17
-"230","Fatah",2002-12-01,13
-"231","Fatah",2003-01-01,19
-"232","Fatah",2003-02-01,19
-"233","Fatah",2003-03-01,10
-"234","Fatah",2003-04-01,31
-"235","Fatah",2003-05-01,123
-"236","Fatah",2003-06-01,99
-"237","Fatah",2003-07-01,106
-"238","Fatah",2003-08-01,53
-"239","Fatah",2003-09-01,56
-"240","Fatah",2003-10-01,24
-"241","Fatah",2003-11-01,24
-"242","Fatah",2003-12-01,27
-"243","Fatah",2004-01-01,23
-"244","Fatah",2004-02-01,20
-"245","Fatah",2004-03-01,18
-"246","Fatah",2004-04-01,28
-"247","Fatah",2004-05-01,15
-"248","Fatah",2004-06-01,8
-"249","Fatah",2004-07-01,13
-"250","Fatah",2004-08-01,10
-"251","Fatah",2004-09-01,9
-"252","Fatah",2004-10-01,14
-"253","Fatah",2004-11-01,53
-"254","Fatah",2004-12-01,47
-"255","Fatah",2005-01-01,80
-"256","Fatah",2005-02-01,75
-"257","Fatah",2005-03-01,43
-"258","Fatah",2005-04-01,24
-"259","Fatah",2005-05-01,22
-"260","Fatah",2005-06-01,36
-"261","Fatah",2005-07-01,17
-"262","Fatah",2005-08-01,20
-"263","Fatah",2005-09-01,20
-"264","Fatah",2005-10-01,25
-"265","Fatah",2005-11-01,16
-"266","Fatah",2005-12-01,26
-"267","Fatah",2006-01-01,44
-"268","Fatah",2006-02-01,24
-"269","Fatah",2006-03-01,55
-"270","Fatah",2006-04-01,33
-"271","Fatah",2006-05-01,61
-"272","Fatah",2006-06-01,42
-"273","Fatah",2006-07-01,21
-"274","Fatah",2006-08-01,8
-"275","Fatah",2006-09-01,35
-"276","Fatah",2006-10-01,18
-"277","Fatah",2006-11-01,13
-"278","Fatah",2006-12-01,34
-"279","Fatah",2007-01-01,25
-"280","Fatah",2007-02-01,64
-"281","Fatah",2007-03-01,73
-"282","Fatah",2007-04-01,21
-"283","Fatah",2007-05-01,7
-"284","Fatah",2007-06-01,20
-"285","Fatah",2007-07-01,23
-"286","Fatah",2007-08-01,29
-"287","Fatah",2007-09-01,48
-"288","Fatah",2007-10-01,52
-"289","Fatah",2007-11-01,47
-"290","Fatah",2007-12-01,35
-"291","Fatah",2008-01-01,36
-"292","Fatah",2008-02-01,28
-"293","Fatah",2008-03-01,35
-"294","Fatah",2008-04-01,35
-"295","Fatah",2008-05-01,31
-"296","Fatah",2008-06-01,31
-"297","Fatah",2008-07-01,34
-"298","Fatah",2008-08-01,32
-"299","Fatah",2008-09-01,32
-"300","Fatah",2008-10-01,13
-"301","Fatah",2008-11-01,29
-"302","Fatah",2008-12-01,7
-"303","Fatah",2009-01-01,12
-"304","Fatah",2009-02-01,3
-"305","Fatah",2009-03-01,17
-"306","Fatah",2009-04-01,19
-"307","Fatah",2009-05-01,8
-"308","Fatah",2009-06-01,4
-"309","Fatah",2009-07-01,10
-"310","Fatah",2009-08-01,12
-"311","Fatah",2009-09-01,39
-"312","Fatah",2009-10-01,33
-"313","Fatah",2009-11-01,28
-"314","Fatah",2009-12-01,13
-"315","Fatah",2010-01-01,18
-"316","Fatah",2010-02-01,11
-"317","Fatah",2010-03-01,45
-"318","Fatah",2010-04-01,25
-"319","Fatah",2010-05-01,18
-"320","Fatah",2010-06-01,14
-"321","Fatah",2010-07-01,17
-"322","Fatah",2010-08-01,13
-"323","Fatah",2010-09-01,67
-"324","Fatah",2010-10-01,29
-"325","Fatah",2010-11-01,18
-"326","Fatah",2010-12-01,27
-"327","Fatah",2011-01-01,14
-"328","Fatah",2011-02-01,7
-"329","Fatah",2011-03-01,12
-"330","Fatah",2011-04-01,13
-"331","Fatah",2011-05-01,32
-"332","Fatah",2011-06-01,14
-"333","Fatah",2011-07-01,8
-"334","Fatah",2011-08-01,10
-"335","Fatah",2011-09-01,37
-"336","Fatah",2011-10-01,16
-"337","Fatah",2011-11-01,9
-"338","Fatah",2011-12-01,18
-"339","Fatah",2012-01-01,17
-"340","Fatah",2012-02-01,14
-"341","Fatah",2012-03-01,13
-"342","Fatah",2012-04-01,13
-"343","Fatah",2012-05-01,18
-"344","Fatah",2012-06-01,11
-"345","Fatah",2012-07-01,8
-"346","Fatah",2012-08-01,5
-"347","Fatah",2012-09-01,19
-"348","Fatah",2012-10-01,4
-"349","Fatah",2012-11-01,12
-"350","Fatah",2012-12-01,13
-"351","Fatah",2013-01-01,11
-"352","Fatah",2013-02-01,9
-"353","Fatah",2013-03-01,14
-"354","Fatah",2013-04-01,14
-"355","Fatah",2013-05-01,15
-"356","Fatah",2013-06-01,16
-"357","Fatah",2013-07-01,16
-"358","Fatah",2013-08-01,13
-"359","Fatah",2013-09-01,16
-"360","Fatah",2013-10-01,15
-"361","Fatah",2013-11-01,8
-"362","Fatah",2013-12-01,17
-"363","Fatah",2014-01-01,33
-"364","Fatah",2014-02-01,11
-"365","Fatah",2014-03-01,34
-"366","Fatah",2014-04-01,52
-"367","Fatah",2014-05-01,11
-"368","Fatah",2014-06-01,16
-"369","Fatah",2014-07-01,10
-"370","Fatah",2014-08-01,9
-"371","Hamas",1995-01-01,1
-"372","Hamas",1995-05-01,2
-"373","Hamas",1995-06-01,5
-"374","Hamas",1995-07-01,6
-"375","Hamas",1995-08-01,18
-"376","Hamas",1995-09-01,5
-"377","Hamas",1995-10-01,7
-"378","Hamas",1995-11-01,1
-"379","Hamas",1995-12-01,4
-"380","Hamas",1996-01-01,4
-"381","Hamas",1996-02-01,11
-"382","Hamas",1996-03-01,25
-"383","Hamas",1996-04-01,9
-"384","Hamas",1996-05-01,5
-"385","Hamas",1996-06-01,4
-"386","Hamas",1996-07-01,1
-"387","Hamas",1996-08-01,3
-"388","Hamas",1996-09-01,2
-"389","Hamas",1996-10-01,2
-"390","Hamas",1996-12-01,9
-"391","Hamas",1997-01-01,1
-"392","Hamas",1997-03-01,23
-"393","Hamas",1997-04-01,7
-"394","Hamas",1997-05-01,1
-"395","Hamas",1997-07-01,2
-"396","Hamas",1997-08-01,7
-"397","Hamas",1997-09-01,15
-"398","Hamas",1997-10-01,13
-"399","Hamas",1997-11-01,4
-"400","Hamas",1997-12-01,1
-"401","Hamas",1998-01-01,1
-"402","Hamas",1998-02-01,4
-"403","Hamas",1998-03-01,6
-"404","Hamas",1998-04-01,14
-"405","Hamas",1998-05-01,3
-"406","Hamas",1998-06-01,4
-"407","Hamas",1998-07-01,4
-"408","Hamas",1998-09-01,3
-"409","Hamas",1998-10-01,8
-"410","Hamas",1998-11-01,7
-"411","Hamas",1998-12-01,5
-"412","Hamas",1999-01-01,3
-"413","Hamas",1999-02-01,5
-"414","Hamas",1999-03-01,2
-"415","Hamas",1999-04-01,2
-"416","Hamas",1999-05-01,1
-"417","Hamas",1999-07-01,3
-"418","Hamas",1999-08-01,5
-"419","Hamas",1999-09-01,4
-"420","Hamas",1999-10-01,4
-"421","Hamas",1999-11-01,3
-"422","Hamas",1999-12-01,1
-"423","Hamas",2000-02-01,3
-"424","Hamas",2000-03-01,2
-"425","Hamas",2000-06-01,2
-"426","Hamas",2000-07-01,16
-"427","Hamas",2000-08-01,11
-"428","Hamas",2000-09-01,5
-"429","Hamas",2000-10-01,9
-"430","Hamas",2000-11-01,3
-"431","Hamas",2000-12-01,2
-"432","Hamas",2001-01-01,1
-"433","Hamas",2001-02-01,3
-"434","Hamas",2001-03-01,15
-"435","Hamas",2001-04-01,6
-"436","Hamas",2001-05-01,12
-"437","Hamas",2001-06-01,9
-"438","Hamas",2001-07-01,6
-"439","Hamas",2001-08-01,26
-"440","Hamas",2001-09-01,8
-"441","Hamas",2001-10-01,3
-"442","Hamas",2001-12-01,39
-"443","Hamas",2002-01-01,10
-"444","Hamas",2002-02-01,4
-"445","Hamas",2002-03-01,9
-"446","Hamas",2002-04-01,6
-"447","Hamas",2002-05-01,12
-"448","Hamas",2002-06-01,12
-"449","Hamas",2002-07-01,9
-"450","Hamas",2002-08-01,20
-"451","Hamas",2002-09-01,8
-"452","Hamas",2002-10-01,7
-"453","Hamas",2002-11-01,4
-"454","Hamas",2002-12-01,5
-"455","Hamas",2003-01-01,8
-"456","Hamas",2003-02-01,9
-"457","Hamas",2003-03-01,17
-"458","Hamas",2003-04-01,7
-"459","Hamas",2003-05-01,36
-"460","Hamas",2003-06-01,83
-"461","Hamas",2003-07-01,8
-"462","Hamas",2003-08-01,41
-"463","Hamas",2003-09-01,25
-"464","Hamas",2003-10-01,9
-"465","Hamas",2003-11-01,3
-"466","Hamas",2003-12-01,8
-"467","Hamas",2004-01-01,19
-"468","Hamas",2004-02-01,7
-"469","Hamas",2004-03-01,38
-"470","Hamas",2004-04-01,11
-"471","Hamas",2004-05-01,4
-"472","Hamas",2004-06-01,8
-"473","Hamas",2004-07-01,4
-"474","Hamas",2004-08-01,5
-"475","Hamas",2004-09-01,32
-"476","Hamas",2004-10-01,9
-"477","Hamas",2004-11-01,12
-"478","Hamas",2004-12-01,14
-"479","Hamas",2005-01-01,13
-"480","Hamas",2005-02-01,9
-"481","Hamas",2005-03-01,10
-"482","Hamas",2005-04-01,10
-"483","Hamas",2005-05-01,12
-"484","Hamas",2005-06-01,17
-"485","Hamas",2005-07-01,9
-"486","Hamas",2005-08-01,6
-"487","Hamas",2005-09-01,20
-"488","Hamas",2005-10-01,9
-"489","Hamas",2005-11-01,5
-"490","Hamas",2005-12-01,8
-"491","Hamas",2006-01-01,47
-"492","Hamas",2006-02-01,61
-"493","Hamas",2006-03-01,59
-"494","Hamas",2006-04-01,62
-"495","Hamas",2006-05-01,24
-"496","Hamas",2006-06-01,30
-"497","Hamas",2006-07-01,28
-"498","Hamas",2006-08-01,10
-"499","Hamas",2006-09-01,29
-"500","Hamas",2006-10-01,22
-"501","Hamas",2006-11-01,15
-"502","Hamas",2006-12-01,23
-"503","Hamas",2007-01-01,16
-"504","Hamas",2007-02-01,27
-"505","Hamas",2007-03-01,26
-"506","Hamas",2007-04-01,11
-"507","Hamas",2007-05-01,21
-"508","Hamas",2007-06-01,13
-"509","Hamas",2007-07-01,21
-"510","Hamas",2007-08-01,11
-"511","Hamas",2007-09-01,8
-"512","Hamas",2007-10-01,10
-"513","Hamas",2007-11-01,5
-"514","Hamas",2007-12-01,9
-"515","Hamas",2008-01-01,7
-"516","Hamas",2008-02-01,23
-"517","Hamas",2008-03-01,24
-"518","Hamas",2008-04-01,28
-"519","Hamas",2008-05-01,12
-"520","Hamas",2008-06-01,22
-"521","Hamas",2008-07-01,8
-"522","Hamas",2008-08-01,13
-"523","Hamas",2008-09-01,7
-"524","Hamas",2008-10-01,4
-"525","Hamas",2008-11-01,15
-"526","Hamas",2008-12-01,26
-"527","Hamas",2009-01-01,45
-"528","Hamas",2009-02-01,19
-"529","Hamas",2009-03-01,15
-"530","Hamas",2009-04-01,11
-"531","Hamas",2009-05-01,4
-"532","Hamas",2009-06-01,8
-"533","Hamas",2009-07-01,1
-"534","Hamas",2009-08-01,5
-"535","Hamas",2009-09-01,5
-"536","Hamas",2009-10-01,11
-"537","Hamas",2009-11-01,13
-"538","Hamas",2009-12-01,8
-"539","Hamas",2010-01-01,7
-"540","Hamas",2010-02-01,8
-"541","Hamas",2010-03-01,8
-"542","Hamas",2010-04-01,5
-"543","Hamas",2010-05-01,15
-"544","Hamas",2010-06-01,5
-"545","Hamas",2010-07-01,12
-"546","Hamas",2010-08-01,13
-"547","Hamas",2010-09-01,8
-"548","Hamas",2010-10-01,2
-"549","Hamas",2010-11-01,3
-"550","Hamas",2010-12-01,5
-"551","Hamas",2011-02-01,4
-"552","Hamas",2011-03-01,8
-"553","Hamas",2011-04-01,16
-"554","Hamas",2011-05-01,17
-"555","Hamas",2011-06-01,13
-"556","Hamas",2011-07-01,3
-"557","Hamas",2011-08-01,9
-"558","Hamas",2011-09-01,12
-"559","Hamas",2011-10-01,29
-"560","Hamas",2011-11-01,4
-"561","Hamas",2011-12-01,8
-"562","Hamas",2012-01-01,3
-"563","Hamas",2012-02-01,8
-"564","Hamas",2012-03-01,4
-"565","Hamas",2012-04-01,9
-"566","Hamas",2012-05-01,3
-"567","Hamas",2012-06-01,4
-"568","Hamas",2012-07-01,1
-"569","Hamas",2012-09-01,1
-"570","Hamas",2012-10-01,2
-"571","Hamas",2012-11-01,48
-"572","Hamas",2012-12-01,6
-"573","Hamas",2013-01-01,3
-"574","Hamas",2013-02-01,1
-"575","Hamas",2013-03-01,6
-"576","Hamas",2013-04-01,5
-"577","Hamas",2013-05-01,1
-"578","Hamas",2013-06-01,4
-"579","Hamas",2013-08-01,5
-"580","Hamas",2013-10-01,7
-"581","Hamas",2013-11-01,2
-"582","Hamas",2013-12-01,1
-"583","Hamas",2014-02-01,1
-"584","Hamas",2014-03-01,2
-"585","Hamas",2014-04-01,21
-"586","Hamas",2014-05-01,8
-"587","Hamas",2014-06-01,26
-"588","Hamas",2014-07-01,44
-"589","Hamas",2014-08-01,22
-"590","Islamic Jihad",1995-01-01,6
-"591","Islamic Jihad",1995-02-01,1
-"592","Islamic Jihad",1995-05-01,2
-"593","Islamic Jihad",1995-07-01,1
-"594","Islamic Jihad",1995-08-01,4
-"595","Islamic Jihad",1995-10-01,3
-"596","Islamic Jihad",1995-11-01,2
-"597","Islamic Jihad",1995-12-01,2
-"598","Islamic Jihad",1996-01-01,2
-"599","Islamic Jihad",1996-03-01,2
-"600","Islamic Jihad",1996-04-01,3
-"601","Islamic Jihad",1996-07-01,1
-"602","Islamic Jihad",1996-11-01,1
-"603","Islamic Jihad",1996-12-01,2
-"604","Islamic Jihad",1997-05-01,1
-"605","Islamic Jihad",1997-06-01,1
-"606","Islamic Jihad",1997-11-01,3
-"607","Islamic Jihad",1998-01-01,1
-"608","Islamic Jihad",1998-11-01,3
-"609","Islamic Jihad",1999-02-01,1
-"610","Islamic Jihad",1999-05-01,1
-"611","Islamic Jihad",1999-06-01,1
-"612","Islamic Jihad",1999-10-01,2
-"613","Islamic Jihad",2000-01-01,4
-"614","Islamic Jihad",2000-06-01,1
-"615","Islamic Jihad",2000-07-01,1
-"616","Islamic Jihad",2000-08-01,1
-"617","Islamic Jihad",2000-09-01,2
-"618","Islamic Jihad",2000-10-01,6
-"619","Islamic Jihad",2000-11-01,1
-"620","Islamic Jihad",2001-01-01,2
-"621","Islamic Jihad",2001-03-01,3
-"622","Islamic Jihad",2001-04-01,2
-"623","Islamic Jihad",2001-05-01,5
-"624","Islamic Jihad",2001-07-01,9
-"625","Islamic Jihad",2001-08-01,13
-"626","Islamic Jihad",2001-09-01,5
-"627","Islamic Jihad",2001-10-01,8
-"628","Islamic Jihad",2001-11-01,11
-"629","Islamic Jihad",2001-12-01,20
-"630","Islamic Jihad",2002-01-01,3
-"631","Islamic Jihad",2002-05-01,1
-"632","Islamic Jihad",2002-06-01,4
-"633","Islamic Jihad",2002-07-01,4
-"634","Islamic Jihad",2002-08-01,3
-"635","Islamic Jihad",2002-09-01,1
-"636","Islamic Jihad",2002-10-01,4
-"637","Islamic Jihad",2002-11-01,2
-"638","Islamic Jihad",2002-12-01,4
-"639","Islamic Jihad",2003-01-01,4
-"640","Islamic Jihad",2003-02-01,1
-"641","Islamic Jihad",2003-03-01,7
-"642","Islamic Jihad",2003-04-01,3
-"643","Islamic Jihad",2003-05-01,3
-"644","Islamic Jihad",2003-06-01,19
-"645","Islamic Jihad",2003-07-01,10
-"646","Islamic Jihad",2003-08-01,13
-"647","Islamic Jihad",2003-09-01,2
-"648","Islamic Jihad",2003-10-01,20
-"649","Islamic Jihad",2003-11-01,3
-"650","Islamic Jihad",2003-12-01,3
-"651","Islamic Jihad",2004-01-01,1
-"652","Islamic Jihad",2004-02-01,2
-"653","Islamic Jihad",2004-03-01,1
-"654","Islamic Jihad",2004-04-01,1
-"655","Islamic Jihad",2004-05-01,1
-"656","Islamic Jihad",2004-06-01,1
-"657","Islamic Jihad",2004-10-01,2
-"658","Islamic Jihad",2004-11-01,3
-"659","Islamic Jihad",2004-12-01,1
-"660","Islamic Jihad",2005-01-01,3
-"661","Islamic Jihad",2005-02-01,13
-"662","Islamic Jihad",2005-03-01,17
-"663","Islamic Jihad",2005-05-01,3
-"664","Islamic Jihad",2005-06-01,14
-"665","Islamic Jihad",2005-07-01,16
-"666","Islamic Jihad",2005-08-01,4
-"667","Islamic Jihad",2005-09-01,2
-"668","Islamic Jihad",2005-10-01,16
-"669","Islamic Jihad",2005-11-01,1
-"670","Islamic Jihad",2005-12-01,27
-"671","Islamic Jihad",2006-01-01,9
-"672","Islamic Jihad",2006-02-01,3
-"673","Islamic Jihad",2006-03-01,7
-"674","Islamic Jihad",2006-04-01,26
-"675","Islamic Jihad",2006-05-01,7
-"676","Islamic Jihad",2006-06-01,6
-"677","Islamic Jihad",2006-07-01,5
-"678","Islamic Jihad",2006-08-01,3
-"679","Islamic Jihad",2006-09-01,3
-"680","Islamic Jihad",2006-10-01,6
-"681","Islamic Jihad",2006-11-01,3
-"682","Islamic Jihad",2006-12-01,3
-"683","Islamic Jihad",2007-01-01,8
-"684","Islamic Jihad",2007-02-01,1
-"685","Islamic Jihad",2007-03-01,2
-"686","Islamic Jihad",2007-05-01,2
-"687","Islamic Jihad",2007-06-01,4
-"688","Islamic Jihad",2007-07-01,3
-"689","Islamic Jihad",2007-08-01,9
-"690","Islamic Jihad",2007-09-01,6
-"691","Islamic Jihad",2007-10-01,3
-"692","Islamic Jihad",2007-11-01,5
-"693","Islamic Jihad",2007-12-01,4
-"694","Islamic Jihad",2008-01-01,4
-"695","Islamic Jihad",2008-02-01,3
-"696","Islamic Jihad",2008-03-01,11
-"697","Islamic Jihad",2008-04-01,4
-"698","Islamic Jihad",2008-05-01,6
-"699","Islamic Jihad",2008-06-01,3
-"700","Islamic Jihad",2008-08-01,1
-"701","Islamic Jihad",2008-09-01,1
-"702","Islamic Jihad",2008-10-01,1
-"703","Islamic Jihad",2008-11-01,2
-"704","Islamic Jihad",2008-12-01,9
-"705","Islamic Jihad",2009-01-01,2
-"706","Islamic Jihad",2009-02-01,1
-"707","Islamic Jihad",2009-03-01,2
-"708","Islamic Jihad",2009-04-01,2
-"709","Islamic Jihad",2009-12-01,1
-"710","Islamic Jihad",2010-02-01,1
-"711","Islamic Jihad",2010-05-01,2
-"712","Islamic Jihad",2010-09-01,1
-"713","Islamic Jihad",2011-03-01,6
-"714","Islamic Jihad",2011-04-01,4
-"715","Islamic Jihad",2011-08-01,1
-"716","Islamic Jihad",2011-10-01,1
-"717","Islamic Jihad",2011-11-01,2
-"718","Islamic Jihad",2012-01-01,1
-"719","Islamic Jihad",2012-02-01,2
-"720","Islamic Jihad",2012-03-01,1
-"721","Islamic Jihad",2012-04-01,3
-"722","Islamic Jihad",2012-10-01,1
-"723","Islamic Jihad",2012-11-01,8
-"724","Islamic Jihad",2014-01-01,1
-"725","Islamic Jihad",2014-03-01,1
-"726","Islamic Jihad",2014-06-01,1
-"727","Islamic Jihad",2014-07-01,1
-"728","Izz ad-Din al-Qassam Brigades",1996-04-01,1
-"729","Izz ad-Din al-Qassam Brigades",1997-10-01,2
-"730","Izz ad-Din al-Qassam Brigades",1998-04-01,2
-"731","Izz ad-Din al-Qassam Brigades",1998-10-01,1
-"732","Izz ad-Din al-Qassam Brigades",2003-01-01,1
-"733","Izz ad-Din al-Qassam Brigades",2003-04-01,1
-"734","Izz ad-Din al-Qassam Brigades",2003-05-01,1
-"735","Izz ad-Din al-Qassam Brigades",2003-08-01,2
-"736","Izz ad-Din al-Qassam Brigades",2003-12-01,1
-"737","Izz ad-Din al-Qassam Brigades",2004-05-01,1
-"738","Izz ad-Din al-Qassam Brigades",2004-10-01,4
-"739","Izz ad-Din al-Qassam Brigades",2004-12-01,7
-"740","Izz ad-Din al-Qassam Brigades",2005-01-01,4
-"741","Izz ad-Din al-Qassam Brigades",2005-09-01,4
-"742","Izz ad-Din al-Qassam Brigades",2006-01-01,1
-"743","Izz ad-Din al-Qassam Brigades",2006-04-01,1
-"744","Izz ad-Din al-Qassam Brigades",2006-06-01,3
-"745","Izz ad-Din al-Qassam Brigades",2006-07-01,4
-"746","Izz ad-Din al-Qassam Brigades",2006-08-01,3
-"747","Izz ad-Din al-Qassam Brigades",2006-11-01,5
-"748","Izz ad-Din al-Qassam Brigades",2006-12-01,1
-"749","Izz ad-Din al-Qassam Brigades",2007-06-01,1
-"750","Izz ad-Din al-Qassam Brigades",2007-10-01,1
-"751","Izz ad-Din al-Qassam Brigades",2007-12-01,1
-"752","Izz ad-Din al-Qassam Brigades",2008-01-01,5
-"753","Izz ad-Din al-Qassam Brigades",2008-02-01,1
-"754","Izz ad-Din al-Qassam Brigades",2008-03-01,1
-"755","Izz ad-Din al-Qassam Brigades",2008-05-01,2
-"756","Izz ad-Din al-Qassam Brigades",2008-11-01,1
-"757","Izz ad-Din al-Qassam Brigades",2008-12-01,3
-"758","Izz ad-Din al-Qassam Brigades",2009-01-01,9
-"759","Izz ad-Din al-Qassam Brigades",2010-05-01,1
-"760","Izz ad-Din al-Qassam Brigades",2010-11-01,2
-"761","Izz ad-Din al-Qassam Brigades",2011-10-01,1
-"762","Izz ad-Din al-Qassam Brigades",2012-06-01,1
-"763","Izz ad-Din al-Qassam Brigades",2012-11-01,7
-"764","Izz ad-Din al-Qassam Brigades",2013-09-01,1
-"765","Izz ad-Din al-Qassam Brigades",2014-07-01,20
-"766","Izz ad-Din al-Qassam Brigades",2014-08-01,6
-"767","Mujahidin Shura Council in the Environs of Jerusalem",2014-08-01,1
-"768","Palestine Democratic Union",1997-03-01,1
-"769","Palestine Democratic Union",1997-05-01,1
-"770","Palestine Democratic Union",1997-06-01,2
-"771","Palestine Democratic Union",1997-11-01,2
-"772","Palestine Democratic Union",1998-07-01,3
-"773","Palestine Democratic Union",1999-01-01,1
-"774","Palestine Democratic Union",1999-02-01,1
-"775","Palestine Democratic Union",1999-03-01,1
-"776","Palestine Democratic Union",1999-05-01,1
-"777","Palestine Democratic Union",1999-08-01,1
-"778","Palestine Democratic Union",1999-09-01,1
-"779","Palestine Democratic Union",1999-10-01,9
-"780","Palestine Democratic Union",1999-11-01,4
-"781","Palestine Democratic Union",1999-12-01,5
-"782","Palestine Democratic Union",2000-01-01,3
-"783","Palestine Democratic Union",2000-02-01,5
-"784","Palestine Democratic Union",2000-04-01,4
-"785","Palestine Democratic Union",2000-05-01,9
-"786","Palestine Democratic Union",2000-08-01,4
-"787","Palestine Democratic Union",2000-09-01,2
-"788","Palestine Democratic Union",2000-10-01,3
-"789","Palestine Democratic Union",2000-11-01,4
-"790","Palestine Democratic Union",2000-12-01,4
-"791","Palestine Democratic Union",2001-01-01,15
-"792","Palestine Democratic Union",2001-02-01,12
-"793","Palestine Democratic Union",2001-03-01,3
-"794","Palestine Democratic Union",2001-04-01,5
-"795","Palestine Democratic Union",2001-05-01,5
-"796","Palestine Democratic Union",2001-06-01,5
-"797","Palestine Democratic Union",2001-07-01,4
-"798","Palestine Democratic Union",2001-08-01,14
-"799","Palestine Democratic Union",2001-09-01,8
-"800","Palestine Democratic Union",2001-10-01,1
-"801","Palestine Democratic Union",2001-11-01,2
-"802","Palestine Democratic Union",2001-12-01,2
-"803","Palestine Democratic Union",2002-01-01,4
-"804","Palestine Democratic Union",2002-02-01,3
-"805","Palestine Democratic Union",2002-03-01,5
-"806","Palestine Democratic Union",2002-04-01,3
-"807","Palestine Democratic Union",2002-05-01,6
-"808","Palestine Democratic Union",2002-06-01,7
-"809","Palestine Democratic Union",2002-07-01,6
-"810","Palestine Democratic Union",2002-08-01,1
-"811","Palestine Democratic Union",2002-09-01,1
-"812","Palestine Democratic Union",2002-10-01,1
-"813","Palestine Democratic Union",2002-11-01,5
-"814","Palestine Democratic Union",2002-12-01,1
-"815","Palestine Democratic Union",2003-01-01,5
-"816","Palestine Democratic Union",2003-02-01,3
-"817","Palestine Democratic Union",2003-03-01,1
-"818","Palestine Democratic Union",2003-04-01,1
-"819","Palestine Democratic Union",2003-05-01,7
-"820","Palestine Democratic Union",2003-06-01,2
-"821","Palestine Democratic Union",2003-07-01,2
-"822","Palestine Democratic Union",2003-08-01,2
-"823","Palestine Democratic Union",2003-10-01,2
-"824","Palestine Democratic Union",2003-11-01,3
-"825","Palestine Democratic Union",2003-12-01,4
-"826","Palestine Democratic Union",2004-02-01,3
-"827","Palestine Democratic Union",2004-03-01,1
-"828","Palestine Democratic Union",2004-08-01,1
-"829","Palestine Democratic Union",2005-01-01,1
-"830","Palestine Democratic Union",2005-09-01,1
-"831","Palestine Democratic Union",2006-03-01,2
-"832","Palestine Democratic Union",2006-04-01,1
-"833","Palestine Democratic Union",2006-05-01,1
-"834","Palestine Democratic Union",2006-11-01,1
-"835","Palestine Democratic Union",2007-08-01,1
-"836","Palestine Democratic Union",2007-11-01,3
-"837","Palestine Democratic Union",2007-12-01,1
-"838","Palestine Democratic Union",2008-02-01,2
-"839","Palestine Democratic Union",2008-03-01,1
-"840","Palestine Democratic Union",2008-07-01,1
-"841","Palestine Democratic Union",2008-09-01,1
-"842","Palestine Democratic Union",2008-10-01,1
-"843","Palestine Democratic Union",2009-02-01,1
-"844","Palestine Democratic Union",2009-05-01,1
-"845","Palestine Democratic Union",2009-09-01,1
-"846","Palestine Democratic Union",2010-04-01,1
-"847","Palestine Democratic Union",2010-05-01,2
-"848","Palestine Democratic Union",2010-08-01,1
-"849","Palestine Democratic Union",2010-09-01,1
-"850","Palestine Democratic Union",2010-10-01,2
-"851","Palestine Democratic Union",2011-01-01,1
-"852","Palestine Democratic Union",2011-02-01,1
-"853","Palestine Democratic Union",2011-03-01,1
-"854","Palestine Democratic Union",2011-05-01,1
-"855","Palestine Democratic Union",2011-09-01,2
-"856","Palestine Democratic Union",2011-10-01,2
-"857","Palestine Democratic Union",2012-05-01,1
-"858","Palestine Democratic Union",2012-06-01,1
-"859","Palestine Democratic Union",2012-12-01,1
-"860","Palestine Democratic Union",2013-09-01,1
-"861","Palestine Democratic Union",2013-10-01,3
-"862","Palestine Democratic Union",2013-11-01,1
-"863","Palestine Democratic Union",2013-12-01,2
-"864","Palestine Democratic Union",2014-04-01,1
-"865","Palestine Liberation Organization",1995-01-01,5
-"866","Palestine Liberation Organization",1995-02-01,8
-"867","Palestine Liberation Organization",1995-03-01,4
-"868","Palestine Liberation Organization",1995-04-01,1
-"869","Palestine Liberation Organization",1995-05-01,16
-"870","Palestine Liberation Organization",1995-06-01,8
-"871","Palestine Liberation Organization",1995-07-01,17
-"872","Palestine Liberation Organization",1995-08-01,21
-"873","Palestine Liberation Organization",1995-09-01,12
-"874","Palestine Liberation Organization",1995-10-01,18
-"875","Palestine Liberation Organization",1995-11-01,20
-"876","Palestine Liberation Organization",1995-12-01,7
-"877","Palestine Liberation Organization",1996-01-01,20
-"878","Palestine Liberation Organization",1996-02-01,11
-"879","Palestine Liberation Organization",1996-03-01,30
-"880","Palestine Liberation Organization",1996-04-01,4
-"881","Palestine Liberation Organization",1996-05-01,8
-"882","Palestine Liberation Organization",1996-06-01,23
-"883","Palestine Liberation Organization",1996-07-01,22
-"884","Palestine Liberation Organization",1996-08-01,24
-"885","Palestine Liberation Organization",1996-09-01,61
-"886","Palestine Liberation Organization",1996-10-01,26
-"887","Palestine Liberation Organization",1996-11-01,18
-"888","Palestine Liberation Organization",1996-12-01,6
-"889","Palestine Liberation Organization",1997-01-01,14
-"890","Palestine Liberation Organization",1997-02-01,12
-"891","Palestine Liberation Organization",1997-03-01,64
-"892","Palestine Liberation Organization",1997-04-01,23
-"893","Palestine Liberation Organization",1997-05-01,35
-"894","Palestine Liberation Organization",1997-06-01,14
-"895","Palestine Liberation Organization",1997-07-01,18
-"896","Palestine Liberation Organization",1997-08-01,53
-"897","Palestine Liberation Organization",1997-09-01,31
-"898","Palestine Liberation Organization",1997-10-01,24
-"899","Palestine Liberation Organization",1997-11-01,11
-"900","Palestine Liberation Organization",1997-12-01,10
-"901","Palestine Liberation Organization",1998-01-01,14
-"902","Palestine Liberation Organization",1998-02-01,16
-"903","Palestine Liberation Organization",1998-03-01,19
-"904","Palestine Liberation Organization",1998-04-01,16
-"905","Palestine Liberation Organization",1998-05-01,15
-"906","Palestine Liberation Organization",1998-06-01,22
-"907","Palestine Liberation Organization",1998-07-01,38
-"908","Palestine Liberation Organization",1998-08-01,21
-"909","Palestine Liberation Organization",1998-09-01,26
-"910","Palestine Liberation Organization",1998-10-01,28
-"911","Palestine Liberation Organization",1998-11-01,41
-"912","Palestine Liberation Organization",1998-12-01,19
-"913","Palestine Liberation Organization",1999-01-01,15
-"914","Palestine Liberation Organization",1999-02-01,13
-"915","Palestine Liberation Organization",1999-03-01,18
-"916","Palestine Liberation Organization",1999-04-01,22
-"917","Palestine Liberation Organization",1999-05-01,28
-"918","Palestine Liberation Organization",1999-06-01,7
-"919","Palestine Liberation Organization",1999-07-01,39
-"920","Palestine Liberation Organization",1999-08-01,31
-"921","Palestine Liberation Organization",1999-09-01,46
-"922","Palestine Liberation Organization",1999-10-01,24
-"923","Palestine Liberation Organization",1999-11-01,32
-"924","Palestine Liberation Organization",1999-12-01,29
-"925","Palestine Liberation Organization",2000-01-01,30
-"926","Palestine Liberation Organization",2000-02-01,24
-"927","Palestine Liberation Organization",2000-03-01,14
-"928","Palestine Liberation Organization",2000-04-01,24
-"929","Palestine Liberation Organization",2000-05-01,45
-"930","Palestine Liberation Organization",2000-06-01,36
-"931","Palestine Liberation Organization",2000-07-01,109
-"932","Palestine Liberation Organization",2000-08-01,105
-"933","Palestine Liberation Organization",2000-09-01,84
-"934","Palestine Liberation Organization",2000-10-01,93
-"935","Palestine Liberation Organization",2000-11-01,42
-"936","Palestine Liberation Organization",2000-12-01,43
-"937","Palestine Liberation Organization",2001-01-01,70
-"938","Palestine Liberation Organization",2001-02-01,55
-"939","Palestine Liberation Organization",2001-03-01,50
-"940","Palestine Liberation Organization",2001-04-01,33
-"941","Palestine Liberation Organization",2001-05-01,29
-"942","Palestine Liberation Organization",2001-06-01,81
-"943","Palestine Liberation Organization",2001-07-01,22
-"944","Palestine Liberation Organization",2001-08-01,70
-"945","Palestine Liberation Organization",2001-09-01,109
-"946","Palestine Liberation Organization",2001-10-01,59
-"947","Palestine Liberation Organization",2001-11-01,41
-"948","Palestine Liberation Organization",2001-12-01,98
-"949","Palestine Liberation Organization",2002-01-01,47
-"950","Palestine Liberation Organization",2002-02-01,44
-"951","Palestine Liberation Organization",2002-03-01,42
-"952","Palestine Liberation Organization",2002-04-01,77
-"953","Palestine Liberation Organization",2002-05-01,40
-"954","Palestine Liberation Organization",2002-06-01,41
-"955","Palestine Liberation Organization",2002-07-01,30
-"956","Palestine Liberation Organization",2002-08-01,10
-"957","Palestine Liberation Organization",2002-09-01,25
-"958","Palestine Liberation Organization",2002-10-01,25
-"959","Palestine Liberation Organization",2002-11-01,23
-"960","Palestine Liberation Organization",2002-12-01,15
-"961","Palestine Liberation Organization",2003-01-01,25
-"962","Palestine Liberation Organization",2003-02-01,16
-"963","Palestine Liberation Organization",2003-03-01,16
-"964","Palestine Liberation Organization",2003-04-01,23
-"965","Palestine Liberation Organization",2003-05-01,121
-"966","Palestine Liberation Organization",2003-06-01,87
-"967","Palestine Liberation Organization",2003-07-01,87
-"968","Palestine Liberation Organization",2003-08-01,46
-"969","Palestine Liberation Organization",2003-09-01,48
-"970","Palestine Liberation Organization",2003-10-01,29
-"971","Palestine Liberation Organization",2003-11-01,22
-"972","Palestine Liberation Organization",2003-12-01,34
-"973","Palestine Liberation Organization",2004-01-01,14
-"974","Palestine Liberation Organization",2004-02-01,19
-"975","Palestine Liberation Organization",2004-03-01,15
-"976","Palestine Liberation Organization",2004-04-01,20
-"977","Palestine Liberation Organization",2004-05-01,13
-"978","Palestine Liberation Organization",2004-06-01,13
-"979","Palestine Liberation Organization",2004-07-01,12
-"980","Palestine Liberation Organization",2004-08-01,8
-"981","Palestine Liberation Organization",2004-09-01,8
-"982","Palestine Liberation Organization",2004-10-01,12
-"983","Palestine Liberation Organization",2004-11-01,37
-"984","Palestine Liberation Organization",2004-12-01,49
-"985","Palestine Liberation Organization",2005-01-01,73
-"986","Palestine Liberation Organization",2005-02-01,80
-"987","Palestine Liberation Organization",2005-03-01,48
-"988","Palestine Liberation Organization",2005-04-01,19
-"989","Palestine Liberation Organization",2005-05-01,23
-"990","Palestine Liberation Organization",2005-06-01,41
-"991","Palestine Liberation Organization",2005-07-01,19
-"992","Palestine Liberation Organization",2005-08-01,25
-"993","Palestine Liberation Organization",2005-09-01,25
-"994","Palestine Liberation Organization",2005-10-01,29
-"995","Palestine Liberation Organization",2005-11-01,19
-"996","Palestine Liberation Organization",2005-12-01,17
-"997","Palestine Liberation Organization",2006-01-01,38
-"998","Palestine Liberation Organization",2006-02-01,19
-"999","Palestine Liberation Organization",2006-03-01,52
-"1000","Palestine Liberation Organization",2006-04-01,28
-"1001","Palestine Liberation Organization",2006-05-01,55
-"1002","Palestine Liberation Organization",2006-06-01,35
-"1003","Palestine Liberation Organization",2006-07-01,23
-"1004","Palestine Liberation Organization",2006-08-01,9
-"1005","Palestine Liberation Organization",2006-09-01,38
-"1006","Palestine Liberation Organization",2006-10-01,18
-"1007","Palestine Liberation Organization",2006-11-01,12
-"1008","Palestine Liberation Organization",2006-12-01,35
-"1009","Palestine Liberation Organization",2007-01-01,27
-"1010","Palestine Liberation Organization",2007-02-01,57
-"1011","Palestine Liberation Organization",2007-03-01,71
-"1012","Palestine Liberation Organization",2007-04-01,21
-"1013","Palestine Liberation Organization",2007-05-01,6
-"1014","Palestine Liberation Organization",2007-06-01,19
-"1015","Palestine Liberation Organization",2007-07-01,19
-"1016","Palestine Liberation Organization",2007-08-01,32
-"1017","Palestine Liberation Organization",2007-09-01,48
-"1018","Palestine Liberation Organization",2007-10-01,48
-"1019","Palestine Liberation Organization",2007-11-01,55
-"1020","Palestine Liberation Organization",2007-12-01,38
-"1021","Palestine Liberation Organization",2008-01-01,31
-"1022","Palestine Liberation Organization",2008-02-01,27
-"1023","Palestine Liberation Organization",2008-03-01,29
-"1024","Palestine Liberation Organization",2008-04-01,36
-"1025","Palestine Liberation Organization",2008-05-01,32
-"1026","Palestine Liberation Organization",2008-06-01,29
-"1027","Palestine Liberation Organization",2008-07-01,36
-"1028","Palestine Liberation Organization",2008-08-01,38
-"1029","Palestine Liberation Organization",2008-09-01,29
-"1030","Palestine Liberation Organization",2008-10-01,11
-"1031","Palestine Liberation Organization",2008-11-01,28
-"1032","Palestine Liberation Organization",2008-12-01,6
-"1033","Palestine Liberation Organization",2009-01-01,8
-"1034","Palestine Liberation Organization",2009-02-01,5
-"1035","Palestine Liberation Organization",2009-03-01,13
-"1036","Palestine Liberation Organization",2009-04-01,20
-"1037","Palestine Liberation Organization",2009-05-01,8
-"1038","Palestine Liberation Organization",2009-06-01,9
-"1039","Palestine Liberation Organization",2009-07-01,10
-"1040","Palestine Liberation Organization",2009-08-01,13
-"1041","Palestine Liberation Organization",2009-09-01,46
-"1042","Palestine Liberation Organization",2009-10-01,20
-"1043","Palestine Liberation Organization",2009-11-01,29
-"1044","Palestine Liberation Organization",2009-12-01,13
-"1045","Palestine Liberation Organization",2010-01-01,20
-"1046","Palestine Liberation Organization",2010-02-01,12
-"1047","Palestine Liberation Organization",2010-03-01,39
-"1048","Palestine Liberation Organization",2010-04-01,20
-"1049","Palestine Liberation Organization",2010-05-01,20
-"1050","Palestine Liberation Organization",2010-06-01,16
-"1051","Palestine Liberation Organization",2010-07-01,21
-"1052","Palestine Liberation Organization",2010-08-01,22
-"1053","Palestine Liberation Organization",2010-09-01,71
-"1054","Palestine Liberation Organization",2010-10-01,34
-"1055","Palestine Liberation Organization",2010-11-01,25
-"1056","Palestine Liberation Organization",2010-12-01,29
-"1057","Palestine Liberation Organization",2011-01-01,20
-"1058","Palestine Liberation Organization",2011-02-01,9
-"1059","Palestine Liberation Organization",2011-03-01,12
-"1060","Palestine Liberation Organization",2011-04-01,12
-"1061","Palestine Liberation Organization",2011-05-01,33
-"1062","Palestine Liberation Organization",2011-06-01,19
-"1063","Palestine Liberation Organization",2011-07-01,7
-"1064","Palestine Liberation Organization",2011-08-01,18
-"1065","Palestine Liberation Organization",2011-09-01,37
-"1066","Palestine Liberation Organization",2011-10-01,25
-"1067","Palestine Liberation Organization",2011-11-01,9
-"1068","Palestine Liberation Organization",2011-12-01,21
-"1069","Palestine Liberation Organization",2012-01-01,18
-"1070","Palestine Liberation Organization",2012-02-01,17
-"1071","Palestine Liberation Organization",2012-03-01,14
-"1072","Palestine Liberation Organization",2012-04-01,12
-"1073","Palestine Liberation Organization",2012-05-01,19
-"1074","Palestine Liberation Organization",2012-06-01,12
-"1075","Palestine Liberation Organization",2012-07-01,10
-"1076","Palestine Liberation Organization",2012-08-01,5
-"1077","Palestine Liberation Organization",2012-09-01,18
-"1078","Palestine Liberation Organization",2012-10-01,5
-"1079","Palestine Liberation Organization",2012-11-01,11
-"1080","Palestine Liberation Organization",2012-12-01,13
-"1081","Palestine Liberation Organization",2013-01-01,8
-"1082","Palestine Liberation Organization",2013-02-01,10
-"1083","Palestine Liberation Organization",2013-03-01,14
-"1084","Palestine Liberation Organization",2013-04-01,14
-"1085","Palestine Liberation Organization",2013-05-01,17
-"1086","Palestine Liberation Organization",2013-06-01,14
-"1087","Palestine Liberation Organization",2013-07-01,20
-"1088","Palestine Liberation Organization",2013-08-01,18
-"1089","Palestine Liberation Organization",2013-09-01,18
-"1090","Palestine Liberation Organization",2013-10-01,22
-"1091","Palestine Liberation Organization",2013-11-01,11
-"1092","Palestine Liberation Organization",2013-12-01,21
-"1093","Palestine Liberation Organization",2014-01-01,31
-"1094","Palestine Liberation Organization",2014-02-01,13
-"1095","Palestine Liberation Organization",2014-03-01,25
-"1096","Palestine Liberation Organization",2014-04-01,63
-"1097","Palestine Liberation Organization",2014-05-01,7
-"1098","Palestine Liberation Organization",2014-06-01,12
-"1099","Palestine Liberation Organization",2014-07-01,9
-"1100","Palestine Liberation Organization",2014-08-01,6
-"1101","Palestinian Islamic Jihad",2014-06-01,1
-"1102","Palestinian Legislative Council",1996-02-01,1
-"1103","Palestinian Legislative Council",1996-05-01,1
-"1104","Palestinian Legislative Council",1996-06-01,1
-"1105","Palestinian Legislative Council",1996-07-01,1
-"1106","Palestinian Legislative Council",1996-09-01,1
-"1107","Palestinian Legislative Council",1996-12-01,2
-"1108","Palestinian Legislative Council",1997-06-01,1
-"1109","Palestinian Legislative Council",1997-07-01,4
-"1110","Palestinian Legislative Council",1997-08-01,2
-"1111","Palestinian Legislative Council",1997-10-01,1
-"1112","Palestinian Legislative Council",1997-11-01,5
-"1113","Palestinian Legislative Council",1997-12-01,1
-"1114","Palestinian Legislative Council",1998-02-01,6
-"1115","Palestinian Legislative Council",1998-03-01,1
-"1116","Palestinian Legislative Council",1998-04-01,1
-"1117","Palestinian Legislative Council",1998-05-01,4
-"1118","Palestinian Legislative Council",1998-06-01,2
-"1119","Palestinian Legislative Council",1998-08-01,2
-"1120","Palestinian Legislative Council",1998-09-01,3
-"1121","Palestinian Legislative Council",1998-11-01,2
-"1122","Palestinian Legislative Council",1999-03-01,2
-"1123","Palestinian Legislative Council",1999-04-01,3
-"1124","Palestinian Legislative Council",1999-05-01,1
-"1125","Palestinian Legislative Council",1999-07-01,1
-"1126","Palestinian Legislative Council",1999-08-01,3
-"1127","Palestinian Legislative Council",1999-10-01,3
-"1128","Palestinian Legislative Council",1999-11-01,1
-"1129","Palestinian Legislative Council",2000-01-01,1
-"1130","Palestinian Legislative Council",2000-02-01,2
-"1131","Palestinian Legislative Council",2000-05-01,3
-"1132","Palestinian Legislative Council",2000-08-01,7
-"1133","Palestinian Legislative Council",2000-09-01,4
-"1134","Palestinian Legislative Council",2000-11-01,1
-"1135","Palestinian Legislative Council",2000-12-01,1
-"1136","Palestinian Legislative Council",2001-01-01,1
-"1137","Palestinian Legislative Council",2001-03-01,2
-"1138","Palestinian Legislative Council",2001-04-01,3
-"1139","Palestinian Legislative Council",2001-06-01,2
-"1140","Palestinian Legislative Council",2001-07-01,1
-"1141","Palestinian Legislative Council",2001-08-01,5
-"1142","Palestinian Legislative Council",2001-09-01,8
-"1143","Palestinian Legislative Council",2001-10-01,3
-"1144","Palestinian Legislative Council",2001-11-01,3
-"1145","Palestinian Legislative Council",2002-01-01,1
-"1146","Palestinian Legislative Council",2002-02-01,3
-"1147","Palestinian Legislative Council",2002-03-01,1
-"1148","Palestinian Legislative Council",2002-04-01,2
-"1149","Palestinian Legislative Council",2002-05-01,2
-"1150","Palestinian Legislative Council",2002-06-01,6
-"1151","Palestinian Legislative Council",2002-09-01,8
-"1152","Palestinian Legislative Council",2002-10-01,8
-"1153","Palestinian Legislative Council",2002-11-01,3
-"1154","Palestinian Legislative Council",2002-12-01,4
-"1155","Palestinian Legislative Council",2003-01-01,1
-"1156","Palestinian Legislative Council",2003-02-01,5
-"1157","Palestinian Legislative Council",2003-03-01,1
-"1158","Palestinian Legislative Council",2003-04-01,11
-"1159","Palestinian Legislative Council",2003-05-01,5
-"1160","Palestinian Legislative Council",2003-07-01,3
-"1161","Palestinian Legislative Council",2003-09-01,3
-"1162","Palestinian Legislative Council",2003-10-01,2
-"1163","Palestinian Legislative Council",2003-11-01,1
-"1164","Palestinian Legislative Council",2003-12-01,1
-"1165","Palestinian Legislative Council",2004-01-01,4
-"1166","Palestinian Legislative Council",2004-02-01,1
-"1167","Palestinian Legislative Council",2004-04-01,3
-"1168","Palestinian Legislative Council",2004-05-01,3
-"1169","Palestinian Legislative Council",2004-06-01,2
-"1170","Palestinian Legislative Council",2004-08-01,1
-"1171","Palestinian Legislative Council",2004-10-01,1
-"1172","Palestinian Legislative Council",2004-11-01,9
-"1173","Palestinian Legislative Council",2004-12-01,10
-"1174","Palestinian Legislative Council",2005-01-01,2
-"1175","Palestinian Legislative Council",2005-02-01,1
-"1176","Palestinian Legislative Council",2005-04-01,1
-"1177","Palestinian Legislative Council",2005-07-01,1
-"1178","Palestinian Legislative Council",2005-11-01,1
-"1179","Palestinian Legislative Council",2005-12-01,4
-"1180","Palestinian Legislative Council",2006-01-01,11
-"1181","Palestinian Legislative Council",2006-02-01,4
-"1182","Palestinian Legislative Council",2006-03-01,4
-"1183","Palestinian Legislative Council",2006-04-01,5
-"1184","Palestinian Legislative Council",2006-06-01,2
-"1185","Palestinian Legislative Council",2007-01-01,3
-"1186","Palestinian Legislative Council",2007-02-01,2
-"1187","Palestinian Legislative Council",2007-03-01,3
-"1188","Palestinian Legislative Council",2007-07-01,2
-"1189","Palestinian Legislative Council",2007-10-01,1
-"1190","Palestinian Legislative Council",2007-11-01,1
-"1191","Palestinian Legislative Council",2008-01-01,1
-"1192","Palestinian Legislative Council",2008-02-01,3
-"1193","Palestinian Legislative Council",2008-06-01,3
-"1194","Palestinian Legislative Council",2008-08-01,1
-"1195","Palestinian Legislative Council",2008-09-01,1
-"1196","Palestinian Legislative Council",2009-04-01,2
-"1197","Palestinian Legislative Council",2009-08-01,1
-"1198","Palestinian Legislative Council",2010-01-01,2
-"1199","Palestinian Legislative Council",2010-03-01,1
-"1200","Palestinian Legislative Council",2010-06-01,2
-"1201","Palestinian Legislative Council",2010-07-01,3
-"1202","Palestinian Legislative Council",2010-10-01,3
-"1203","Palestinian Legislative Council",2011-01-01,2
-"1204","Palestinian Legislative Council",2011-05-01,1
-"1205","Palestinian Legislative Council",2012-01-01,1
-"1206","Palestinian Legislative Council",2012-03-01,2
-"1207","Palestinian Legislative Council",2012-08-01,3
-"1208","Palestinian Legislative Council",2012-12-01,3
-"1209","Palestinian Legislative Council",2014-04-01,1
-"1210","Palestinian Preventive Security Agency",1997-01-01,1
-"1211","Palestinian Preventive Security Agency",1997-03-01,1
-"1212","Palestinian Preventive Security Agency",1997-07-01,2
-"1213","Palestinian Preventive Security Agency",1998-07-01,1
-"1214","Palestinian Preventive Security Agency",1998-10-01,1
-"1215","Palestinian Preventive Security Agency",1998-11-01,1
-"1216","Palestinian Preventive Security Agency",1999-02-01,1
-"1217","Palestinian Preventive Security Agency",1999-11-01,1
-"1218","Palestinian Preventive Security Agency",1999-12-01,1
-"1219","Palestinian Preventive Security Agency",2000-09-01,3
-"1220","Palestinian Preventive Security Agency",2000-11-01,1
-"1221","Palestinian Preventive Security Agency",2002-01-01,1
-"1222","Palestinian Preventive Security Agency",2002-08-01,1
-"1223","Palestinian Preventive Security Agency",2003-06-01,2
-"1224","Palestinian Preventive Security Agency",2003-07-01,6
-"1225","Palestinian Preventive Security Agency",2003-08-01,3
-"1226","Palestinian Preventive Security Agency",2003-09-01,1
-"1227","Palestinian Preventive Security Agency",2004-04-01,1
-"1228","Palestinian Preventive Security Agency",2004-08-01,1
-"1229","Palestinian Preventive Security Agency",2005-01-01,6
-"1230","Palestinian Preventive Security Agency",2005-03-01,3
-"1231","Palestinian Preventive Security Agency",2005-04-01,2
-"1232","Palestinian Preventive Security Agency",2005-05-01,2
-"1233","Palestinian Preventive Security Agency",2005-06-01,1
-"1234","Palestinian Preventive Security Agency",2006-01-01,4
-"1235","Palestinian Preventive Security Agency",2006-02-01,2
-"1236","Palestinian Preventive Security Agency",2006-03-01,2
-"1237","Palestinian Preventive Security Agency",2006-04-01,1
-"1238","Palestinian Preventive Security Agency",2007-02-01,4
-"1239","Palestinian Preventive Security Agency",2008-02-01,1
-"1240","Palestinian Preventive Security Agency",2008-04-01,1
-"1241","Palestinian Preventive Security Agency",2009-10-01,1
-"1242","Palestinian Preventive Security Agency",2010-03-01,1
-"1243","Palestinian Preventive Security Agency",2010-04-01,2
-"1244","Palestinian Preventive Security Agency",2010-06-01,1
-"1245","Palestinian Preventive Security Agency",2010-10-01,1
-"1246","Palestinian Preventive Security Agency",2014-04-01,2
-"1247","Popular Front for the Liberation of Palestine",1995-09-01,1
-"1248","Popular Front for the Liberation of Palestine",1995-10-01,1
-"1249","Popular Front for the Liberation of Palestine",1996-02-01,1
-"1250","Popular Front for the Liberation of Palestine",1996-10-01,1
-"1251","Popular Front for the Liberation of Palestine",1996-12-01,3
-"1252","Popular Front for the Liberation of Palestine",1997-03-01,2
-"1253","Popular Front for the Liberation of Palestine",1997-11-01,1
-"1254","Popular Front for the Liberation of Palestine",1997-12-01,2
-"1255","Popular Front for the Liberation of Palestine",1998-10-01,1
-"1256","Popular Front for the Liberation of Palestine",1999-06-01,1
-"1257","Popular Front for the Liberation of Palestine",1999-08-01,2
-"1258","Popular Front for the Liberation of Palestine",2000-04-01,2
-"1259","Popular Front for the Liberation of Palestine",2000-07-01,4
-"1260","Popular Front for the Liberation of Palestine",2001-02-01,2
-"1261","Popular Front for the Liberation of Palestine",2001-05-01,1
-"1262","Popular Front for the Liberation of Palestine",2001-06-01,1
-"1263","Popular Front for the Liberation of Palestine",2001-08-01,3
-"1264","Popular Front for the Liberation of Palestine",2001-09-01,5
-"1265","Popular Front for the Liberation of Palestine",2001-10-01,24
-"1266","Popular Front for the Liberation of Palestine",2001-11-01,7
-"1267","Popular Front for the Liberation of Palestine",2001-12-01,4
-"1268","Popular Front for the Liberation of Palestine",2002-01-01,1
-"1269","Popular Front for the Liberation of Palestine",2002-03-01,1
-"1270","Popular Front for the Liberation of Palestine",2002-05-01,5
-"1271","Popular Front for the Liberation of Palestine",2002-07-01,1
-"1272","Popular Front for the Liberation of Palestine",2002-08-01,2
-"1273","Popular Front for the Liberation of Palestine",2002-10-01,2
-"1274","Popular Front for the Liberation of Palestine",2003-01-01,1
-"1275","Popular Front for the Liberation of Palestine",2003-04-01,1
-"1276","Popular Front for the Liberation of Palestine",2003-07-01,1
-"1277","Popular Front for the Liberation of Palestine",2003-10-01,1
-"1278","Popular Front for the Liberation of Palestine",2003-11-01,3
-"1279","Popular Front for the Liberation of Palestine",2003-12-01,5
-"1280","Popular Front for the Liberation of Palestine",2004-02-01,1
-"1281","Popular Front for the Liberation of Palestine",2004-10-01,1
-"1282","Popular Front for the Liberation of Palestine",2004-11-01,2
-"1283","Popular Front for the Liberation of Palestine",2004-12-01,1
-"1284","Popular Front for the Liberation of Palestine",2005-04-01,2
-"1285","Popular Front for the Liberation of Palestine",2006-03-01,3
-"1286","Popular Front for the Liberation of Palestine",2006-04-01,1
-"1287","Popular Front for the Liberation of Palestine",2007-06-01,1
-"1288","Popular Front for the Liberation of Palestine",2007-07-01,2
-"1289","Popular Front for the Liberation of Palestine",2007-08-01,1
-"1290","Popular Front for the Liberation of Palestine",2007-10-01,1
-"1291","Popular Front for the Liberation of Palestine",2007-12-01,3
-"1292","Popular Front for the Liberation of Palestine",2008-01-01,10
-"1293","Popular Front for the Liberation of Palestine",2008-02-01,5
-"1294","Popular Front for the Liberation of Palestine",2008-03-01,5
-"1295","Popular Front for the Liberation of Palestine",2008-04-01,10
-"1296","Popular Front for the Liberation of Palestine",2008-05-01,3
-"1297","Popular Front for the Liberation of Palestine",2008-06-01,2
-"1298","Popular Front for the Liberation of Palestine",2008-09-01,1
-"1299","Popular Front for the Liberation of Palestine",2008-10-01,1
-"1300","Popular Front for the Liberation of Palestine",2008-11-01,4
-"1301","Popular Front for the Liberation of Palestine",2008-12-01,6
-"1302","Popular Front for the Liberation of Palestine",2010-03-01,1
-"1303","Popular Front for the Liberation of Palestine",2010-06-01,4
-"1304","Popular Front for the Liberation of Palestine",2011-06-01,2
-"1305","Popular Front for the Liberation of Palestine",2011-08-01,2
-"1306","Popular Front for the Liberation of Palestine",2011-10-01,2
-"1307","Popular Front for the Liberation of Palestine",2012-06-01,1
-"1308","Popular Front for the Liberation of Palestine",2012-07-01,1
-"1309","Tanzim",2000-10-01,1
-"1310","Tanzim",2000-11-01,1
-"1311","Tanzim",2001-09-01,1
-"1312","Tanzim",2002-01-01,1
-"1313","Tanzim",2002-05-01,1
-"1314","Tanzim",2002-06-01,1
-"1315","Tanzim",2003-08-01,1
-"1316","Tanzim",2003-11-01,1
-"1317","Third Way",2007-03-01,1
-"1318","Third Way",2007-04-01,7
-"1319","Third Way",2007-05-01,2
-"1320","Third Way",2007-06-01,1
-"1321","Third Way",2007-07-01,6
-"1322","Third Way",2007-08-01,4
-"1323","Third Way",2007-09-01,6
-"1324","Third Way",2007-10-01,6
-"1325","Third Way",2007-11-01,2
-"1326","Third Way",2007-12-01,7
-"1327","Third Way",2008-01-01,1
-"1328","Third Way",2008-02-01,3
-"1329","Third Way",2008-03-01,6
-"1330","Third Way",2008-05-01,2
-"1331","Third Way",2008-06-01,10
-"1332","Third Way",2008-07-01,2
-"1333","Third Way",2008-08-01,3
-"1334","Third Way",2008-11-01,2
-"1335","Third Way",2008-12-01,4
-"1336","Third Way",2009-03-01,3
-"1337","Third Way",2009-06-01,6
-"1338","Third Way",2009-07-01,2
-"1339","Third Way",2009-10-01,2
-"1340","Third Way",2009-11-01,4
-"1341","Third Way",2009-12-01,4
-"1342","Third Way",2010-01-01,2
-"1343","Third Way",2010-02-01,3
-"1344","Third Way",2010-03-01,2
-"1345","Third Way",2010-04-01,2
-"1346","Third Way",2010-05-01,2
-"1347","Third Way",2010-06-01,1
-"1348","Third Way",2010-07-01,13
-"1349","Third Way",2010-08-01,1
-"1350","Third Way",2010-09-01,1
-"1351","Third Way",2010-10-01,5
-"1352","Third Way",2010-11-01,5
-"1353","Third Way",2010-12-01,6
-"1354","Third Way",2011-01-01,2
-"1355","Third Way",2011-03-01,2
-"1356","Third Way",2011-05-01,2
-"1357","Third Way",2011-06-01,2
-"1358","Third Way",2011-08-01,1
-"1359","Third Way",2011-09-01,2
-"1360","Third Way",2011-11-01,1
-"1361","Third Way",2012-01-01,3
-"1362","Third Way",2012-02-01,1
-"1363","Third Way",2012-04-01,11
-"1364","Third Way",2012-07-01,12
-"1365","Third Way",2012-08-01,1
-"1366","Third Way",2013-01-01,1
-"1367","Third Way",2013-02-01,2
-"1368","Third Way",2013-04-01,5
-"1369","Third Way",2014-07-01,1
-"1370","Voice of Palestine",1996-01-01,1
-"1371","Voice of Palestine",1997-03-01,1
-"1372","Voice of Palestine",1998-11-01,1
-"1373","Voice of Palestine",1998-12-01,1
-"1374","Voice of Palestine",2000-08-01,1
-"1375","Voice of Palestine",2001-09-01,1
-"1376","Voice of Palestine",2002-12-01,1
-"1377","Voice of Palestine",2003-05-01,1
-"1378","Voice of Palestine",2003-12-01,1
-"1379","Voice of Palestine",2004-09-01,1
-"1380","Voice of Palestine",2005-01-01,1
-"1381","Voice of Palestine",2005-08-01,1
-"1382","Voice of Palestine",2006-01-01,1
-"1383","Voice of Palestine",2007-11-01,1
-"1384","WAFA",1998-09-01,1
-"1385","WAFA",1999-12-01,1
-"1386","WAFA",2001-05-01,1
-"1387","WAFA",2001-06-01,1
-"1388","WAFA",2001-08-01,1
-"1389","WAFA",2001-09-01,1
-"1390","WAFA",2002-01-01,1
-"1391","WAFA",2008-04-01,2
-"1392","WAFA",2010-02-01,1
-"1393","WAFA",2010-03-01,1
-"1394","WAFA",2010-05-01,1
-"1395","WAFA",2010-06-01,1
-"1396","WAFA",2010-07-01,1
-"1397","WAFA",2010-09-01,1
-"1398","WAFA",2010-12-01,1
-"1399","WAFA",2011-08-01,1
-"1400","WAFA",2011-09-01,1
-"1401","WAFA",2011-12-01,1
-"1402","WAFA",2013-04-01,2
+"","alt.src","ym","gov.gold","last","end"
+"1","al-Aqsa Martyrs' Brigades",2001-06-01,-3.5,2001-06-01,"2014-09-01"
+"2","al-Aqsa Martyrs' Brigades",2001-07-01,-3.5,2001-06-01,"2014-09-01"
+"3","al-Aqsa Martyrs' Brigades",2001-08-01,-5,2001-06-01,"2014-09-01"
+"4","al-Aqsa Martyrs' Brigades",2001-09-01,-5,2001-06-01,"2014-09-01"
+"5","al-Aqsa Martyrs' Brigades",2001-10-01,-5,2001-06-01,"2014-09-01"
+"6","al-Aqsa Martyrs' Brigades",2001-11-01,-5,2001-06-01,"2014-09-01"
+"7","al-Aqsa Martyrs' Brigades",2001-12-01,-5,2001-06-01,"2014-09-01"
+"8","al-Aqsa Martyrs' Brigades",2002-01-01,-10,2001-08-01,"2014-09-01"
+"9","al-Aqsa Martyrs' Brigades",2002-02-01,-10,2001-08-01,"2014-09-01"
+"10","al-Aqsa Martyrs' Brigades",2002-03-01,-5.7538462,2002-01-01,"2014-09-01"
+"11","al-Aqsa Martyrs' Brigades",2002-04-01,-5.7538462,2002-01-01,"2014-09-01"
+"12","al-Aqsa Martyrs' Brigades",2002-05-01,-5,2002-03-01,"2014-09-01"
+"13","al-Aqsa Martyrs' Brigades",2002-06-01,-5,2002-05-01,"2014-09-01"
+"14","al-Aqsa Martyrs' Brigades",2002-07-01,-5.5,2002-06-01,"2014-09-01"
+"15","al-Aqsa Martyrs' Brigades",2002-08-01,-5.5,2002-06-01,"2014-09-01"
+"16","al-Aqsa Martyrs' Brigades",2002-09-01,-4,2002-07-01,"2014-09-01"
+"17","al-Aqsa Martyrs' Brigades",2002-10-01,-4.9090909,2002-09-01,"2014-09-01"
+"18","al-Aqsa Martyrs' Brigades",2002-11-01,-4.9090909,2002-09-01,"2014-09-01"
+"19","al-Aqsa Martyrs' Brigades",2002-12-01,-4.9090909,2002-10-01,"2014-09-01"
+"20","al-Aqsa Martyrs' Brigades",2003-01-01,-10,2002-12-01,"2014-09-01"
+"21","al-Aqsa Martyrs' Brigades",2003-02-01,-10,2002-12-01,"2014-09-01"
+"22","al-Aqsa Martyrs' Brigades",2003-03-01,-10,2002-12-01,"2014-09-01"
+"23","al-Aqsa Martyrs' Brigades",2003-04-01,-2.5,2003-01-01,"2014-09-01"
+"24","al-Aqsa Martyrs' Brigades",2003-05-01,-9,2003-04-01,"2014-09-01"
+"25","al-Aqsa Martyrs' Brigades",2003-06-01,-3.3333333,2003-05-01,"2014-09-01"
+"26","al-Aqsa Martyrs' Brigades",2003-07-01,-10,2003-06-01,"2014-09-01"
+"27","al-Aqsa Martyrs' Brigades",2003-08-01,-9.5,2003-07-01,"2014-09-01"
+"28","al-Aqsa Martyrs' Brigades",2003-09-01,-0.5714286,2003-08-01,"2014-09-01"
+"29","al-Aqsa Martyrs' Brigades",2003-10-01,-9,2003-09-01,"2014-09-01"
+"30","al-Aqsa Martyrs' Brigades",2003-11-01,-9,2003-09-01,"2014-09-01"
+"31","al-Aqsa Martyrs' Brigades",2003-12-01,-2,2003-10-01,"2014-09-01"
+"32","al-Aqsa Martyrs' Brigades",2004-01-01,-10,2003-12-01,"2014-09-01"
+"33","al-Aqsa Martyrs' Brigades",2004-02-01,-10,2004-01-01,"2014-09-01"
+"34","al-Aqsa Martyrs' Brigades",2004-03-01,-7.5,2004-02-01,"2014-09-01"
+"35","al-Aqsa Martyrs' Brigades",2004-04-01,-7.5,2004-02-01,"2014-09-01"
+"36","al-Aqsa Martyrs' Brigades",2004-05-01,-5.6,2004-03-01,"2014-09-01"
+"37","al-Aqsa Martyrs' Brigades",2004-06-01,-4.1714286,2004-05-01,"2014-09-01"
+"38","al-Aqsa Martyrs' Brigades",2004-07-01,-7.5,2004-06-01,"2014-09-01"
+"39","al-Aqsa Martyrs' Brigades",2004-08-01,-10,2004-07-01,"2014-09-01"
+"40","al-Aqsa Martyrs' Brigades",2004-09-01,-6,2004-08-01,"2014-09-01"
+"41","al-Aqsa Martyrs' Brigades",2004-10-01,-6,2004-08-01,"2014-09-01"
+"42","al-Aqsa Martyrs' Brigades",2004-12-01,-0.35,2004-11-01,"2014-09-01"
+"43","al-Aqsa Martyrs' Brigades",2005-01-01,-8.5,2004-12-01,"2014-09-01"
+"44","al-Aqsa Martyrs' Brigades",2005-02-01,-3.3333333,2005-01-01,"2014-09-01"
+"45","al-Aqsa Martyrs' Brigades",2005-03-01,-3.3333333,2005-01-01,"2014-09-01"
+"46","al-Aqsa Martyrs' Brigades",2005-04-01,-3.3333333,2005-01-01,"2014-09-01"
+"47","al-Aqsa Martyrs' Brigades",2005-05-01,-7,2005-02-01,"2014-09-01"
+"48","al-Aqsa Martyrs' Brigades",2005-06-01,-4.4,2005-05-01,"2014-09-01"
+"49","al-Aqsa Martyrs' Brigades",2005-07-01,-9,2005-06-01,"2014-09-01"
+"50","al-Aqsa Martyrs' Brigades",2005-08-01,-9,2005-06-01,"2014-09-01"
+"51","al-Aqsa Martyrs' Brigades",2005-09-01,-9,2005-06-01,"2014-09-01"
+"52","al-Aqsa Martyrs' Brigades",2005-12-01,-10,2005-11-01,"2014-09-01"
+"53","al-Aqsa Martyrs' Brigades",2006-01-01,-10,2005-12-01,"2014-09-01"
+"54","al-Aqsa Martyrs' Brigades",2006-02-01,-10,2006-01-01,"2014-09-01"
+"55","al-Aqsa Martyrs' Brigades",2006-03-01,-10,2006-02-01,"2014-09-01"
+"56","al-Aqsa Martyrs' Brigades",2006-04-01,-10,2006-03-01,"2014-09-01"
+"57","al-Aqsa Martyrs' Brigades",2006-05-01,-10,2006-04-01,"2014-09-01"
+"58","al-Aqsa Martyrs' Brigades",2006-06-01,-7.2,2006-05-01,"2014-09-01"
+"59","al-Aqsa Martyrs' Brigades",2006-07-01,-7.2,2006-05-01,"2014-09-01"
+"60","al-Aqsa Martyrs' Brigades",2006-08-01,-10,2006-06-01,"2014-09-01"
+"61","al-Aqsa Martyrs' Brigades",2006-09-01,-10,2006-08-01,"2014-09-01"
+"62","al-Aqsa Martyrs' Brigades",2006-10-01,-10,2006-08-01,"2014-09-01"
+"63","al-Aqsa Martyrs' Brigades",2006-11-01,-10,2006-09-01,"2014-09-01"
+"64","al-Aqsa Martyrs' Brigades",2006-12-01,-10,2006-11-01,"2014-09-01"
+"65","al-Aqsa Martyrs' Brigades",2007-01-01,-1.4,2006-12-01,"2014-09-01"
+"66","al-Aqsa Martyrs' Brigades",2007-02-01,-10,2007-01-01,"2014-09-01"
+"67","al-Aqsa Martyrs' Brigades",2007-03-01,-8.3333333,2007-02-01,"2014-09-01"
+"68","al-Aqsa Martyrs' Brigades",2007-04-01,-10,2007-03-01,"2014-09-01"
+"69","al-Aqsa Martyrs' Brigades",2007-05-01,-10,2007-04-01,"2014-09-01"
+"70","al-Aqsa Martyrs' Brigades",2007-06-01,-10,2007-05-01,"2014-09-01"
+"71","al-Aqsa Martyrs' Brigades",2007-07-01,-10,2007-06-01,"2014-09-01"
+"72","al-Aqsa Martyrs' Brigades",2007-08-01,-10,2007-07-01,"2014-09-01"
+"73","al-Aqsa Martyrs' Brigades",2007-09-01,-10,2007-08-01,"2014-09-01"
+"74","al-Aqsa Martyrs' Brigades",2007-10-01,-9.6666667,2007-09-01,"2014-09-01"
+"75","al-Aqsa Martyrs' Brigades",2007-11-01,-7.1428571,2007-10-01,"2014-09-01"
+"76","al-Aqsa Martyrs' Brigades",2007-12-01,-10,2007-11-01,"2014-09-01"
+"77","al-Aqsa Martyrs' Brigades",2008-01-01,-10,2007-12-01,"2014-09-01"
+"78","al-Aqsa Martyrs' Brigades",2008-02-01,-10,2008-01-01,"2014-09-01"
+"79","al-Aqsa Martyrs' Brigades",2008-03-01,-10,2008-02-01,"2014-09-01"
+"80","al-Aqsa Martyrs' Brigades",2008-05-01,-10,2008-04-01,"2014-09-01"
+"81","al-Aqsa Martyrs' Brigades",2008-06-01,-10,2008-05-01,"2014-09-01"
+"82","al-Aqsa Martyrs' Brigades",2008-07-01,-10,2008-05-01,"2014-09-01"
+"83","al-Aqsa Martyrs' Brigades",2008-08-01,-10,2008-05-01,"2014-09-01"
+"84","al-Aqsa Martyrs' Brigades",2008-09-01,-10,2008-05-01,"2014-09-01"
+"85","al-Aqsa Martyrs' Brigades",2008-10-01,-10,2008-05-01,"2014-09-01"
+"86","al-Aqsa Martyrs' Brigades",2008-11-01,-10,2008-06-01,"2014-09-01"
+"87","al-Aqsa Martyrs' Brigades",2008-12-01,-10,2008-11-01,"2014-09-01"
+"88","al-Aqsa Martyrs' Brigades",2011-12-01,-7,2011-01-01,"2014-09-01"
+"89","al-Aqsa Martyrs' Brigades",2012-03-01,-4,2012-01-01,"2014-09-01"
+"90","al-Aqsa Martyrs' Brigades",2012-04-01,-4,2012-01-01,"2014-09-01"
+"91","al-Aqsa Martyrs' Brigades",2012-05-01,-4,2012-01-01,"2014-09-01"
+"92","al-Aqsa Martyrs' Brigades",2012-06-01,-4,2012-01-01,"2014-09-01"
+"93","al-Aqsa Martyrs' Brigades",2012-07-01,-4,2012-01-01,"2014-09-01"
+"94","al-Aqsa Martyrs' Brigades",2012-08-01,-4,2012-01-01,"2014-09-01"
+"95","al-Aqsa Martyrs' Brigades",2012-09-01,-4,2012-01-01,"2014-09-01"
+"96","al-Aqsa Martyrs' Brigades",2012-10-01,-4,2012-01-01,"2014-09-01"
+"97","al-Aqsa Martyrs' Brigades",2012-11-01,-4,2012-01-01,"2014-09-01"
+"98","al-Aqsa Martyrs' Brigades",2012-12-01,-4,2012-03-01,"2014-09-01"
+"99","al-Aqsa Martyrs' Brigades",2013-01-01,-4,2012-03-01,"2014-09-01"
+"100","al-Aqsa Martyrs' Brigades",2013-02-01,-4,2012-03-01,"2014-09-01"
+"101","al-Aqsa Martyrs' Brigades",2013-03-01,-4,2012-03-01,"2014-09-01"
+"102","al-Aqsa Martyrs' Brigades",2013-04-01,-4,2012-03-01,"2014-09-01"
+"103","al-Aqsa Martyrs' Brigades",2013-05-01,-4,2012-03-01,"2014-09-01"
+"104","al-Aqsa Martyrs' Brigades",2013-06-01,-4,2012-03-01,"2014-09-01"
+"105","al-Aqsa Martyrs' Brigades",2013-07-01,-4,2012-03-01,"2014-09-01"
+"106","al-Aqsa Martyrs' Brigades",2013-08-01,-4,2012-03-01,"2014-09-01"
+"107","al-Aqsa Martyrs' Brigades",2013-09-01,-4,2012-03-01,"2014-09-01"
+"108","al-Aqsa Martyrs' Brigades",2013-10-01,-4,2012-03-01,"2014-09-01"
+"109","al-Aqsa Martyrs' Brigades",2013-11-01,-4,2012-03-01,"2014-09-01"
+"110","al-Aqsa Martyrs' Brigades",2013-12-01,-4,2012-03-01,"2014-09-01"
+"111","al-Aqsa Martyrs' Brigades",2014-01-01,-4,2012-03-01,"2014-09-01"
+"112","al-Aqsa Martyrs' Brigades",2014-02-01,-4,2012-03-01,"2014-09-01"
+"113","al-Aqsa Martyrs' Brigades",2014-03-01,-4,2012-03-01,"2014-09-01"
+"114","Al-Quds",2008-04-01,-2,2007-07-01,"2014-06-01"
+"115","Al-Quds",2008-05-01,-2,2007-07-01,"2014-06-01"
+"116","Al-Quds",2008-06-01,-2,2007-07-01,"2014-06-01"
+"117","Al-Quds",2008-07-01,-2,2007-07-01,"2014-06-01"
+"118","Al-Quds",2008-08-01,-2,2007-07-01,"2014-06-01"
+"119","Al-Quds",2008-09-01,-2,2007-07-01,"2014-06-01"
+"120","Al-Quds",2008-10-01,-2,2007-07-01,"2014-06-01"
+"121","Al-Quds",2008-11-01,-2,2007-07-01,"2014-06-01"
+"122","Al-Quds",2008-12-01,-2,2007-07-01,"2014-06-01"
+"123","Al-Quds",2009-01-01,-2,2007-07-01,"2014-06-01"
+"124","Al-Quds",2009-02-01,-2,2007-07-01,"2014-06-01"
+"125","Al-Quds",2009-03-01,-2,2007-07-01,"2014-06-01"
+"126","Al-Quds",2009-04-01,-2,2007-07-01,"2014-06-01"
+"127","Al-Quds",2009-05-01,-2,2007-07-01,"2014-06-01"
+"128","Al-Quds",2009-06-01,-2,2007-07-01,"2014-06-01"
+"129","Al-Quds",2009-12-01,-2,2008-04-01,"2014-06-01"
+"130","Al-Quds",2010-01-01,-2,2008-04-01,"2014-06-01"
+"131","Al-Quds",2010-02-01,-2,2008-04-01,"2014-06-01"
+"132","Al-Quds",2010-03-01,-2,2008-04-01,"2014-06-01"
+"133","Al-Quds",2010-04-01,-2,2008-04-01,"2014-06-01"
+"134","Army of Islam",2014-08-01,-7,2014-08-01,"2014-09-01"
+"135","Army of Islam",2014-09-01,-7,2014-08-01,"2014-09-01"
+"136","Democratic Front for the Liberation of Palestine",1996-04-01,-2,1996-02-01,"2014-02-01"
+"137","Democratic Front for the Liberation of Palestine",1997-02-01,-2,1996-05-01,"2014-02-01"
+"138","Democratic Front for the Liberation of Palestine",1997-03-01,-2,1996-05-01,"2014-02-01"
+"139","Democratic Front for the Liberation of Palestine",1997-04-01,-2,1996-05-01,"2014-02-01"
+"140","Democratic Front for the Liberation of Palestine",1997-05-01,-2,1996-05-01,"2014-02-01"
+"141","Democratic Front for the Liberation of Palestine",1997-06-01,-2,1996-05-01,"2014-02-01"
+"142","Democratic Front for the Liberation of Palestine",1997-07-01,-2,1996-05-01,"2014-02-01"
+"143","Democratic Front for the Liberation of Palestine",1997-08-01,-2,1996-05-01,"2014-02-01"
+"144","Democratic Front for the Liberation of Palestine",1997-09-01,-2,1996-05-01,"2014-02-01"
+"145","Democratic Front for the Liberation of Palestine",1997-10-01,-2,1996-05-01,"2014-02-01"
+"146","Democratic Front for the Liberation of Palestine",1997-11-01,-2,1996-05-01,"2014-02-01"
+"147","Democratic Front for the Liberation of Palestine",1997-12-01,-2,1996-05-01,"2014-02-01"
+"148","Democratic Front for the Liberation of Palestine",1998-01-01,-2,1996-05-01,"2014-02-01"
+"149","Democratic Front for the Liberation of Palestine",1998-02-01,-2,1996-05-01,"2014-02-01"
+"150","Democratic Front for the Liberation of Palestine",1998-03-01,-2,1996-05-01,"2014-02-01"
+"151","Democratic Front for the Liberation of Palestine",1998-04-01,-2,1996-05-01,"2014-02-01"
+"152","Democratic Front for the Liberation of Palestine",1998-05-01,-2,1996-05-01,"2014-02-01"
+"153","Democratic Front for the Liberation of Palestine",1999-02-01,-2,1997-02-01,"2014-02-01"
+"154","Democratic Front for the Liberation of Palestine",1999-10-01,-2,1999-09-01,"2014-02-01"
+"155","Democratic Front for the Liberation of Palestine",1999-11-01,-2,1999-09-01,"2014-02-01"
+"156","Democratic Front for the Liberation of Palestine",1999-12-01,-2,1999-09-01,"2014-02-01"
+"157","Democratic Front for the Liberation of Palestine",2000-01-01,-2,1999-09-01,"2014-02-01"
+"158","Democratic Front for the Liberation of Palestine",2000-02-01,-2,1999-09-01,"2014-02-01"
+"159","Democratic Front for the Liberation of Palestine",2000-03-01,-2,1999-09-01,"2014-02-01"
+"160","Democratic Front for the Liberation of Palestine",2000-04-01,-2,1999-09-01,"2014-02-01"
+"161","Democratic Front for the Liberation of Palestine",2000-05-01,-2,1999-09-01,"2014-02-01"
+"162","Democratic Front for the Liberation of Palestine",2000-06-01,-2,1999-09-01,"2014-02-01"
+"163","Democratic Front for the Liberation of Palestine",2000-07-01,-2,1999-09-01,"2014-02-01"
+"164","Democratic Front for the Liberation of Palestine",2000-08-01,-2,1999-09-01,"2014-02-01"
+"165","Democratic Front for the Liberation of Palestine",2000-09-01,-2,1999-09-01,"2014-02-01"
+"166","Democratic Front for the Liberation of Palestine",2000-10-01,-2,1999-09-01,"2014-02-01"
+"167","Democratic Front for the Liberation of Palestine",2000-11-01,-2,1999-09-01,"2014-02-01"
+"168","Democratic Front for the Liberation of Palestine",2000-12-01,-2,1999-09-01,"2014-02-01"
+"169","Democratic Front for the Liberation of Palestine",2001-01-01,-2,1999-09-01,"2014-02-01"
+"170","Democratic Front for the Liberation of Palestine",2001-02-01,-2,1999-09-01,"2014-02-01"
+"171","Democratic Front for the Liberation of Palestine",2001-03-01,-2,1999-09-01,"2014-02-01"
+"172","Democratic Front for the Liberation of Palestine",2001-04-01,-2,1999-09-01,"2014-02-01"
+"173","Democratic Front for the Liberation of Palestine",2001-05-01,-2,1999-09-01,"2014-02-01"
+"174","Democratic Front for the Liberation of Palestine",2001-06-01,-2,1999-09-01,"2014-02-01"
+"175","Democratic Front for the Liberation of Palestine",2001-07-01,-2,1999-09-01,"2014-02-01"
+"176","Democratic Front for the Liberation of Palestine",2001-08-01,-2,1999-09-01,"2014-02-01"
+"177","Democratic Front for the Liberation of Palestine",2002-06-01,-2,2002-01-01,"2014-02-01"
+"178","Democratic Front for the Liberation of Palestine",2002-07-01,-2,2002-01-01,"2014-02-01"
+"179","Democratic Front for the Liberation of Palestine",2002-08-01,-2,2002-06-01,"2014-02-01"
+"180","Democratic Front for the Liberation of Palestine",2002-09-01,-2,2002-06-01,"2014-02-01"
+"181","Democratic Front for the Liberation of Palestine",2002-10-01,-2,2002-06-01,"2014-02-01"
+"182","Democratic Front for the Liberation of Palestine",2002-11-01,-2,2002-06-01,"2014-02-01"
+"183","Democratic Front for the Liberation of Palestine",2002-12-01,-2,2002-08-01,"2014-02-01"
+"184","Democratic Front for the Liberation of Palestine",2003-01-01,-2,2002-08-01,"2014-02-01"
+"185","Democratic Front for the Liberation of Palestine",2003-02-01,-2,2002-08-01,"2014-02-01"
+"186","Democratic Front for the Liberation of Palestine",2003-03-01,-2,2002-08-01,"2014-02-01"
+"187","Democratic Front for the Liberation of Palestine",2003-04-01,-2,2002-08-01,"2014-02-01"
+"188","Democratic Front for the Liberation of Palestine",2003-07-01,-1.2,2003-05-01,"2014-02-01"
+"189","Democratic Front for the Liberation of Palestine",2003-08-01,-1.2,2003-05-01,"2014-02-01"
+"190","Democratic Front for the Liberation of Palestine",2003-09-01,-1.2,2003-05-01,"2014-02-01"
+"191","Democratic Front for the Liberation of Palestine",2003-10-01,-1.2,2003-05-01,"2014-02-01"
+"192","Democratic Front for the Liberation of Palestine",2003-11-01,-1.2,2003-05-01,"2014-02-01"
+"193","Democratic Front for the Liberation of Palestine",2003-12-01,-1.2,2003-07-01,"2014-02-01"
+"194","Democratic Front for the Liberation of Palestine",2004-01-01,-1.2,2003-07-01,"2014-02-01"
+"195","Democratic Front for the Liberation of Palestine",2004-02-01,-1.2,2003-07-01,"2014-02-01"
+"196","Democratic Front for the Liberation of Palestine",2004-03-01,-1.2,2003-07-01,"2014-02-01"
+"197","Democratic Front for the Liberation of Palestine",2004-04-01,-1.2,2003-07-01,"2014-02-01"
+"198","Democratic Front for the Liberation of Palestine",2004-05-01,-1.2,2003-07-01,"2014-02-01"
+"199","Democratic Front for the Liberation of Palestine",2004-06-01,-1.2,2003-07-01,"2014-02-01"
+"200","Democratic Front for the Liberation of Palestine",2004-07-01,-1.2,2003-07-01,"2014-02-01"
+"201","Democratic Front for the Liberation of Palestine",2004-08-01,-1.2,2003-07-01,"2014-02-01"
+"202","Democratic Front for the Liberation of Palestine",2004-09-01,-1.2,2003-07-01,"2014-02-01"
+"203","Democratic Front for the Liberation of Palestine",2004-10-01,-1.2,2003-07-01,"2014-02-01"
+"204","Democratic Front for the Liberation of Palestine",2004-11-01,-1.2,2003-07-01,"2014-02-01"
+"205","Democratic Front for the Liberation of Palestine",2004-12-01,-1.2,2003-07-01,"2014-02-01"
+"206","Democratic Front for the Liberation of Palestine",2005-01-01,-0.03333333,2003-12-01,"2014-02-01"
+"207","Democratic Front for the Liberation of Palestine",2005-02-01,-0.03333333,2003-12-01,"2014-02-01"
+"208","Democratic Front for the Liberation of Palestine",2005-03-01,-0.03333333,2003-12-01,"2014-02-01"
+"209","Democratic Front for the Liberation of Palestine",2005-04-01,-0.03333333,2003-12-01,"2014-02-01"
+"210","Democratic Front for the Liberation of Palestine",2005-05-01,-0.03333333,2003-12-01,"2014-02-01"
+"211","Democratic Front for the Liberation of Palestine",2005-06-01,-0.03333333,2003-12-01,"2014-02-01"
+"212","Democratic Front for the Liberation of Palestine",2005-07-01,-0.03333333,2003-12-01,"2014-02-01"
+"213","Democratic Front for the Liberation of Palestine",2005-08-01,-0.03333333,2005-01-01,"2014-02-01"
+"214","Democratic Front for the Liberation of Palestine",2005-09-01,-0.03333333,2005-01-01,"2014-02-01"
+"215","Democratic Front for the Liberation of Palestine",2005-10-01,-0.03333333,2005-01-01,"2014-02-01"
+"216","Democratic Front for the Liberation of Palestine",2005-11-01,-0.03333333,2005-01-01,"2014-02-01"
+"217","Democratic Front for the Liberation of Palestine",2005-12-01,-0.03333333,2005-01-01,"2014-02-01"
+"218","Democratic Front for the Liberation of Palestine",2006-01-01,-0.03333333,2005-08-01,"2014-02-01"
+"219","Democratic Front for the Liberation of Palestine",2006-02-01,-0.03333333,2005-08-01,"2014-02-01"
+"220","Democratic Front for the Liberation of Palestine",2006-03-01,-0.03333333,2005-08-01,"2014-02-01"
+"221","Democratic Front for the Liberation of Palestine",2006-04-01,-0.03333333,2005-08-01,"2014-02-01"
+"222","Democratic Front for the Liberation of Palestine",2006-05-01,-0.03333333,2005-08-01,"2014-02-01"
+"223","Democratic Front for the Liberation of Palestine",2006-06-01,-0.03333333,2005-08-01,"2014-02-01"
+"224","Democratic Front for the Liberation of Palestine",2006-07-01,-10,2006-01-01,"2014-02-01"
+"225","Democratic Front for the Liberation of Palestine",2006-08-01,-10,2006-01-01,"2014-02-01"
+"226","Democratic Front for the Liberation of Palestine",2006-09-01,-10,2006-01-01,"2014-02-01"
+"227","Democratic Front for the Liberation of Palestine",2006-10-01,-10,2006-01-01,"2014-02-01"
+"228","Democratic Front for the Liberation of Palestine",2006-11-01,-10,2006-07-01,"2014-02-01"
+"229","Democratic Front for the Liberation of Palestine",2006-12-01,-10,2006-07-01,"2014-02-01"
+"230","Democratic Front for the Liberation of Palestine",2007-01-01,-10,2006-07-01,"2014-02-01"
+"231","Democratic Front for the Liberation of Palestine",2007-02-01,-10,2006-11-01,"2014-02-01"
+"232","Democratic Front for the Liberation of Palestine",2007-03-01,-10,2007-02-01,"2014-02-01"
+"233","Democratic Front for the Liberation of Palestine",2007-04-01,-10,2007-02-01,"2014-02-01"
+"234","Democratic Front for the Liberation of Palestine",2007-05-01,-10,2007-02-01,"2014-02-01"
+"235","Democratic Front for the Liberation of Palestine",2007-06-01,-10,2007-02-01,"2014-02-01"
+"236","Democratic Front for the Liberation of Palestine",2007-07-01,-10,2007-02-01,"2014-02-01"
+"237","Democratic Front for the Liberation of Palestine",2007-08-01,-10,2007-03-01,"2014-02-01"
+"238","Democratic Front for the Liberation of Palestine",2007-09-01,-10,2007-08-01,"2014-02-01"
+"239","Democratic Front for the Liberation of Palestine",2007-10-01,-10,2007-09-01,"2014-02-01"
+"240","Democratic Front for the Liberation of Palestine",2007-11-01,-10,2007-10-01,"2014-02-01"
+"241","Democratic Front for the Liberation of Palestine",2007-12-01,-10,2007-11-01,"2014-02-01"
+"242","Democratic Front for the Liberation of Palestine",2008-01-01,-10,2007-12-01,"2014-02-01"
+"243","Democratic Front for the Liberation of Palestine",2008-02-01,-10,2008-01-01,"2014-02-01"
+"244","Democratic Front for the Liberation of Palestine",2008-03-01,-10,2008-01-01,"2014-02-01"
+"245","Democratic Front for the Liberation of Palestine",2008-04-01,-10,2008-01-01,"2014-02-01"
+"246","Democratic Front for the Liberation of Palestine",2008-05-01,-10,2008-02-01,"2014-02-01"
+"247","Democratic Front for the Liberation of Palestine",2008-06-01,-10,2008-02-01,"2014-02-01"
+"248","Democratic Front for the Liberation of Palestine",2008-07-01,-10,2008-02-01,"2014-02-01"
+"249","Democratic Front for the Liberation of Palestine",2008-08-01,-10,2008-02-01,"2014-02-01"
+"250","Democratic Front for the Liberation of Palestine",2008-09-01,-10,2008-05-01,"2014-02-01"
+"251","Democratic Front for the Liberation of Palestine",2008-10-01,-10,2008-05-01,"2014-02-01"
+"252","Democratic Front for the Liberation of Palestine",2008-11-01,-10,2008-05-01,"2014-02-01"
+"253","Democratic Front for the Liberation of Palestine",2008-12-01,-10,2008-05-01,"2014-02-01"
+"254","Democratic Front for the Liberation of Palestine",2009-01-01,-10,2008-05-01,"2014-02-01"
+"255","Democratic Front for the Liberation of Palestine",2009-02-01,-10,2008-05-01,"2014-02-01"
+"256","Democratic Front for the Liberation of Palestine",2009-03-01,-10,2008-05-01,"2014-02-01"
+"257","Democratic Front for the Liberation of Palestine",2009-04-01,-10,2008-05-01,"2014-02-01"
+"258","Democratic Front for the Liberation of Palestine",2009-05-01,-10,2008-05-01,"2014-02-01"
+"259","Democratic Front for the Liberation of Palestine",2009-06-01,-10,2008-05-01,"2014-02-01"
+"260","Democratic Front for the Liberation of Palestine",2009-07-01,-10,2008-05-01,"2014-02-01"
+"261","Democratic Front for the Liberation of Palestine",2009-08-01,-10,2008-05-01,"2014-02-01"
+"262","Democratic Front for the Liberation of Palestine",2009-09-01,-10,2008-05-01,"2014-02-01"
+"263","Democratic Front for the Liberation of Palestine",2009-10-01,-10,2008-05-01,"2014-02-01"
+"264","Democratic Front for the Liberation of Palestine",2009-11-01,-10,2008-05-01,"2014-02-01"
+"265","Democratic Front for the Liberation of Palestine",2009-12-01,-10,2008-05-01,"2014-02-01"
+"266","Democratic Front for the Liberation of Palestine",2010-01-01,-10,2008-05-01,"2014-02-01"
+"267","Democratic Front for the Liberation of Palestine",2010-02-01,-10,2008-05-01,"2014-02-01"
+"268","Democratic Front for the Liberation of Palestine",2010-03-01,-10,2008-05-01,"2014-02-01"
+"269","Democratic Front for the Liberation of Palestine",2010-04-01,-10,2008-05-01,"2014-02-01"
+"270","Democratic Front for the Liberation of Palestine",2010-05-01,-10,2008-05-01,"2014-02-01"
+"271","Democratic Front for the Liberation of Palestine",2010-11-01,-2,2010-09-01,"2014-02-01"
+"272","Democratic Front for the Liberation of Palestine",2010-12-01,-2,2010-09-01,"2014-02-01"
+"273","Democratic Front for the Liberation of Palestine",2011-01-01,-2,2010-09-01,"2014-02-01"
+"274","Democratic Front for the Liberation of Palestine",2011-02-01,-2,2010-09-01,"2014-02-01"
+"275","Democratic Front for the Liberation of Palestine",2011-03-01,-8,2010-11-01,"2014-02-01"
+"276","Democratic Front for the Liberation of Palestine",2011-04-01,-8,2010-11-01,"2014-02-01"
+"277","Democratic Front for the Liberation of Palestine",2011-05-01,-8,2010-11-01,"2014-02-01"
+"278","Democratic Front for the Liberation of Palestine",2011-06-01,-8,2010-11-01,"2014-02-01"
+"279","Democratic Front for the Liberation of Palestine",2011-07-01,-8,2010-11-01,"2014-02-01"
+"280","Democratic Front for the Liberation of Palestine",2011-08-01,-8,2010-11-01,"2014-02-01"
+"281","Democratic Front for the Liberation of Palestine",2011-09-01,-8,2010-11-01,"2014-02-01"
+"282","Democratic Front for the Liberation of Palestine",2011-10-01,-8,2010-11-01,"2014-02-01"
+"283","Democratic Front for the Liberation of Palestine",2011-11-01,-8,2010-11-01,"2014-02-01"
+"284","Democratic Front for the Liberation of Palestine",2011-12-01,-8,2010-11-01,"2014-02-01"
+"285","Democratic Front for the Liberation of Palestine",2012-01-01,-8,2010-11-01,"2014-02-01"
+"286","Democratic Front for the Liberation of Palestine",2012-02-01,-8,2011-03-01,"2014-02-01"
+"287","Democratic Front for the Liberation of Palestine",2012-03-01,-8,2011-03-01,"2014-02-01"
+"288","Democratic Front for the Liberation of Palestine",2012-04-01,-8,2011-03-01,"2014-02-01"
+"289","Democratic Front for the Liberation of Palestine",2012-05-01,-8,2011-03-01,"2014-02-01"
+"290","Democratic Front for the Liberation of Palestine",2012-06-01,-8,2011-03-01,"2014-02-01"
+"291","Democratic Front for the Liberation of Palestine",2012-07-01,-8,2011-03-01,"2014-02-01"
+"292","Democratic Front for the Liberation of Palestine",2012-08-01,-8,2011-03-01,"2014-02-01"
+"293","Democratic Front for the Liberation of Palestine",2012-09-01,-8,2011-03-01,"2014-02-01"
+"294","Democratic Front for the Liberation of Palestine",2012-10-01,-8,2011-03-01,"2014-02-01"
+"295","Democratic Front for the Liberation of Palestine",2012-11-01,-8,2011-03-01,"2014-02-01"
+"296","Democratic Front for the Liberation of Palestine",2012-12-01,-8,2011-03-01,"2014-02-01"
+"297","Democratic Front for the Liberation of Palestine",2013-01-01,-8,2011-03-01,"2014-02-01"
+"298","Democratic Front for the Liberation of Palestine",2013-02-01,-8,2011-03-01,"2014-02-01"
+"299","Fatah",1995-02-01,-2,1995-01-01,"2014-09-01"
+"300","Fatah",1995-05-01,-1.01666667,1995-03-01,"2014-09-01"
+"301","Fatah",1995-06-01,-0.5,1995-05-01,"2014-09-01"
+"302","Fatah",1996-06-01,-0.91,1996-05-01,"2014-09-01"
+"303","Fatah",1996-08-01,-0.26153846,1996-07-01,"2014-09-01"
+"304","Fatah",1996-11-01,-0.75,1996-10-01,"2014-09-01"
+"305","Fatah",1997-02-01,-0.30769231,1997-01-01,"2014-09-01"
+"306","Fatah",1997-06-01,-0.5,1997-05-01,"2014-09-01"
+"307","Fatah",1997-08-01,-1.03333333,1997-07-01,"2014-09-01"
+"308","Fatah",1997-09-01,-0.2625,1997-08-01,"2014-09-01"
+"309","Fatah",1997-12-01,-0.3625,1997-11-01,"2014-09-01"
+"310","Fatah",1998-03-01,-0.24,1998-02-01,"2014-09-01"
+"311","Fatah",1998-05-01,-2.375,1998-04-01,"2014-09-01"
+"312","Fatah",1998-06-01,-1.125,1998-05-01,"2014-09-01"
+"313","Fatah",1998-08-01,-0.15555556,1998-07-01,"2014-09-01"
+"314","Fatah",1999-04-01,-1.82,1999-03-01,"2014-09-01"
+"315","Fatah",2001-03-01,-0.15789474,2001-02-01,"2014-09-01"
+"316","Fatah",2001-05-01,-0.48275862,2001-04-01,"2014-09-01"
+"317","Fatah",2001-06-01,-0.09347826,2001-05-01,"2014-09-01"
+"318","Fatah",2001-07-01,-1.27,2001-06-01,"2014-09-01"
+"319","Fatah",2001-08-01,-0.07659574,2001-07-01,"2014-09-01"
+"320","Fatah",2001-11-01,-0.39130435,2001-10-01,"2014-09-01"
+"321","Fatah",2001-12-01,-0.37162162,2001-11-01,"2014-09-01"
+"322","Fatah",2002-01-01,-0.87857143,2001-12-01,"2014-09-01"
+"323","Fatah",2002-06-01,-0.61052632,2002-05-01,"2014-09-01"
+"324","Fatah",2002-07-01,-0.82307692,2002-06-01,"2014-09-01"
+"325","Fatah",2002-08-01,-0.61428571,2002-07-01,"2014-09-01"
+"326","Fatah",2002-10-01,-0.81818182,2002-09-01,"2014-09-01"
+"327","Fatah",2002-11-01,-0.86,2002-10-01,"2014-09-01"
+"328","Fatah",2002-12-01,-0.8,2002-11-01,"2014-09-01"
+"329","Fatah",2003-03-01,-1.5,2003-02-01,"2014-09-01"
+"330","Fatah",2003-04-01,-2.83,2003-03-01,"2014-09-01"
+"331","Fatah",2003-08-01,-1.30425532,2003-07-01,"2014-09-01"
+"332","Fatah",2003-09-01,-0.72058824,2003-08-01,"2014-09-01"
+"333","Fatah",2003-12-01,-0.12222222,2003-11-01,"2014-09-01"
+"334","Fatah",2004-01-01,-3.08,2003-12-01,"2014-09-01"
+"335","Fatah",2004-02-01,-1.27272727,2004-01-01,"2014-09-01"
+"336","Fatah",2004-03-01,-0.54666667,2004-02-01,"2014-09-01"
+"337","Fatah",2004-04-01,-1.28333333,2004-03-01,"2014-09-01"
+"338","Fatah",2004-06-01,-1.6,2004-05-01,"2014-09-01"
+"339","Fatah",2004-09-01,-2.2,2004-08-01,"2014-09-01"
+"340","Fatah",2004-10-01,-0.48,2004-09-01,"2014-09-01"
+"341","Fatah",2005-07-01,-0.08,2005-06-01,"2014-09-01"
+"342","Fatah",2005-09-01,-0.30322581,2005-08-01,"2014-09-01"
+"343","Fatah",2007-05-01,-1.66666667,2007-04-01,"2014-09-01"
+"344","Fatah",2009-02-01,-3.26666667,2009-01-01,"2014-09-01"
+"345","Fatah",2009-03-01,-2.08965517,2009-02-01,"2014-09-01"
+"346","Fatah",2009-04-01,-1.38709677,2009-03-01,"2014-09-01"
+"347","Fatah",2009-05-01,-1.06666667,2009-04-01,"2014-09-01"
+"348","Fatah",2009-07-01,-2.5,2009-06-01,"2014-09-01"
+"349","Fatah",2009-08-01,-1.76470588,2009-07-01,"2014-09-01"
+"350","Fatah",2009-09-01,-0.47272727,2009-08-01,"2014-09-01"
+"351","Fatah",2009-10-01,-0.45263158,2009-09-01,"2014-09-01"
+"352","Fatah",2009-11-01,-1.61960784,2009-10-01,"2014-09-01"
+"353","Fatah",2009-12-01,-2,2009-11-01,"2014-09-01"
+"354","Fatah",2010-03-01,-1.11466667,2010-02-01,"2014-09-01"
+"355","Fatah",2010-05-01,-1.11111111,2010-04-01,"2014-09-01"
+"356","Fatah",2010-08-01,-0.8,2010-07-01,"2014-09-01"
+"357","Fatah",2010-10-01,-0.875,2010-09-01,"2014-09-01"
+"358","Fatah",2011-02-01,-2,2011-01-01,"2014-09-01"
+"359","Fatah",2011-03-01,-3.30769231,2011-02-01,"2014-09-01"
+"360","Fatah",2011-04-01,-6.5,2011-03-01,"2014-09-01"
+"361","Fatah",2011-06-01,-2.01818182,2011-05-01,"2014-09-01"
+"362","Fatah",2011-07-01,-0.66666667,2011-06-01,"2014-09-01"
+"363","Fatah",2011-09-01,-0.4826087,2011-08-01,"2014-09-01"
+"364","Fatah",2011-11-01,-2,2011-10-01,"2014-09-01"
+"365","Fatah",2011-12-01,-1.68421053,2011-11-01,"2014-09-01"
+"366","Fatah",2012-04-01,-1.83333333,2012-03-01,"2014-09-01"
+"367","Fatah",2012-07-01,-2.15,2012-06-01,"2014-09-01"
+"368","Fatah",2012-08-01,-0.85714286,2012-07-01,"2014-09-01"
+"369","Fatah",2012-09-01,-2.14285714,2012-08-01,"2014-09-01"
+"370","Fatah",2012-10-01,-2,2012-09-01,"2014-09-01"
+"371","Hamas",1995-01-01,-4,1995-01-01,"2014-09-01"
+"372","Hamas",1995-02-01,-4,1995-01-01,"2014-09-01"
+"373","Hamas",1995-03-01,-4,1995-01-01,"2014-09-01"
+"374","Hamas",1995-04-01,-4,1995-01-01,"2014-09-01"
+"375","Hamas",1995-05-01,-7,1995-01-01,"2014-09-01"
+"376","Hamas",1995-06-01,-6,1995-05-01,"2014-09-01"
+"377","Hamas",1995-07-01,-3,1995-06-01,"2014-09-01"
+"378","Hamas",1995-08-01,-6.1875,1995-07-01,"2014-09-01"
+"379","Hamas",1995-09-01,-10,1995-08-01,"2014-09-01"
+"380","Hamas",1995-10-01,-4.4,1995-09-01,"2014-09-01"
+"381","Hamas",1995-11-01,-4.4,1995-10-01,"2014-09-01"
+"382","Hamas",1995-12-01,-8,1995-11-01,"2014-09-01"
+"383","Hamas",1996-01-01,-10,1995-12-01,"2014-09-01"
+"384","Hamas",1996-02-01,-5.30769231,1996-01-01,"2014-09-01"
+"385","Hamas",1996-03-01,-7.34883721,1996-02-01,"2014-09-01"
+"386","Hamas",1996-04-01,-4.24,1996-03-01,"2014-09-01"
+"387","Hamas",1996-05-01,-2,1996-04-01,"2014-09-01"
+"388","Hamas",1996-06-01,-3.4,1996-05-01,"2014-09-01"
+"389","Hamas",1996-07-01,-3.4,1996-06-01,"2014-09-01"
+"390","Hamas",1996-08-01,-10,1996-07-01,"2014-09-01"
+"391","Hamas",1996-09-01,-9,1996-08-01,"2014-09-01"
+"392","Hamas",1996-10-01,-9,1996-09-01,"2014-09-01"
+"393","Hamas",1996-11-01,-9,1996-09-01,"2014-09-01"
+"394","Hamas",1996-12-01,-1.625,1996-10-01,"2014-09-01"
+"395","Hamas",1997-01-01,-1.625,1996-12-01,"2014-09-01"
+"396","Hamas",1997-02-01,-1.625,1996-12-01,"2014-09-01"
+"397","Hamas",1997-03-01,-8.32692308,1997-01-01,"2014-09-01"
+"398","Hamas",1997-04-01,-6.5,1997-03-01,"2014-09-01"
+"399","Hamas",1997-05-01,-6.5,1997-04-01,"2014-09-01"
+"400","Hamas",1997-06-01,-6.5,1997-04-01,"2014-09-01"
+"401","Hamas",1997-07-01,-10,1997-05-01,"2014-09-01"
+"402","Hamas",1997-08-01,-8.5,1997-07-01,"2014-09-01"
+"403","Hamas",1997-09-01,-6.11666667,1997-08-01,"2014-09-01"
+"404","Hamas",1997-10-01,-4.72307692,1997-09-01,"2014-09-01"
+"405","Hamas",1997-11-01,-3.2,1997-10-01,"2014-09-01"
+"406","Hamas",1997-12-01,-7,1997-11-01,"2014-09-01"
+"407","Hamas",1998-01-01,-7,1997-12-01,"2014-09-01"
+"408","Hamas",1998-02-01,-9.4,1998-01-01,"2014-09-01"
+"409","Hamas",1998-03-01,-5.4,1998-02-01,"2014-09-01"
+"410","Hamas",1998-04-01,-5.09333333,1998-03-01,"2014-09-01"
+"411","Hamas",1998-05-01,-0.7,1998-04-01,"2014-09-01"
+"412","Hamas",1998-06-01,-5.66666667,1998-05-01,"2014-09-01"
+"413","Hamas",1998-07-01,-8.25,1998-06-01,"2014-09-01"
+"414","Hamas",1998-08-01,-8.25,1998-06-01,"2014-09-01"
+"415","Hamas",1998-09-01,-7.25,1998-07-01,"2014-09-01"
+"416","Hamas",1998-10-01,-6,1998-09-01,"2014-09-01"
+"417","Hamas",1998-11-01,-6.55555556,1998-10-01,"2014-09-01"
+"418","Hamas",1998-12-01,-6.75,1998-11-01,"2014-09-01"
+"419","Hamas",1999-01-01,-2.83333333,1998-12-01,"2014-09-01"
+"420","Hamas",1999-02-01,-5,1999-01-01,"2014-09-01"
+"421","Hamas",1999-03-01,-5,1999-02-01,"2014-09-01"
+"422","Hamas",1999-07-01,-6.5,1999-05-01,"2014-09-01"
+"423","Hamas",1999-08-01,-7.66666667,1999-07-01,"2014-09-01"
+"424","Hamas",1999-09-01,-4,1999-08-01,"2014-09-01"
+"425","Hamas",1999-10-01,-3,1999-09-01,"2014-09-01"
+"426","Hamas",1999-11-01,-1.8,1999-10-01,"2014-09-01"
+"427","Hamas",1999-12-01,-1.8,1999-11-01,"2014-09-01"
+"428","Hamas",2000-01-01,-1.8,1999-11-01,"2014-09-01"
+"429","Hamas",2000-02-01,-1.8,1999-11-01,"2014-09-01"
+"430","Hamas",2000-03-01,-1.8,1999-11-01,"2014-09-01"
+"431","Hamas",2000-04-01,-1.8,1999-11-01,"2014-09-01"
+"432","Hamas",2000-05-01,-1.8,1999-11-01,"2014-09-01"
+"433","Hamas",2000-06-01,-1.8,1999-11-01,"2014-09-01"
+"434","Hamas",2000-07-01,-1.8,1999-11-01,"2014-09-01"
+"435","Hamas",2000-08-01,-1.8,1999-11-01,"2014-09-01"
+"436","Hamas",2000-09-01,-1.8,1999-11-01,"2014-09-01"
+"437","Hamas",2000-10-01,-1.8,1999-11-01,"2014-09-01"
+"438","Hamas",2000-11-01,-3.5,1999-12-01,"2014-09-01"
+"439","Hamas",2000-12-01,-6.4,2000-11-01,"2014-09-01"
+"440","Hamas",2001-03-01,-4.16923077,2001-02-01,"2014-09-01"
+"441","Hamas",2001-04-01,-7.8,2001-03-01,"2014-09-01"
+"442","Hamas",2001-05-01,-8.14285714,2001-04-01,"2014-09-01"
+"443","Hamas",2001-06-01,-3.46666667,2001-05-01,"2014-09-01"
+"444","Hamas",2001-07-01,-2.5,2001-06-01,"2014-09-01"
+"445","Hamas",2001-08-01,-5.588,2001-07-01,"2014-09-01"
+"446","Hamas",2001-09-01,-5.9375,2001-08-01,"2014-09-01"
+"447","Hamas",2001-10-01,-8.5,2001-09-01,"2014-09-01"
+"448","Hamas",2001-11-01,-8.5,2001-09-01,"2014-09-01"
+"449","Hamas",2001-12-01,-7.94318182,2001-10-01,"2014-09-01"
+"450","Hamas",2002-01-01,-8,2001-12-01,"2014-09-01"
+"451","Hamas",2002-02-01,-5.75,2002-01-01,"2014-09-01"
+"452","Hamas",2002-03-01,-5.42857143,2002-02-01,"2014-09-01"
+"453","Hamas",2002-04-01,-7.5,2002-03-01,"2014-09-01"
+"454","Hamas",2002-05-01,-8.3125,2002-04-01,"2014-09-01"
+"455","Hamas",2002-06-01,-8.375,2002-05-01,"2014-09-01"
+"456","Hamas",2002-07-01,-8.68,2002-06-01,"2014-09-01"
+"457","Hamas",2002-08-01,-8.26470588,2002-07-01,"2014-09-01"
+"458","Hamas",2002-09-01,-6.125,2002-08-01,"2014-09-01"
+"459","Hamas",2002-10-01,-6,2002-09-01,"2014-09-01"
+"460","Hamas",2002-11-01,-3.75,2002-10-01,"2014-09-01"
+"461","Hamas",2002-12-01,-9.125,2002-11-01,"2014-09-01"
+"462","Hamas",2003-01-01,-5.14285714,2002-12-01,"2014-09-01"
+"463","Hamas",2003-02-01,-6.92307692,2003-01-01,"2014-09-01"
+"464","Hamas",2003-03-01,-6.92,2003-02-01,"2014-09-01"
+"465","Hamas",2003-04-01,-4,2003-03-01,"2014-09-01"
+"466","Hamas",2003-05-01,-6.8,2003-04-01,"2014-09-01"
+"467","Hamas",2003-06-01,-5.27887324,2003-05-01,"2014-09-01"
+"468","Hamas",2003-07-01,-3.1,2003-06-01,"2014-09-01"
+"469","Hamas",2003-08-01,-7.23255814,2003-07-01,"2014-09-01"
+"470","Hamas",2003-09-01,-6.86363636,2003-08-01,"2014-09-01"
+"471","Hamas",2003-10-01,-6.8,2003-09-01,"2014-09-01"
+"472","Hamas",2003-12-01,-5.5,2003-11-01,"2014-09-01"
+"473","Hamas",2004-01-01,-6.505,2003-12-01,"2014-09-01"
+"474","Hamas",2004-02-01,-9.42857143,2004-01-01,"2014-09-01"
+"475","Hamas",2004-03-01,-6.34615385,2004-02-01,"2014-09-01"
+"476","Hamas",2004-04-01,-7.46153846,2004-03-01,"2014-09-01"
+"477","Hamas",2004-05-01,-4.05,2004-04-01,"2014-09-01"
+"478","Hamas",2004-06-01,-9.11111111,2004-05-01,"2014-09-01"
+"479","Hamas",2004-07-01,-8.48571429,2004-06-01,"2014-09-01"
+"480","Hamas",2004-08-01,-9,2004-07-01,"2014-09-01"
+"481","Hamas",2004-09-01,-8.13207547,2004-08-01,"2014-09-01"
+"482","Hamas",2004-10-01,-9.71428571,2004-09-01,"2014-09-01"
+"483","Hamas",2004-11-01,-4.92307692,2004-10-01,"2014-09-01"
+"484","Hamas",2004-12-01,-4.1,2004-11-01,"2014-09-01"
+"485","Hamas",2005-01-01,-6.14285714,2004-12-01,"2014-09-01"
+"486","Hamas",2005-02-01,-3.28571429,2005-01-01,"2014-09-01"
+"487","Hamas",2005-03-01,-1,2005-02-01,"2014-09-01"
+"488","Hamas",2005-04-01,-3.2,2005-03-01,"2014-09-01"
+"489","Hamas",2005-05-01,-0.62727273,2005-04-01,"2014-09-01"
+"490","Hamas",2005-06-01,-4.7,2005-05-01,"2014-09-01"
+"491","Hamas",2005-07-01,-9.33333333,2005-06-01,"2014-09-01"
+"492","Hamas",2005-08-01,-1.28,2005-07-01,"2014-09-01"
+"493","Hamas",2005-09-01,-5.86451613,2005-08-01,"2014-09-01"
+"494","Hamas",2005-10-01,-6.875,2005-09-01,"2014-09-01"
+"495","Hamas",2005-11-01,-0.4,2005-10-01,"2014-09-01"
+"496","Hamas",2005-12-01,-6,2005-11-01,"2014-09-01"
+"497","Hamas",2006-01-01,-4.17462687,2005-12-01,"2014-09-01"
+"498","Hamas",2006-02-01,-0.72,2006-01-01,"2014-09-01"
+"499","Hamas",2006-04-01,-0.31363636,2006-03-01,"2014-09-01"
+"500","Hamas",2006-06-01,-2.492,2006-05-01,"2014-09-01"
+"501","Hamas",2006-07-01,-3.37941176,2006-06-01,"2014-09-01"
+"502","Hamas",2006-08-01,-2.4,2006-07-01,"2014-09-01"
+"503","Hamas",2006-09-01,-0.26315789,2006-08-01,"2014-09-01"
+"504","Hamas",2006-10-01,-2.26190476,2006-09-01,"2014-09-01"
+"505","Hamas",2006-11-01,-4.60714286,2006-10-01,"2014-09-01"
+"506","Hamas",2006-12-01,-3.67692308,2006-11-01,"2014-09-01"
+"507","Hamas",2007-01-01,-1.73333333,2006-12-01,"2014-09-01"
+"508","Hamas",2007-04-01,-6.28571429,2007-03-01,"2014-09-01"
+"509","Hamas",2007-05-01,-7.99333333,2007-04-01,"2014-09-01"
+"510","Hamas",2007-07-01,-3.66666667,2007-06-01,"2014-09-01"
+"511","Hamas",2007-08-01,-4.23333333,2007-07-01,"2014-09-01"
+"512","Hamas",2007-09-01,-5.8,2007-08-01,"2014-09-01"
+"513","Hamas",2007-10-01,-0.16666667,2007-09-01,"2014-09-01"
+"514","Hamas",2007-11-01,-4.33333333,2007-10-01,"2014-09-01"
+"515","Hamas",2008-01-01,-5.75,2007-12-01,"2014-09-01"
+"516","Hamas",2008-02-01,-5.53030303,2008-01-01,"2014-09-01"
+"517","Hamas",2008-03-01,-2.72903226,2008-02-01,"2014-09-01"
+"518","Hamas",2008-04-01,-1.63333333,2008-03-01,"2014-09-01"
+"519","Hamas",2008-05-01,-0.16153846,2008-04-01,"2014-09-01"
+"520","Hamas",2008-07-01,-1,2008-06-01,"2014-09-01"
+"521","Hamas",2008-09-01,-1.8,2008-08-01,"2014-09-01"
+"522","Hamas",2008-10-01,-2.2,2008-09-01,"2014-09-01"
+"523","Hamas",2008-11-01,-5.94545455,2008-10-01,"2014-09-01"
+"524","Hamas",2008-12-01,-5.29210526,2008-11-01,"2014-09-01"
+"525","Hamas",2009-01-01,-5.49393939,2008-12-01,"2014-09-01"
+"526","Hamas",2009-02-01,-0.6952381,2009-01-01,"2014-09-01"
+"527","Hamas",2009-03-01,-3.81428571,2009-02-01,"2014-09-01"
+"528","Hamas",2009-04-01,-2.11111111,2009-03-01,"2014-09-01"
+"529","Hamas",2009-05-01,-3,2009-04-01,"2014-09-01"
+"530","Hamas",2009-06-01,-0.33333333,2009-05-01,"2014-09-01"
+"531","Hamas",2009-08-01,-5,2009-07-01,"2014-09-01"
+"532","Hamas",2009-09-01,-1,2009-08-01,"2014-09-01"
+"533","Hamas",2009-10-01,-4.25,2009-09-01,"2014-09-01"
+"534","Hamas",2009-11-01,-2.8,2009-10-01,"2014-09-01"
+"535","Hamas",2009-12-01,-0.125,2009-11-01,"2014-09-01"
+"536","Hamas",2010-01-01,-3.41666667,2009-12-01,"2014-09-01"
+"537","Hamas",2010-03-01,-3,2010-02-01,"2014-09-01"
+"538","Hamas",2010-04-01,-1.2,2010-03-01,"2014-09-01"
+"539","Hamas",2010-05-01,-3.83333333,2010-04-01,"2014-09-01"
+"540","Hamas",2010-06-01,-5.1,2010-05-01,"2014-09-01"
+"541","Hamas",2010-07-01,-0.78888889,2010-06-01,"2014-09-01"
+"542","Hamas",2010-08-01,-3.5,2010-07-01,"2014-09-01"
+"543","Hamas",2010-09-01,-5.30909091,2010-08-01,"2014-09-01"
+"544","Hamas",2010-10-01,-1,2010-09-01,"2014-09-01"
+"545","Hamas",2011-02-01,-2,2010-12-01,"2014-09-01"
+"546","Hamas",2011-03-01,-7.57142857,2011-02-01,"2014-09-01"
+"547","Hamas",2011-04-01,-6.36363636,2011-03-01,"2014-09-01"
+"548","Hamas",2011-05-01,-4.2,2011-04-01,"2014-09-01"
+"549","Hamas",2011-07-01,-6.66666667,2011-06-01,"2014-09-01"
+"550","Hamas",2011-08-01,-1.43333333,2011-07-01,"2014-09-01"
+"551","Hamas",2011-11-01,-1,2011-10-01,"2014-09-01"
+"552","Hamas",2011-12-01,-0.16666667,2011-11-01,"2014-09-01"
+"553","Hamas",2012-01-01,-0.66666667,2011-12-01,"2014-09-01"
+"554","Hamas",2012-03-01,-6,2012-02-01,"2014-09-01"
+"555","Hamas",2012-04-01,-4.5625,2012-03-01,"2014-09-01"
+"556","Hamas",2012-05-01,-5.95,2012-04-01,"2014-09-01"
+"557","Hamas",2012-06-01,-0.55,2012-05-01,"2014-09-01"
+"558","Hamas",2012-07-01,-0.55,2012-06-01,"2014-09-01"
+"559","Hamas",2012-08-01,-0.55,2012-06-01,"2014-09-01"
+"560","Hamas",2012-09-01,-2,2012-07-01,"2014-09-01"
+"561","Hamas",2012-10-01,-9.5,2012-09-01,"2014-09-01"
+"562","Hamas",2012-11-01,-6.96404494,2012-10-01,"2014-09-01"
+"563","Hamas",2012-12-01,-1.36666667,2012-11-01,"2014-09-01"
+"564","Hamas",2013-01-01,-1.36666667,2012-11-01,"2014-09-01"
+"565","Hamas",2013-02-01,-1.36666667,2012-11-01,"2014-09-01"
+"566","Hamas",2013-03-01,-1.36666667,2012-11-01,"2014-09-01"
+"567","Hamas",2013-04-01,-1.36666667,2012-11-01,"2014-09-01"
+"568","Hamas",2013-05-01,-1.36666667,2012-11-01,"2014-09-01"
+"569","Hamas",2013-06-01,-1.36666667,2012-11-01,"2014-09-01"
+"570","Hamas",2013-07-01,-1.36666667,2012-11-01,"2014-09-01"
+"571","Hamas",2013-08-01,-1.36666667,2012-11-01,"2014-09-01"
+"572","Hamas",2013-09-01,-1.36666667,2012-11-01,"2014-09-01"
+"573","Hamas",2013-10-01,-1.36666667,2012-11-01,"2014-09-01"
+"574","Hamas",2013-11-01,-1.36666667,2012-11-01,"2014-09-01"
+"575","Hamas",2013-12-01,-1.36666667,2012-11-01,"2014-09-01"
+"576","Hamas",2014-01-01,-1.36666667,2012-11-01,"2014-09-01"
+"577","Hamas",2014-02-01,-1.36666667,2012-11-01,"2014-09-01"
+"578","Hamas",2014-03-01,-1.36666667,2012-11-01,"2014-09-01"
+"579","Hamas",2014-04-01,-1.36666667,2012-11-01,"2014-09-01"
+"580","Hamas",2014-05-01,-1.36666667,2012-11-01,"2014-09-01"
+"581","Hamas",2014-06-01,-1.36666667,2012-11-01,"2014-09-01"
+"582","Hamas",2014-07-01,-6.44444444,2012-12-01,"2014-09-01"
+"583","Hamas",2014-08-01,-4.28181818,2014-07-01,"2014-09-01"
+"584","Hamas",2014-09-01,-4.28181818,2014-07-01,"2014-09-01"
+"585","Islamic Jihad",1995-01-01,-9.666667,1995-01-01,"2014-09-01"
+"586","Islamic Jihad",1995-02-01,-10,1995-01-01,"2014-09-01"
+"587","Islamic Jihad",1995-03-01,-10,1995-01-01,"2014-09-01"
+"588","Islamic Jihad",1995-04-01,-10,1995-01-01,"2014-09-01"
+"589","Islamic Jihad",1995-05-01,-7,1995-02-01,"2014-09-01"
+"590","Islamic Jihad",1995-06-01,-7,1995-02-01,"2014-09-01"
+"591","Islamic Jihad",1995-07-01,-7,1995-05-01,"2014-09-01"
+"592","Islamic Jihad",1995-08-01,-10,1995-07-01,"2014-09-01"
+"593","Islamic Jihad",1995-09-01,-10,1995-07-01,"2014-09-01"
+"594","Islamic Jihad",1995-10-01,-6.833333,1995-08-01,"2014-09-01"
+"595","Islamic Jihad",1995-11-01,-6,1995-10-01,"2014-09-01"
+"596","Islamic Jihad",1996-01-01,-4.4,1995-12-01,"2014-09-01"
+"597","Islamic Jihad",1996-02-01,-4.4,1995-12-01,"2014-09-01"
+"598","Islamic Jihad",1996-03-01,-10,1996-01-01,"2014-09-01"
+"599","Islamic Jihad",1996-04-01,-5,1996-03-01,"2014-09-01"
+"600","Islamic Jihad",1996-05-01,-5,1996-03-01,"2014-09-01"
+"601","Islamic Jihad",1996-06-01,-5,1996-03-01,"2014-09-01"
+"602","Islamic Jihad",1996-07-01,-2,1996-04-01,"2014-09-01"
+"603","Islamic Jihad",1996-08-01,-2,1996-04-01,"2014-09-01"
+"604","Islamic Jihad",1996-09-01,-2,1996-04-01,"2014-09-01"
+"605","Islamic Jihad",1996-10-01,-2,1996-04-01,"2014-09-01"
+"606","Islamic Jihad",1996-11-01,-2,1996-07-01,"2014-09-01"
+"607","Islamic Jihad",1996-12-01,-7,1996-11-01,"2014-09-01"
+"608","Islamic Jihad",1997-01-01,-7,1996-11-01,"2014-09-01"
+"609","Islamic Jihad",1997-02-01,-7,1996-11-01,"2014-09-01"
+"610","Islamic Jihad",1997-03-01,-7,1996-11-01,"2014-09-01"
+"611","Islamic Jihad",1997-04-01,-7,1996-11-01,"2014-09-01"
+"612","Islamic Jihad",1997-05-01,-2,1996-12-01,"2014-09-01"
+"613","Islamic Jihad",1997-06-01,-2,1997-05-01,"2014-09-01"
+"614","Islamic Jihad",1997-07-01,-2,1997-05-01,"2014-09-01"
+"615","Islamic Jihad",1997-08-01,-2,1997-05-01,"2014-09-01"
+"616","Islamic Jihad",1997-09-01,-2,1997-05-01,"2014-09-01"
+"617","Islamic Jihad",1997-10-01,-2,1997-05-01,"2014-09-01"
+"618","Islamic Jihad",1997-11-01,-4.8,1997-06-01,"2014-09-01"
+"619","Islamic Jihad",1997-12-01,-4.8,1997-06-01,"2014-09-01"
+"620","Islamic Jihad",1998-01-01,-9,1997-11-01,"2014-09-01"
+"621","Islamic Jihad",1998-02-01,-9,1997-11-01,"2014-09-01"
+"622","Islamic Jihad",1998-03-01,-9,1997-11-01,"2014-09-01"
+"623","Islamic Jihad",1998-04-01,-9,1997-11-01,"2014-09-01"
+"624","Islamic Jihad",1998-05-01,-9,1997-11-01,"2014-09-01"
+"625","Islamic Jihad",1998-06-01,-9,1997-11-01,"2014-09-01"
+"626","Islamic Jihad",1998-07-01,-9,1997-11-01,"2014-09-01"
+"627","Islamic Jihad",1998-08-01,-9,1997-11-01,"2014-09-01"
+"628","Islamic Jihad",1998-09-01,-9,1997-11-01,"2014-09-01"
+"629","Islamic Jihad",1998-10-01,-9,1997-11-01,"2014-09-01"
+"630","Islamic Jihad",1998-11-01,-10,1998-01-01,"2014-09-01"
+"631","Islamic Jihad",1998-12-01,-10,1998-01-01,"2014-09-01"
+"632","Islamic Jihad",1999-01-01,-10,1998-01-01,"2014-09-01"
+"633","Islamic Jihad",1999-02-01,-10,1998-11-01,"2014-09-01"
+"634","Islamic Jihad",1999-03-01,-10,1998-11-01,"2014-09-01"
+"635","Islamic Jihad",1999-04-01,-10,1998-11-01,"2014-09-01"
+"636","Islamic Jihad",1999-05-01,-10,1999-02-01,"2014-09-01"
+"637","Islamic Jihad",1999-06-01,-2,1999-05-01,"2014-09-01"
+"638","Islamic Jihad",1999-07-01,-2,1999-05-01,"2014-09-01"
+"639","Islamic Jihad",1999-08-01,-2,1999-05-01,"2014-09-01"
+"640","Islamic Jihad",1999-09-01,-2,1999-05-01,"2014-09-01"
+"641","Islamic Jihad",1999-10-01,-6.666667,1999-06-01,"2014-09-01"
+"642","Islamic Jihad",1999-11-01,-6.666667,1999-06-01,"2014-09-01"
+"643","Islamic Jihad",1999-12-01,-6.666667,1999-06-01,"2014-09-01"
+"644","Islamic Jihad",2000-01-01,-6.666667,1999-06-01,"2014-09-01"
+"645","Islamic Jihad",2000-02-01,-6.666667,1999-06-01,"2014-09-01"
+"646","Islamic Jihad",2000-03-01,-6.666667,1999-06-01,"2014-09-01"
+"647","Islamic Jihad",2000-04-01,-6.666667,1999-06-01,"2014-09-01"
+"648","Islamic Jihad",2000-05-01,-6.666667,1999-06-01,"2014-09-01"
+"649","Islamic Jihad",2000-06-01,-6.666667,1999-06-01,"2014-09-01"
+"650","Islamic Jihad",2000-07-01,-6.666667,1999-06-01,"2014-09-01"
+"651","Islamic Jihad",2000-08-01,-6.666667,1999-06-01,"2014-09-01"
+"652","Islamic Jihad",2000-09-01,-6.666667,1999-06-01,"2014-09-01"
+"653","Islamic Jihad",2000-10-01,-6.666667,1999-06-01,"2014-09-01"
+"654","Islamic Jihad",2000-11-01,-10,1999-10-01,"2014-09-01"
+"655","Islamic Jihad",2000-12-01,-10,1999-10-01,"2014-09-01"
+"656","Islamic Jihad",2001-01-01,-10,2000-11-01,"2014-09-01"
+"657","Islamic Jihad",2001-02-01,-10,2000-11-01,"2014-09-01"
+"658","Islamic Jihad",2001-03-01,-3.3,2001-01-01,"2014-09-01"
+"659","Islamic Jihad",2001-04-01,-4,2001-03-01,"2014-09-01"
+"660","Islamic Jihad",2001-05-01,-5,2001-04-01,"2014-09-01"
+"661","Islamic Jihad",2001-06-01,-5,2001-04-01,"2014-09-01"
+"662","Islamic Jihad",2001-07-01,-7.5875,2001-05-01,"2014-09-01"
+"663","Islamic Jihad",2001-08-01,-6.94,2001-07-01,"2014-09-01"
+"664","Islamic Jihad",2001-09-01,-6,2001-08-01,"2014-09-01"
+"665","Islamic Jihad",2001-10-01,-6.315789,2001-09-01,"2014-09-01"
+"666","Islamic Jihad",2001-11-01,-8.9,2001-10-01,"2014-09-01"
+"667","Islamic Jihad",2001-12-01,-7.294118,2001-11-01,"2014-09-01"
+"668","Islamic Jihad",2002-01-01,-8.5,2001-12-01,"2014-09-01"
+"669","Islamic Jihad",2002-02-01,-8.5,2001-12-01,"2014-09-01"
+"670","Islamic Jihad",2002-03-01,-8.5,2001-12-01,"2014-09-01"
+"671","Islamic Jihad",2002-04-01,-8.5,2001-12-01,"2014-09-01"
+"672","Islamic Jihad",2002-05-01,-7,2002-01-01,"2014-09-01"
+"673","Islamic Jihad",2002-06-01,-9,2002-05-01,"2014-09-01"
+"674","Islamic Jihad",2002-07-01,-5.5,2002-06-01,"2014-09-01"
+"675","Islamic Jihad",2002-08-01,-7,2002-07-01,"2014-09-01"
+"676","Islamic Jihad",2002-09-01,-9,2002-08-01,"2014-09-01"
+"677","Islamic Jihad",2002-10-01,-9,2002-09-01,"2014-09-01"
+"678","Islamic Jihad",2002-11-01,-9.5,2002-10-01,"2014-09-01"
+"679","Islamic Jihad",2002-12-01,-9,2002-11-01,"2014-09-01"
+"680","Islamic Jihad",2003-01-01,-7.5,2002-12-01,"2014-09-01"
+"681","Islamic Jihad",2003-02-01,-10,2003-01-01,"2014-09-01"
+"682","Islamic Jihad",2003-03-01,-8.625,2003-02-01,"2014-09-01"
+"683","Islamic Jihad",2003-04-01,-10,2003-03-01,"2014-09-01"
+"684","Islamic Jihad",2003-05-01,-6.666667,2003-04-01,"2014-09-01"
+"685","Islamic Jihad",2003-06-01,-2.571429,2003-05-01,"2014-09-01"
+"686","Islamic Jihad",2003-07-01,-5.444444,2003-06-01,"2014-09-01"
+"687","Islamic Jihad",2003-08-01,-3.777778,2003-07-01,"2014-09-01"
+"688","Islamic Jihad",2003-09-01,-4.4,2003-08-01,"2014-09-01"
+"689","Islamic Jihad",2003-10-01,-7.681818,2003-09-01,"2014-09-01"
+"690","Islamic Jihad",2003-11-01,-8.5,2003-10-01,"2014-09-01"
+"691","Islamic Jihad",2003-12-01,-4.5,2003-11-01,"2014-09-01"
+"692","Islamic Jihad",2004-01-01,-7,2003-12-01,"2014-09-01"
+"693","Islamic Jihad",2004-02-01,-6,2004-01-01,"2014-09-01"
+"694","Islamic Jihad",2004-04-01,-2,2004-03-01,"2014-09-01"
+"695","Islamic Jihad",2004-05-01,-2,2004-03-01,"2014-09-01"
+"696","Islamic Jihad",2004-06-01,-2,2004-04-01,"2014-09-01"
+"697","Islamic Jihad",2004-07-01,-2,2004-04-01,"2014-09-01"
+"698","Islamic Jihad",2004-08-01,-2,2004-04-01,"2014-09-01"
+"699","Islamic Jihad",2004-09-01,-2,2004-04-01,"2014-09-01"
+"700","Islamic Jihad",2004-10-01,-10,2004-06-01,"2014-09-01"
+"701","Islamic Jihad",2004-11-01,-10,2004-10-01,"2014-09-01"
+"702","Islamic Jihad",2004-12-01,-10,2004-11-01,"2014-09-01"
+"703","Islamic Jihad",2005-01-01,-10,2004-12-01,"2014-09-01"
+"704","Islamic Jihad",2005-02-01,-6.842105,2005-01-01,"2014-09-01"
+"705","Islamic Jihad",2005-03-01,-7.176471,2005-02-01,"2014-09-01"
+"706","Islamic Jihad",2005-04-01,-7.176471,2005-02-01,"2014-09-01"
+"707","Islamic Jihad",2005-05-01,-5.5,2005-03-01,"2014-09-01"
+"708","Islamic Jihad",2005-06-01,-6.007692,2005-05-01,"2014-09-01"
+"709","Islamic Jihad",2005-07-01,-8,2005-06-01,"2014-09-01"
+"710","Islamic Jihad",2005-08-01,-10,2005-07-01,"2014-09-01"
+"711","Islamic Jihad",2005-09-01,-10,2005-08-01,"2014-09-01"
+"712","Islamic Jihad",2005-10-01,-7.3,2005-09-01,"2014-09-01"
+"713","Islamic Jihad",2005-11-01,-10,2005-10-01,"2014-09-01"
+"714","Islamic Jihad",2005-12-01,-7.903226,2005-11-01,"2014-09-01"
+"715","Islamic Jihad",2006-01-01,-8.52,2005-12-01,"2014-09-01"
+"716","Islamic Jihad",2006-02-01,-5,2006-01-01,"2014-09-01"
+"717","Islamic Jihad",2006-03-01,-6.2,2006-02-01,"2014-09-01"
+"718","Islamic Jihad",2006-04-01,-8.868421,2006-03-01,"2014-09-01"
+"719","Islamic Jihad",2006-05-01,-10,2006-04-01,"2014-09-01"
+"720","Islamic Jihad",2006-06-01,-6.9,2006-05-01,"2014-09-01"
+"721","Islamic Jihad",2006-07-01,-7.5,2006-06-01,"2014-09-01"
+"722","Islamic Jihad",2006-08-01,-5,2006-07-01,"2014-09-01"
+"723","Islamic Jihad",2006-09-01,-10,2006-08-01,"2014-09-01"
+"724","Islamic Jihad",2006-10-01,-6.4,2006-09-01,"2014-09-01"
+"725","Islamic Jihad",2006-11-01,-10,2006-10-01,"2014-09-01"
+"726","Islamic Jihad",2006-12-01,-4.666667,2006-11-01,"2014-09-01"
+"727","Islamic Jihad",2007-01-01,-7.444444,2006-12-01,"2014-09-01"
+"728","Islamic Jihad",2007-02-01,-7.444444,2007-01-01,"2014-09-01"
+"729","Islamic Jihad",2007-03-01,-8.5,2007-02-01,"2014-09-01"
+"730","Islamic Jihad",2007-04-01,-8.5,2007-02-01,"2014-09-01"
+"731","Islamic Jihad",2007-05-01,-10,2007-03-01,"2014-09-01"
+"732","Islamic Jihad",2007-06-01,-10,2007-05-01,"2014-09-01"
+"733","Islamic Jihad",2007-07-01,-10,2007-06-01,"2014-09-01"
+"734","Islamic Jihad",2007-08-01,-9,2007-07-01,"2014-09-01"
+"735","Islamic Jihad",2007-09-01,-9.857143,2007-08-01,"2014-09-01"
+"736","Islamic Jihad",2007-10-01,-10,2007-09-01,"2014-09-01"
+"737","Islamic Jihad",2007-11-01,-9.142857,2007-10-01,"2014-09-01"
+"738","Islamic Jihad",2007-12-01,-8,2007-11-01,"2014-09-01"
+"739","Islamic Jihad",2008-01-01,-10,2007-12-01,"2014-09-01"
+"740","Islamic Jihad",2008-02-01,-10,2008-01-01,"2014-09-01"
+"741","Islamic Jihad",2008-03-01,-9.916667,2008-02-01,"2014-09-01"
+"742","Islamic Jihad",2008-04-01,-7.5,2008-03-01,"2014-09-01"
+"743","Islamic Jihad",2008-05-01,-7.828571,2008-04-01,"2014-09-01"
+"744","Islamic Jihad",2008-06-01,-9.142857,2008-05-01,"2014-09-01"
+"745","Islamic Jihad",2008-07-01,-9.142857,2008-05-01,"2014-09-01"
+"746","Islamic Jihad",2008-11-01,-5,2008-10-01,"2014-09-01"
+"747","Islamic Jihad",2008-12-01,-7.2625,2008-11-01,"2014-09-01"
+"748","Islamic Jihad",2009-01-01,-5,2008-12-01,"2014-09-01"
+"749","Islamic Jihad",2009-02-01,-10,2009-01-01,"2014-09-01"
+"750","Islamic Jihad",2009-03-01,-10,2009-02-01,"2014-09-01"
+"751","Islamic Jihad",2009-04-01,-4.5,2009-03-01,"2014-09-01"
+"752","Islamic Jihad",2009-05-01,-4.5,2009-03-01,"2014-09-01"
+"753","Islamic Jihad",2009-06-01,-4.5,2009-03-01,"2014-09-01"
+"754","Islamic Jihad",2009-07-01,-4.5,2009-03-01,"2014-09-01"
+"755","Islamic Jihad",2009-08-01,-4.5,2009-03-01,"2014-09-01"
+"756","Islamic Jihad",2009-09-01,-4.5,2009-03-01,"2014-09-01"
+"757","Islamic Jihad",2009-10-01,-4.5,2009-03-01,"2014-09-01"
+"758","Islamic Jihad",2009-11-01,-4.5,2009-03-01,"2014-09-01"
+"759","Islamic Jihad",2010-05-01,-5,2010-02-01,"2014-09-01"
+"760","Islamic Jihad",2010-06-01,-5,2010-02-01,"2014-09-01"
+"761","Islamic Jihad",2010-07-01,-5,2010-02-01,"2014-09-01"
+"762","Islamic Jihad",2010-08-01,-5,2010-02-01,"2014-09-01"
+"763","Islamic Jihad",2011-03-01,-7.233333,2010-09-01,"2014-09-01"
+"764","Islamic Jihad",2011-04-01,-4,2011-03-01,"2014-09-01"
+"765","Islamic Jihad",2011-05-01,-4,2011-03-01,"2014-09-01"
+"766","Islamic Jihad",2011-06-01,-4,2011-03-01,"2014-09-01"
+"767","Islamic Jihad",2011-07-01,-4,2011-03-01,"2014-09-01"
+"768","Islamic Jihad",2011-08-01,-10,2011-04-01,"2014-09-01"
+"769","Islamic Jihad",2011-09-01,-10,2011-04-01,"2014-09-01"
+"770","Islamic Jihad",2011-10-01,-10,2011-08-01,"2014-09-01"
+"771","Islamic Jihad",2011-11-01,-10,2011-10-01,"2014-09-01"
+"772","Islamic Jihad",2011-12-01,-10,2011-10-01,"2014-09-01"
+"773","Islamic Jihad",2012-01-01,-7,2011-11-01,"2014-09-01"
+"774","Islamic Jihad",2012-11-01,-10,2012-10-01,"2014-09-01"
+"775","Islamic Jihad",2012-12-01,-10,2012-10-01,"2014-09-01"
+"776","Islamic Jihad",2013-01-01,-10,2012-10-01,"2014-09-01"
+"777","Islamic Jihad",2013-02-01,-10,2012-10-01,"2014-09-01"
+"778","Islamic Jihad",2013-03-01,-10,2012-10-01,"2014-09-01"
+"779","Islamic Jihad",2013-04-01,-10,2012-10-01,"2014-09-01"
+"780","Islamic Jihad",2013-05-01,-10,2012-10-01,"2014-09-01"
+"781","Islamic Jihad",2013-06-01,-10,2012-10-01,"2014-09-01"
+"782","Islamic Jihad",2013-07-01,-10,2012-10-01,"2014-09-01"
+"783","Islamic Jihad",2013-08-01,-10,2012-10-01,"2014-09-01"
+"784","Islamic Jihad",2013-09-01,-10,2012-10-01,"2014-09-01"
+"785","Islamic Jihad",2013-10-01,-10,2012-10-01,"2014-09-01"
+"786","Islamic Jihad",2013-11-01,-10,2012-10-01,"2014-09-01"
+"787","Islamic Jihad",2013-12-01,-10,2012-10-01,"2014-09-01"
+"788","Islamic Jihad",2014-01-01,-10,2012-10-01,"2014-09-01"
+"789","Islamic Jihad",2014-02-01,-10,2012-10-01,"2014-09-01"
+"790","Islamic Jihad",2014-03-01,-10,2012-10-01,"2014-09-01"
+"791","Islamic Jihad",2014-04-01,-10,2012-10-01,"2014-09-01"
+"792","Islamic Jihad",2014-05-01,-10,2012-10-01,"2014-09-01"
+"793","Islamic Jihad",2014-06-01,-10,2012-10-01,"2014-09-01"
+"794","Islamic Jihad",2014-07-01,-10,2012-11-01,"2014-09-01"
+"795","Islamic Jihad",2014-08-01,-10,2012-11-01,"2014-09-01"
+"796","Islamic Jihad",2014-09-01,-10,2012-11-01,"2014-09-01"
+"797","Islamic Movement in Israel",1999-10-01,-2,1999-09-01,"2014-09-01"
+"798","Islamic Movement in Israel",1999-11-01,-2,1999-09-01,"2014-09-01"
+"799","Islamic Movement in Israel",1999-12-01,-2,1999-09-01,"2014-09-01"
+"800","Islamic Movement in Israel",2000-01-01,-2,1999-09-01,"2014-09-01"
+"801","Islamic Movement in Israel",2000-02-01,-2,1999-09-01,"2014-09-01"
+"802","Islamic Movement in Israel",2000-03-01,-2,1999-09-01,"2014-09-01"
+"803","Islamic Movement in Israel",2000-04-01,-2,1999-09-01,"2014-09-01"
+"804","Islamic Movement in Israel",2000-05-01,-2,1999-09-01,"2014-09-01"
+"805","Islamic Movement in Israel",2000-06-01,-2,1999-09-01,"2014-09-01"
+"806","Islamic Movement in Israel",2000-07-01,-2,1999-09-01,"2014-09-01"
+"807","Islamic Movement in Israel",2000-08-01,-2,1999-09-01,"2014-09-01"
+"808","Islamic Movement in Israel",2000-09-01,-2,1999-09-01,"2014-09-01"
+"809","Islamic Movement in Israel",2000-10-01,-2,1999-09-01,"2014-09-01"
+"810","Islamic Movement in Israel",2000-11-01,-2,1999-09-01,"2014-09-01"
+"811","Islamic Movement in Israel",2000-12-01,-2,1999-09-01,"2014-09-01"
+"812","Islamic Movement in Israel",2001-01-01,-2,1999-10-01,"2014-09-01"
+"813","Islamic Movement in Israel",2001-02-01,-2,1999-10-01,"2014-09-01"
+"814","Islamic Movement in Israel",2001-03-01,-2,1999-10-01,"2014-09-01"
+"815","Islamic Movement in Israel",2001-04-01,-2,1999-10-01,"2014-09-01"
+"816","Islamic Movement in Israel",2001-05-01,-2,1999-10-01,"2014-09-01"
+"817","Islamic Movement in Israel",2001-06-01,-2,1999-10-01,"2014-09-01"
+"818","Islamic Movement in Israel",2001-07-01,-2,1999-10-01,"2014-09-01"
+"819","Islamic Movement in Israel",2001-08-01,-2,1999-10-01,"2014-09-01"
+"820","Islamic Movement in Israel",2001-09-01,-2,1999-10-01,"2014-09-01"
+"821","Islamic Movement in Israel",2002-01-01,-6.5,2001-01-01,"2014-09-01"
+"822","Islamic Movement in Israel",2002-02-01,-6.5,2001-01-01,"2014-09-01"
+"823","Islamic Movement in Israel",2002-03-01,-6.5,2001-01-01,"2014-09-01"
+"824","Islamic Movement in Israel",2002-04-01,-6.5,2001-01-01,"2014-09-01"
+"825","Islamic Movement in Israel",2002-05-01,-6.5,2001-01-01,"2014-09-01"
+"826","Islamic Movement in Israel",2002-06-01,-6.5,2001-01-01,"2014-09-01"
+"827","Islamic Movement in Israel",2002-07-01,-6.5,2001-01-01,"2014-09-01"
+"828","Islamic Movement in Israel",2002-08-01,-6.5,2001-01-01,"2014-09-01"
+"829","Islamic Movement in Israel",2002-09-01,-6.5,2001-01-01,"2014-09-01"
+"830","Islamic Movement in Israel",2002-10-01,-6.5,2001-01-01,"2014-09-01"
+"831","Islamic Movement in Israel",2002-11-01,-6.5,2001-01-01,"2014-09-01"
+"832","Islamic Movement in Israel",2002-12-01,-6.5,2001-01-01,"2014-09-01"
+"833","Islamic Movement in Israel",2003-01-01,-6.5,2001-01-01,"2014-09-01"
+"834","Islamic Movement in Israel",2003-05-01,-6.5,2002-01-01,"2014-09-01"
+"835","Islamic Movement in Israel",2003-06-01,-6.5,2002-01-01,"2014-09-01"
+"836","Islamic Movement in Israel",2003-07-01,-6.5,2002-01-01,"2014-09-01"
+"837","Islamic Movement in Israel",2003-08-01,-6.5,2002-01-01,"2014-09-01"
+"838","Islamic Movement in Israel",2003-09-01,-6.5,2002-01-01,"2014-09-01"
+"839","Islamic Movement in Israel",2003-10-01,-6.5,2002-01-01,"2014-09-01"
+"840","Islamic Movement in Israel",2003-11-01,-6.5,2002-01-01,"2014-09-01"
+"841","Islamic Movement in Israel",2003-12-01,-6.5,2002-01-01,"2014-09-01"
+"842","Islamic Movement in Israel",2004-01-01,-6.5,2002-01-01,"2014-09-01"
+"843","Islamic Movement in Israel",2006-09-01,-2,2006-03-01,"2014-09-01"
+"844","Islamic Movement in Israel",2006-10-01,-2,2006-03-01,"2014-09-01"
+"845","Islamic Movement in Israel",2006-11-01,-2,2006-03-01,"2014-09-01"
+"846","Islamic Movement in Israel",2006-12-01,-2,2006-03-01,"2014-09-01"
+"847","Islamic Movement in Israel",2007-01-01,-2,2006-03-01,"2014-09-01"
+"848","Islamic Movement in Israel",2007-02-01,-2,2006-09-01,"2014-09-01"
+"849","Islamic Movement in Israel",2007-03-01,-2,2006-09-01,"2014-09-01"
+"850","Islamic Movement in Israel",2007-04-01,-2,2006-09-01,"2014-09-01"
+"851","Islamic Movement in Israel",2007-05-01,-2,2006-09-01,"2014-09-01"
+"852","Islamic Movement in Israel",2007-06-01,-2,2006-09-01,"2014-09-01"
+"853","Islamic Movement in Israel",2007-07-01,-2,2006-09-01,"2014-09-01"
+"854","Islamic Movement in Israel",2007-08-01,-2,2007-02-01,"2014-09-01"
+"855","Islamic Movement in Israel",2007-09-01,-2,2007-02-01,"2014-09-01"
+"856","Islamic Movement in Israel",2007-10-01,-2,2007-02-01,"2014-09-01"
+"857","Islamic Movement in Israel",2007-11-01,-2,2007-02-01,"2014-09-01"
+"858","Islamic Movement in Israel",2007-12-01,-2,2007-02-01,"2014-09-01"
+"859","Islamic Movement in Israel",2008-01-01,-2,2007-02-01,"2014-09-01"
+"860","Islamic Movement in Israel",2008-02-01,-2,2007-02-01,"2014-09-01"
+"861","Islamic Movement in Israel",2008-03-01,-2,2007-02-01,"2014-09-01"
+"862","Islamic Movement in Israel",2008-04-01,-2,2007-02-01,"2014-09-01"
+"863","Islamic Movement in Israel",2008-05-01,-2,2007-02-01,"2014-09-01"
+"864","Islamic Movement in Israel",2008-06-01,-2,2007-02-01,"2014-09-01"
+"865","Islamic Movement in Israel",2008-07-01,-2,2007-02-01,"2014-09-01"
+"866","Islamic Movement in Israel",2008-08-01,-2,2007-02-01,"2014-09-01"
+"867","Islamic Movement in Israel",2008-09-01,-2,2007-02-01,"2014-09-01"
+"868","Islamic Movement in Israel",2008-10-01,-4.4,2007-08-01,"2014-09-01"
+"869","Islamic Movement in Israel",2008-11-01,-4.4,2007-08-01,"2014-09-01"
+"870","Islamic Movement in Israel",2008-12-01,-4.4,2007-08-01,"2014-09-01"
+"871","Islamic Movement in Israel",2009-01-01,-4.4,2007-08-01,"2014-09-01"
+"872","Islamic Movement in Israel",2009-02-01,-4.4,2007-08-01,"2014-09-01"
+"873","Islamic Movement in Israel",2009-03-01,-4.4,2007-08-01,"2014-09-01"
+"874","Islamic Movement in Israel",2009-04-01,-4.4,2007-08-01,"2014-09-01"
+"875","Islamic Movement in Israel",2009-05-01,-4.4,2008-10-01,"2014-09-01"
+"876","Islamic Movement in Israel",2009-06-01,-4.4,2008-10-01,"2014-09-01"
+"877","Islamic Movement in Israel",2009-07-01,-4.4,2008-10-01,"2014-09-01"
+"878","Islamic Movement in Israel",2009-08-01,-4.4,2008-10-01,"2014-09-01"
+"879","Islamic Movement in Israel",2009-09-01,-4.4,2008-10-01,"2014-09-01"
+"880","Islamic Movement in Israel",2011-07-01,-6.5,2011-02-01,"2014-09-01"
+"881","Islamic Movement in Israel",2011-08-01,-6.5,2011-02-01,"2014-09-01"
+"882","Islamic Movement in Israel",2011-09-01,-6.5,2011-02-01,"2014-09-01"
+"883","Islamic Movement in Israel",2011-10-01,-6.5,2011-02-01,"2014-09-01"
+"884","Islamic Movement in Israel",2011-11-01,-6.5,2011-02-01,"2014-09-01"
+"885","Islamic Movement in Israel",2011-12-01,-6.5,2011-02-01,"2014-09-01"
+"886","Islamic Movement in Israel",2012-01-01,-6.5,2011-02-01,"2014-09-01"
+"887","Islamic Movement in Israel",2012-02-01,-6.5,2011-02-01,"2014-09-01"
+"888","Islamic Movement in Israel",2012-03-01,-6.5,2011-02-01,"2014-09-01"
+"889","Islamic Movement in Israel",2012-04-01,-6.5,2011-07-01,"2014-09-01"
+"890","Islamic Movement in Israel",2012-05-01,-6.5,2011-07-01,"2014-09-01"
+"891","Islamic Movement in Israel",2012-06-01,-6.5,2011-07-01,"2014-09-01"
+"892","Islamic Movement in Israel",2012-07-01,-6.5,2011-07-01,"2014-09-01"
+"893","Islamic Movement in Israel",2012-08-01,-6.5,2011-07-01,"2014-09-01"
+"894","Islamic Movement in Israel",2012-09-01,-6.5,2012-04-01,"2014-09-01"
+"895","Islamic Movement in Israel",2012-10-01,-6.5,2012-04-01,"2014-09-01"
+"896","Islamic Movement in Israel",2012-11-01,-6.5,2012-04-01,"2014-09-01"
+"897","Islamic Movement in Israel",2012-12-01,-6.5,2012-04-01,"2014-09-01"
+"898","Islamic Movement in Israel",2013-01-01,-6.5,2012-04-01,"2014-09-01"
+"899","Islamic Movement in Israel",2013-02-01,-6.5,2012-04-01,"2014-09-01"
+"900","Islamic Movement in Israel",2013-03-01,-6.5,2012-04-01,"2014-09-01"
+"901","Islamic Movement in Israel",2013-04-01,-6.5,2012-04-01,"2014-09-01"
+"902","Islamic Movement in Israel",2013-05-01,-6.5,2012-04-01,"2014-09-01"
+"903","Islamic Movement in Israel",2013-06-01,-6.5,2012-04-01,"2014-09-01"
+"904","Islamic Movement in Israel",2013-07-01,-6.5,2012-04-01,"2014-09-01"
+"905","Islamic Movement in Israel",2013-08-01,-6.5,2012-04-01,"2014-09-01"
+"906","Islamic Movement in Israel",2013-09-01,-6.5,2012-04-01,"2014-09-01"
+"907","Islamic Movement in Israel",2013-10-01,-6.5,2012-04-01,"2014-09-01"
+"908","Islamic Movement in Israel",2013-11-01,-6.5,2012-04-01,"2014-09-01"
+"909","Islamic Movement in Israel",2013-12-01,-6.5,2012-04-01,"2014-09-01"
+"910","Islamic Movement in Israel",2014-01-01,-6.5,2012-04-01,"2014-09-01"
+"911","Islamic Movement in Israel",2014-02-01,-6.5,2012-04-01,"2014-09-01"
+"912","Islamic Movement in Israel",2014-03-01,-6.5,2012-04-01,"2014-09-01"
+"913","Islamic Movement in Israel",2014-04-01,-6.5,2012-04-01,"2014-09-01"
+"914","Izz ad-Din al-Qassam Brigades",1997-10-01,-5,1996-04-01,"2014-09-01"
+"915","Izz ad-Din al-Qassam Brigades",1997-11-01,-5,1996-04-01,"2014-09-01"
+"916","Izz ad-Din al-Qassam Brigades",1997-12-01,-5,1996-04-01,"2014-09-01"
+"917","Izz ad-Din al-Qassam Brigades",1998-01-01,-5,1996-04-01,"2014-09-01"
+"918","Izz ad-Din al-Qassam Brigades",1998-02-01,-5,1996-04-01,"2014-09-01"
+"919","Izz ad-Din al-Qassam Brigades",1998-03-01,-5,1996-04-01,"2014-09-01"
+"920","Izz ad-Din al-Qassam Brigades",1998-04-01,-2,1997-10-01,"2014-09-01"
+"921","Izz ad-Din al-Qassam Brigades",1998-05-01,-2,1997-10-01,"2014-09-01"
+"922","Izz ad-Din al-Qassam Brigades",1998-06-01,-2,1997-10-01,"2014-09-01"
+"923","Izz ad-Din al-Qassam Brigades",1998-07-01,-2,1997-10-01,"2014-09-01"
+"924","Izz ad-Din al-Qassam Brigades",1998-08-01,-2,1997-10-01,"2014-09-01"
+"925","Izz ad-Din al-Qassam Brigades",1998-09-01,-2,1997-10-01,"2014-09-01"
+"926","Izz ad-Din al-Qassam Brigades",1998-10-01,-10,1998-04-01,"2014-09-01"
+"927","Izz ad-Din al-Qassam Brigades",1998-11-01,-10,1998-04-01,"2014-09-01"
+"928","Izz ad-Din al-Qassam Brigades",1998-12-01,-10,1998-04-01,"2014-09-01"
+"929","Izz ad-Din al-Qassam Brigades",1999-01-01,-10,1998-04-01,"2014-09-01"
+"930","Izz ad-Din al-Qassam Brigades",1999-02-01,-10,1998-04-01,"2014-09-01"
+"931","Izz ad-Din al-Qassam Brigades",1999-03-01,-10,1998-04-01,"2014-09-01"
+"932","Izz ad-Din al-Qassam Brigades",1999-04-01,-10,1998-04-01,"2014-09-01"
+"933","Izz ad-Din al-Qassam Brigades",1999-05-01,-10,1998-04-01,"2014-09-01"
+"934","Izz ad-Din al-Qassam Brigades",1999-06-01,-10,1998-04-01,"2014-09-01"
+"935","Izz ad-Din al-Qassam Brigades",1999-07-01,-10,1998-04-01,"2014-09-01"
+"936","Izz ad-Din al-Qassam Brigades",1999-08-01,-10,1998-04-01,"2014-09-01"
+"937","Izz ad-Din al-Qassam Brigades",1999-09-01,-10,1998-04-01,"2014-09-01"
+"938","Izz ad-Din al-Qassam Brigades",1999-10-01,-10,1998-04-01,"2014-09-01"
+"939","Izz ad-Din al-Qassam Brigades",1999-11-01,-10,1998-04-01,"2014-09-01"
+"940","Izz ad-Din al-Qassam Brigades",1999-12-01,-10,1998-04-01,"2014-09-01"
+"941","Izz ad-Din al-Qassam Brigades",2000-01-01,-10,1998-04-01,"2014-09-01"
+"942","Izz ad-Din al-Qassam Brigades",2000-02-01,-10,1998-04-01,"2014-09-01"
+"943","Izz ad-Din al-Qassam Brigades",2000-03-01,-10,1998-04-01,"2014-09-01"
+"944","Izz ad-Din al-Qassam Brigades",2003-04-01,-9,2003-01-01,"2014-09-01"
+"945","Izz ad-Din al-Qassam Brigades",2003-05-01,-9,2003-04-01,"2014-09-01"
+"946","Izz ad-Din al-Qassam Brigades",2003-06-01,-9,2003-04-01,"2014-09-01"
+"947","Izz ad-Din al-Qassam Brigades",2003-07-01,-9,2003-04-01,"2014-09-01"
+"948","Izz ad-Din al-Qassam Brigades",2003-08-01,-10,2003-05-01,"2014-09-01"
+"949","Izz ad-Din al-Qassam Brigades",2003-09-01,-10,2003-05-01,"2014-09-01"
+"950","Izz ad-Din al-Qassam Brigades",2003-10-01,-10,2003-05-01,"2014-09-01"
+"951","Izz ad-Din al-Qassam Brigades",2003-11-01,-10,2003-05-01,"2014-09-01"
+"952","Izz ad-Din al-Qassam Brigades",2003-12-01,-10,2003-08-01,"2014-09-01"
+"953","Izz ad-Din al-Qassam Brigades",2004-01-01,-10,2003-08-01,"2014-09-01"
+"954","Izz ad-Din al-Qassam Brigades",2004-02-01,-10,2003-08-01,"2014-09-01"
+"955","Izz ad-Din al-Qassam Brigades",2004-03-01,-10,2003-08-01,"2014-09-01"
+"956","Izz ad-Din al-Qassam Brigades",2004-04-01,-10,2003-08-01,"2014-09-01"
+"957","Izz ad-Din al-Qassam Brigades",2004-05-01,-10,2003-12-01,"2014-09-01"
+"958","Izz ad-Din al-Qassam Brigades",2004-06-01,-10,2003-12-01,"2014-09-01"
+"959","Izz ad-Din al-Qassam Brigades",2004-07-01,-10,2003-12-01,"2014-09-01"
+"960","Izz ad-Din al-Qassam Brigades",2004-08-01,-10,2003-12-01,"2014-09-01"
+"961","Izz ad-Din al-Qassam Brigades",2004-09-01,-10,2003-12-01,"2014-09-01"
+"962","Izz ad-Din al-Qassam Brigades",2004-10-01,-9.666667,2004-05-01,"2014-09-01"
+"963","Izz ad-Din al-Qassam Brigades",2004-11-01,-9.666667,2004-05-01,"2014-09-01"
+"964","Izz ad-Din al-Qassam Brigades",2004-12-01,-8.857143,2004-10-01,"2014-09-01"
+"965","Izz ad-Din al-Qassam Brigades",2005-01-01,-10,2004-12-01,"2014-09-01"
+"966","Izz ad-Din al-Qassam Brigades",2005-02-01,-10,2004-12-01,"2014-09-01"
+"967","Izz ad-Din al-Qassam Brigades",2005-03-01,-10,2004-12-01,"2014-09-01"
+"968","Izz ad-Din al-Qassam Brigades",2005-04-01,-10,2004-12-01,"2014-09-01"
+"969","Izz ad-Din al-Qassam Brigades",2005-05-01,-10,2004-12-01,"2014-09-01"
+"970","Izz ad-Din al-Qassam Brigades",2005-06-01,-10,2004-12-01,"2014-09-01"
+"971","Izz ad-Din al-Qassam Brigades",2005-07-01,-10,2004-12-01,"2014-09-01"
+"972","Izz ad-Din al-Qassam Brigades",2005-08-01,-10,2004-12-01,"2014-09-01"
+"973","Izz ad-Din al-Qassam Brigades",2005-09-01,-6.666667,2005-01-01,"2014-09-01"
+"974","Izz ad-Din al-Qassam Brigades",2005-10-01,-6.666667,2005-01-01,"2014-09-01"
+"975","Izz ad-Din al-Qassam Brigades",2005-11-01,-6.666667,2005-01-01,"2014-09-01"
+"976","Izz ad-Din al-Qassam Brigades",2005-12-01,-6.666667,2005-01-01,"2014-09-01"
+"977","Izz ad-Din al-Qassam Brigades",2006-01-01,-10,2005-09-01,"2014-09-01"
+"978","Izz ad-Din al-Qassam Brigades",2006-02-01,-10,2005-09-01,"2014-09-01"
+"979","Izz ad-Din al-Qassam Brigades",2006-03-01,-10,2005-09-01,"2014-09-01"
+"980","Izz ad-Din al-Qassam Brigades",2006-06-01,-8.88,2006-04-01,"2014-09-01"
+"981","Izz ad-Din al-Qassam Brigades",2006-07-01,-10,2006-06-01,"2014-09-01"
+"982","Izz ad-Din al-Qassam Brigades",2006-08-01,-10,2006-07-01,"2014-09-01"
+"983","Izz ad-Din al-Qassam Brigades",2006-09-01,-10,2006-07-01,"2014-09-01"
+"984","Izz ad-Din al-Qassam Brigades",2006-10-01,-10,2006-07-01,"2014-09-01"
+"985","Izz ad-Din al-Qassam Brigades",2006-11-01,-10,2006-08-01,"2014-09-01"
+"986","Izz ad-Din al-Qassam Brigades",2006-12-01,-10,2006-11-01,"2014-09-01"
+"987","Izz ad-Din al-Qassam Brigades",2007-01-01,-10,2006-11-01,"2014-09-01"
+"988","Izz ad-Din al-Qassam Brigades",2007-02-01,-10,2006-11-01,"2014-09-01"
+"989","Izz ad-Din al-Qassam Brigades",2007-03-01,-10,2006-11-01,"2014-09-01"
+"990","Izz ad-Din al-Qassam Brigades",2007-04-01,-10,2006-11-01,"2014-09-01"
+"991","Izz ad-Din al-Qassam Brigades",2007-05-01,-10,2006-12-01,"2014-09-01"
+"992","Izz ad-Din al-Qassam Brigades",2007-06-01,-10,2007-05-01,"2014-09-01"
+"993","Izz ad-Din al-Qassam Brigades",2007-07-01,-10,2007-05-01,"2014-09-01"
+"994","Izz ad-Din al-Qassam Brigades",2007-08-01,-10,2007-05-01,"2014-09-01"
+"995","Izz ad-Din al-Qassam Brigades",2007-09-01,-10,2007-05-01,"2014-09-01"
+"996","Izz ad-Din al-Qassam Brigades",2007-10-01,-10,2007-06-01,"2014-09-01"
+"997","Izz ad-Din al-Qassam Brigades",2007-11-01,-10,2007-06-01,"2014-09-01"
+"998","Izz ad-Din al-Qassam Brigades",2007-12-01,-10,2007-10-01,"2014-09-01"
+"999","Izz ad-Din al-Qassam Brigades",2008-01-01,-10,2007-12-01,"2014-09-01"
+"1000","Izz ad-Din al-Qassam Brigades",2008-02-01,-10,2008-01-01,"2014-09-01"
+"1001","Izz ad-Din al-Qassam Brigades",2008-03-01,-10,2008-02-01,"2014-09-01"
+"1002","Izz ad-Din al-Qassam Brigades",2008-04-01,-10,2008-02-01,"2014-09-01"
+"1003","Izz ad-Din al-Qassam Brigades",2008-05-01,-10,2008-03-01,"2014-09-01"
+"1004","Izz ad-Din al-Qassam Brigades",2008-06-01,-10,2008-03-01,"2014-09-01"
+"1005","Izz ad-Din al-Qassam Brigades",2008-07-01,-10,2008-03-01,"2014-09-01"
+"1006","Izz ad-Din al-Qassam Brigades",2008-08-01,-10,2008-03-01,"2014-09-01"
+"1007","Izz ad-Din al-Qassam Brigades",2008-09-01,-10,2008-03-01,"2014-09-01"
+"1008","Izz ad-Din al-Qassam Brigades",2008-10-01,-10,2008-03-01,"2014-09-01"
+"1009","Izz ad-Din al-Qassam Brigades",2008-11-01,-10,2008-05-01,"2014-09-01"
+"1010","Izz ad-Din al-Qassam Brigades",2008-12-01,-6.666667,2008-11-01,"2014-09-01"
+"1011","Izz ad-Din al-Qassam Brigades",2009-01-01,-10,2008-12-01,"2014-09-01"
+"1012","Izz ad-Din al-Qassam Brigades",2009-02-01,-10,2008-12-01,"2014-09-01"
+"1013","Izz ad-Din al-Qassam Brigades",2009-03-01,-10,2008-12-01,"2014-09-01"
+"1014","Izz ad-Din al-Qassam Brigades",2009-04-01,-10,2008-12-01,"2014-09-01"
+"1015","Izz ad-Din al-Qassam Brigades",2009-05-01,-10,2008-12-01,"2014-09-01"
+"1016","Izz ad-Din al-Qassam Brigades",2009-06-01,-10,2008-12-01,"2014-09-01"
+"1017","Izz ad-Din al-Qassam Brigades",2009-07-01,-10,2008-12-01,"2014-09-01"
+"1018","Izz ad-Din al-Qassam Brigades",2009-08-01,-10,2008-12-01,"2014-09-01"
+"1019","Izz ad-Din al-Qassam Brigades",2009-09-01,-10,2008-12-01,"2014-09-01"
+"1020","Izz ad-Din al-Qassam Brigades",2009-10-01,-10,2008-12-01,"2014-09-01"
+"1021","Izz ad-Din al-Qassam Brigades",2009-11-01,-10,2008-12-01,"2014-09-01"
+"1022","Izz ad-Din al-Qassam Brigades",2009-12-01,-10,2008-12-01,"2014-09-01"
+"1023","Izz ad-Din al-Qassam Brigades",2010-01-01,-10,2008-12-01,"2014-09-01"
+"1024","Izz ad-Din al-Qassam Brigades",2010-02-01,-10,2008-12-01,"2014-09-01"
+"1025","Izz ad-Din al-Qassam Brigades",2010-03-01,-10,2008-12-01,"2014-09-01"
+"1026","Izz ad-Din al-Qassam Brigades",2010-04-01,-10,2008-12-01,"2014-09-01"
+"1027","Izz ad-Din al-Qassam Brigades",2010-05-01,-5,2009-01-01,"2014-09-01"
+"1028","Izz ad-Din al-Qassam Brigades",2010-06-01,-5,2009-01-01,"2014-09-01"
+"1029","Izz ad-Din al-Qassam Brigades",2010-07-01,-5,2009-01-01,"2014-09-01"
+"1030","Izz ad-Din al-Qassam Brigades",2010-08-01,-5,2009-01-01,"2014-09-01"
+"1031","Izz ad-Din al-Qassam Brigades",2010-09-01,-5,2009-01-01,"2014-09-01"
+"1032","Izz ad-Din al-Qassam Brigades",2010-10-01,-5,2009-01-01,"2014-09-01"
+"1033","Izz ad-Din al-Qassam Brigades",2010-11-01,-9.5,2010-05-01,"2014-09-01"
+"1034","Izz ad-Din al-Qassam Brigades",2010-12-01,-9.5,2010-05-01,"2014-09-01"
+"1035","Izz ad-Din al-Qassam Brigades",2011-01-01,-9.5,2010-05-01,"2014-09-01"
+"1036","Izz ad-Din al-Qassam Brigades",2011-02-01,-9.5,2010-05-01,"2014-09-01"
+"1037","Izz ad-Din al-Qassam Brigades",2011-03-01,-9.5,2010-05-01,"2014-09-01"
+"1038","Izz ad-Din al-Qassam Brigades",2011-04-01,-9.5,2010-05-01,"2014-09-01"
+"1039","Izz ad-Din al-Qassam Brigades",2011-05-01,-9.5,2010-05-01,"2014-09-01"
+"1040","Izz ad-Din al-Qassam Brigades",2011-06-01,-9.5,2010-05-01,"2014-09-01"
+"1041","Izz ad-Din al-Qassam Brigades",2011-07-01,-9.5,2010-05-01,"2014-09-01"
+"1042","Izz ad-Din al-Qassam Brigades",2011-08-01,-9.5,2010-05-01,"2014-09-01"
+"1043","Izz ad-Din al-Qassam Brigades",2011-09-01,-9.5,2010-05-01,"2014-09-01"
+"1044","Izz ad-Din al-Qassam Brigades",2012-11-01,-7.777778,2012-06-01,"2014-09-01"
+"1045","Izz ad-Din al-Qassam Brigades",2012-12-01,-7.777778,2012-06-01,"2014-09-01"
+"1046","Izz ad-Din al-Qassam Brigades",2013-01-01,-7.777778,2012-06-01,"2014-09-01"
+"1047","Izz ad-Din al-Qassam Brigades",2013-02-01,-7.777778,2012-06-01,"2014-09-01"
+"1048","Izz ad-Din al-Qassam Brigades",2013-03-01,-7.777778,2012-06-01,"2014-09-01"
+"1049","Izz ad-Din al-Qassam Brigades",2013-04-01,-7.777778,2012-06-01,"2014-09-01"
+"1050","Izz ad-Din al-Qassam Brigades",2013-05-01,-7.777778,2012-06-01,"2014-09-01"
+"1051","Izz ad-Din al-Qassam Brigades",2013-06-01,-7.777778,2012-06-01,"2014-09-01"
+"1052","Izz ad-Din al-Qassam Brigades",2013-07-01,-7.777778,2012-06-01,"2014-09-01"
+"1053","Izz ad-Din al-Qassam Brigades",2013-08-01,-7.777778,2012-06-01,"2014-09-01"
+"1054","Izz ad-Din al-Qassam Brigades",2013-09-01,-7.777778,2012-06-01,"2014-09-01"
+"1055","Izz ad-Din al-Qassam Brigades",2013-10-01,-7.777778,2012-06-01,"2014-09-01"
+"1056","Izz ad-Din al-Qassam Brigades",2013-11-01,-7.777778,2012-06-01,"2014-09-01"
+"1057","Izz ad-Din al-Qassam Brigades",2013-12-01,-7.777778,2012-06-01,"2014-09-01"
+"1058","Izz ad-Din al-Qassam Brigades",2014-01-01,-7.777778,2012-06-01,"2014-09-01"
+"1059","Izz ad-Din al-Qassam Brigades",2014-02-01,-7.777778,2012-06-01,"2014-09-01"
+"1060","Izz ad-Din al-Qassam Brigades",2014-03-01,-7.777778,2012-06-01,"2014-09-01"
+"1061","Izz ad-Din al-Qassam Brigades",2014-04-01,-7.777778,2012-06-01,"2014-09-01"
+"1062","Izz ad-Din al-Qassam Brigades",2014-05-01,-7.777778,2012-06-01,"2014-09-01"
+"1063","Izz ad-Din al-Qassam Brigades",2014-06-01,-7.777778,2012-06-01,"2014-09-01"
+"1064","Izz ad-Din al-Qassam Brigades",2014-07-01,-9.411765,2012-11-01,"2014-09-01"
+"1065","Izz ad-Din al-Qassam Brigades",2014-08-01,-8.571429,2014-07-01,"2014-09-01"
+"1066","Izz ad-Din al-Qassam Brigades",2014-09-01,-8.571429,2014-07-01,"2014-09-01"
+"1067","Palestine Democratic Union",1997-11-01,-2.2,1997-06-01,"2014-09-01"
+"1068","Palestine Democratic Union",1997-12-01,-2.2,1997-06-01,"2014-09-01"
+"1069","Palestine Democratic Union",1998-01-01,-2.2,1997-06-01,"2014-09-01"
+"1070","Palestine Democratic Union",1998-02-01,-2.2,1997-06-01,"2014-09-01"
+"1071","Palestine Democratic Union",1998-03-01,-2.2,1997-06-01,"2014-09-01"
+"1072","Palestine Democratic Union",1998-04-01,-2.2,1997-06-01,"2014-09-01"
+"1073","Palestine Democratic Union",1998-05-01,-2.2,1997-06-01,"2014-09-01"
+"1074","Palestine Democratic Union",1998-06-01,-2.2,1997-06-01,"2014-09-01"
+"1075","Palestine Democratic Union",1998-07-01,-3.25,1997-11-01,"2014-09-01"
+"1076","Palestine Democratic Union",1998-08-01,-3.25,1997-11-01,"2014-09-01"
+"1077","Palestine Democratic Union",1998-09-01,-3.25,1997-11-01,"2014-09-01"
+"1078","Palestine Democratic Union",1998-10-01,-3.25,1997-11-01,"2014-09-01"
+"1079","Palestine Democratic Union",1998-11-01,-3.25,1997-11-01,"2014-09-01"
+"1080","Palestine Democratic Union",1998-12-01,-3.25,1997-11-01,"2014-09-01"
+"1081","Palestine Democratic Union",1999-02-01,-2,1999-01-01,"2014-09-01"
+"1082","Palestine Democratic Union",1999-03-01,-2,1999-02-01,"2014-09-01"
+"1083","Palestine Democratic Union",1999-04-01,-2,1999-02-01,"2014-09-01"
+"1084","Palestine Democratic Union",1999-10-01,-0.5,1999-09-01,"2014-09-01"
+"1085","Palestine Democratic Union",2000-12-01,-1.6666667,2000-11-01,"2014-09-01"
+"1086","Palestine Democratic Union",2001-01-01,-1,2000-12-01,"2014-09-01"
+"1087","Palestine Democratic Union",2001-06-01,-1.8,2001-05-01,"2014-09-01"
+"1088","Palestine Democratic Union",2001-07-01,-0.5,2001-06-01,"2014-09-01"
+"1089","Palestine Democratic Union",2001-08-01,-1.0923077,2001-07-01,"2014-09-01"
+"1090","Palestine Democratic Union",2001-09-01,-0.3076923,2001-08-01,"2014-09-01"
+"1091","Palestine Democratic Union",2001-11-01,-1,2001-10-01,"2014-09-01"
+"1092","Palestine Democratic Union",2002-01-01,-1.8,2001-12-01,"2014-09-01"
+"1093","Palestine Democratic Union",2002-02-01,-0.6666667,2002-01-01,"2014-09-01"
+"1094","Palestine Democratic Union",2002-03-01,-0.5,2002-02-01,"2014-09-01"
+"1095","Palestine Democratic Union",2002-04-01,-2,2002-03-01,"2014-09-01"
+"1096","Palestine Democratic Union",2002-06-01,-0.4,2002-05-01,"2014-09-01"
+"1097","Palestine Democratic Union",2002-07-01,-0.6666667,2002-06-01,"2014-09-01"
+"1098","Palestine Democratic Union",2002-11-01,-0.6666667,2002-10-01,"2014-09-01"
+"1099","Palestine Democratic Union",2002-12-01,-2,2002-11-01,"2014-09-01"
+"1100","Palestine Democratic Union",2003-02-01,-0.4,2003-01-01,"2014-09-01"
+"1101","Palestine Democratic Union",2003-05-01,-0.4,2003-04-01,"2014-09-01"
+"1102","Palestine Democratic Union",2003-06-01,-1.1,2003-05-01,"2014-09-01"
+"1103","Palestine Democratic Union",2003-08-01,-2,2003-07-01,"2014-09-01"
+"1104","Palestine Democratic Union",2003-09-01,-2,2003-07-01,"2014-09-01"
+"1105","Palestine Democratic Union",2007-12-01,-2,2007-11-01,"2014-09-01"
+"1106","Palestine Democratic Union",2008-01-01,-2,2007-11-01,"2014-09-01"
+"1107","Palestine Democratic Union",2008-02-01,-1,2007-12-01,"2014-09-01"
+"1108","Palestine Democratic Union",2008-03-01,-1,2008-02-01,"2014-09-01"
+"1109","Palestine Democratic Union",2008-04-01,-1,2008-02-01,"2014-09-01"
+"1110","Palestine Democratic Union",2008-05-01,-1,2008-02-01,"2014-09-01"
+"1111","Palestine Democratic Union",2008-06-01,-1,2008-02-01,"2014-09-01"
+"1112","Palestine Democratic Union",2008-07-01,-1,2008-03-01,"2014-09-01"
+"1113","Palestine Democratic Union",2008-08-01,-1,2008-03-01,"2014-09-01"
+"1114","Palestine Democratic Union",2008-09-01,-5,2008-07-01,"2014-09-01"
+"1115","Palestine Democratic Union",2010-10-01,-2,2010-09-01,"2014-09-01"
+"1116","Palestine Democratic Union",2010-11-01,-2,2010-09-01,"2014-09-01"
+"1117","Palestine Democratic Union",2010-12-01,-2,2010-09-01,"2014-09-01"
+"1118","Palestine Democratic Union",2011-01-01,-2,2010-10-01,"2014-09-01"
+"1119","Palestine Democratic Union",2011-05-01,-4.4,2011-03-01,"2014-09-01"
+"1120","Palestine Democratic Union",2011-06-01,-4.4,2011-03-01,"2014-09-01"
+"1121","Palestine Democratic Union",2011-07-01,-4.4,2011-03-01,"2014-09-01"
+"1122","Palestine Democratic Union",2011-08-01,-4.4,2011-03-01,"2014-09-01"
+"1123","Palestine Democratic Union",2011-09-01,-2,2011-05-01,"2014-09-01"
+"1124","Palestine Democratic Union",2011-10-01,-5,2011-09-01,"2014-09-01"
+"1125","Palestine Democratic Union",2011-11-01,-5,2011-09-01,"2014-09-01"
+"1126","Palestine Democratic Union",2011-12-01,-5,2011-09-01,"2014-09-01"
+"1127","Palestine Democratic Union",2012-01-01,-5,2011-09-01,"2014-09-01"
+"1128","Palestine Democratic Union",2012-02-01,-5,2011-09-01,"2014-09-01"
+"1129","Palestine Democratic Union",2012-03-01,-5,2011-09-01,"2014-09-01"
+"1130","Palestine Democratic Union",2012-04-01,-5,2011-09-01,"2014-09-01"
+"1131","Palestine Liberation Organization",1995-02-01,-1.142857143,1995-01-01,"2014-09-01"
+"1132","Palestine Liberation Organization",1995-05-01,-0.277777778,1995-04-01,"2014-09-01"
+"1133","Palestine Liberation Organization",1995-06-01,-2,1995-05-01,"2014-09-01"
+"1134","Palestine Liberation Organization",1996-08-01,-0.103703704,1996-07-01,"2014-09-01"
+"1135","Palestine Liberation Organization",1996-11-01,-0.633333333,1996-10-01,"2014-09-01"
+"1136","Palestine Liberation Organization",1997-06-01,-0.444444444,1997-05-01,"2014-09-01"
+"1137","Palestine Liberation Organization",1997-07-01,-0.055555556,1997-06-01,"2014-09-01"
+"1138","Palestine Liberation Organization",1997-08-01,-1.075510204,1997-07-01,"2014-09-01"
+"1139","Palestine Liberation Organization",1997-09-01,-0.413333333,1997-08-01,"2014-09-01"
+"1140","Palestine Liberation Organization",1997-11-01,-0.51,1997-10-01,"2014-09-01"
+"1141","Palestine Liberation Organization",1997-12-01,-0.322222222,1997-11-01,"2014-09-01"
+"1142","Palestine Liberation Organization",1998-05-01,-2.375,1998-04-01,"2014-09-01"
+"1143","Palestine Liberation Organization",1998-06-01,-0.7,1998-05-01,"2014-09-01"
+"1144","Palestine Liberation Organization",1998-08-01,-0.14,1998-07-01,"2014-09-01"
+"1145","Palestine Liberation Organization",1999-04-01,-0.482352941,1999-03-01,"2014-09-01"
+"1146","Palestine Liberation Organization",2001-05-01,-0.064864865,2001-04-01,"2014-09-01"
+"1147","Palestine Liberation Organization",2001-06-01,-0.007843137,2001-05-01,"2014-09-01"
+"1148","Palestine Liberation Organization",2001-07-01,-0.15,2001-06-01,"2014-09-01"
+"1149","Palestine Liberation Organization",2001-08-01,-0.717948718,2001-07-01,"2014-09-01"
+"1150","Palestine Liberation Organization",2001-12-01,-0.421333333,2001-11-01,"2014-09-01"
+"1151","Palestine Liberation Organization",2002-01-01,-0.915217391,2001-12-01,"2014-09-01"
+"1152","Palestine Liberation Organization",2002-06-01,-0.85,2002-05-01,"2014-09-01"
+"1153","Palestine Liberation Organization",2002-07-01,-0.684210526,2002-06-01,"2014-09-01"
+"1154","Palestine Liberation Organization",2002-08-01,-0.636363636,2002-07-01,"2014-09-01"
+"1155","Palestine Liberation Organization",2002-09-01,-0.28,2002-08-01,"2014-09-01"
+"1156","Palestine Liberation Organization",2002-11-01,-0.7,2002-10-01,"2014-09-01"
+"1157","Palestine Liberation Organization",2002-12-01,-1,2002-11-01,"2014-09-01"
+"1158","Palestine Liberation Organization",2003-02-01,-0.78,2003-01-01,"2014-09-01"
+"1159","Palestine Liberation Organization",2003-03-01,-1.25,2003-02-01,"2014-09-01"
+"1160","Palestine Liberation Organization",2003-04-01,-2.364705882,2003-03-01,"2014-09-01"
+"1161","Palestine Liberation Organization",2003-08-01,-1.288888889,2003-07-01,"2014-09-01"
+"1162","Palestine Liberation Organization",2003-09-01,-0.306896552,2003-08-01,"2014-09-01"
+"1163","Palestine Liberation Organization",2003-12-01,-0.834782609,2003-11-01,"2014-09-01"
+"1164","Palestine Liberation Organization",2004-01-01,-2.133333333,2003-12-01,"2014-09-01"
+"1165","Palestine Liberation Organization",2004-02-01,-0.444444444,2004-01-01,"2014-09-01"
+"1166","Palestine Liberation Organization",2004-04-01,-1.3,2004-03-01,"2014-09-01"
+"1167","Palestine Liberation Organization",2004-05-01,-0.222222222,2004-04-01,"2014-09-01"
+"1168","Palestine Liberation Organization",2004-06-01,-1,2004-05-01,"2014-09-01"
+"1169","Palestine Liberation Organization",2004-09-01,-1,2004-08-01,"2014-09-01"
+"1170","Palestine Liberation Organization",2004-10-01,-0.48,2004-09-01,"2014-09-01"
+"1171","Palestine Liberation Organization",2004-12-01,-0.087179487,2004-11-01,"2014-09-01"
+"1172","Palestine Liberation Organization",2005-07-01,-0.305882353,2005-06-01,"2014-09-01"
+"1173","Palestine Liberation Organization",2005-09-01,-0.186206897,2005-08-01,"2014-09-01"
+"1174","Palestine Liberation Organization",2006-07-01,-0.2,2006-06-01,"2014-09-01"
+"1175","Palestine Liberation Organization",2009-02-01,-2.45,2009-01-01,"2014-09-01"
+"1176","Palestine Liberation Organization",2009-03-01,-1.184,2009-02-01,"2014-09-01"
+"1177","Palestine Liberation Organization",2009-04-01,-1.515151515,2009-03-01,"2014-09-01"
+"1178","Palestine Liberation Organization",2009-05-01,-0.727272727,2009-04-01,"2014-09-01"
+"1179","Palestine Liberation Organization",2009-07-01,-2.5,2009-06-01,"2014-09-01"
+"1180","Palestine Liberation Organization",2009-08-01,-1.555555556,2009-07-01,"2014-09-01"
+"1181","Palestine Liberation Organization",2009-09-01,-0.465306122,2009-08-01,"2014-09-01"
+"1182","Palestine Liberation Organization",2009-10-01,-1.2,2009-09-01,"2014-09-01"
+"1183","Palestine Liberation Organization",2009-11-01,-1.558490566,2009-10-01,"2014-09-01"
+"1184","Palestine Liberation Organization",2009-12-01,-1.5,2009-11-01,"2014-09-01"
+"1185","Palestine Liberation Organization",2010-01-01,-0.2,2009-12-01,"2014-09-01"
+"1186","Palestine Liberation Organization",2010-03-01,-1.133333333,2010-02-01,"2014-09-01"
+"1187","Palestine Liberation Organization",2010-05-01,-1,2010-04-01,"2014-09-01"
+"1188","Palestine Liberation Organization",2010-08-01,-0.833333333,2010-07-01,"2014-09-01"
+"1189","Palestine Liberation Organization",2010-10-01,-0.916666667,2010-09-01,"2014-09-01"
+"1190","Palestine Liberation Organization",2011-02-01,-1,2011-01-01,"2014-09-01"
+"1191","Palestine Liberation Organization",2011-03-01,-3.681818182,2011-02-01,"2014-09-01"
+"1192","Palestine Liberation Organization",2011-04-01,-2.4,2011-03-01,"2014-09-01"
+"1193","Palestine Liberation Organization",2011-06-01,-1.85,2011-05-01,"2014-09-01"
+"1194","Palestine Liberation Organization",2011-07-01,-1.2,2011-06-01,"2014-09-01"
+"1195","Palestine Liberation Organization",2011-09-01,-0.557446809,2011-08-01,"2014-09-01"
+"1196","Palestine Liberation Organization",2011-10-01,-0.2,2011-09-01,"2014-09-01"
+"1197","Palestine Liberation Organization",2011-11-01,-2,2011-10-01,"2014-09-01"
+"1198","Palestine Liberation Organization",2011-12-01,-1.578947368,2011-11-01,"2014-09-01"
+"1199","Palestine Liberation Organization",2012-01-01,-0.076923077,2011-12-01,"2014-09-01"
+"1200","Palestine Liberation Organization",2012-02-01,-0.421052632,2012-01-01,"2014-09-01"
+"1201","Palestine Liberation Organization",2012-04-01,-1.152941176,2012-03-01,"2014-09-01"
+"1202","Palestine Liberation Organization",2012-05-01,-0.026086957,2012-04-01,"2014-09-01"
+"1203","Palestine Liberation Organization",2012-07-01,-2.15,2012-06-01,"2014-09-01"
+"1204","Palestine Liberation Organization",2012-08-01,-1,2012-07-01,"2014-09-01"
+"1205","Palestine Liberation Organization",2012-09-01,-2.142857143,2012-08-01,"2014-09-01"
+"1206","Palestine Liberation Organization",2012-10-01,-2,2012-09-01,"2014-09-01"
+"1207","Palestine Liberation Organization",2014-08-01,-0.5,2014-07-01,"2014-09-01"
+"1208","Palestine Liberation Organization",2014-09-01,-0.5,2014-07-01,"2014-09-01"
+"1209","Palestinian Legislative Council",1996-07-01,-2,1996-06-01,"2014-09-01"
+"1210","Palestinian Legislative Council",1997-02-01,-2,1996-12-01,"2014-09-01"
+"1211","Palestinian Legislative Council",1997-03-01,-2,1996-12-01,"2014-09-01"
+"1212","Palestinian Legislative Council",1997-04-01,-2,1996-12-01,"2014-09-01"
+"1213","Palestinian Legislative Council",1997-05-01,-2,1996-12-01,"2014-09-01"
+"1214","Palestinian Legislative Council",1997-06-01,-2,1997-02-01,"2014-09-01"
+"1215","Palestinian Legislative Council",1997-08-01,-4.5,1997-07-01,"2014-09-01"
+"1216","Palestinian Legislative Council",1997-09-01,-4.5,1997-08-01,"2014-09-01"
+"1217","Palestinian Legislative Council",1997-11-01,-3.6666667,1997-10-01,"2014-09-01"
+"1218","Palestinian Legislative Council",1998-04-01,-2,1998-03-01,"2014-09-01"
+"1219","Palestinian Legislative Council",1998-11-01,-2,1998-09-01,"2014-09-01"
+"1220","Palestinian Legislative Council",1998-12-01,-2,1998-09-01,"2014-09-01"
+"1221","Palestinian Legislative Council",1999-01-01,-2,1998-09-01,"2014-09-01"
+"1222","Palestinian Legislative Council",1999-02-01,-2,1998-09-01,"2014-09-01"
+"1223","Palestinian Legislative Council",1999-03-01,-4.4,1998-11-01,"2014-09-01"
+"1224","Palestinian Legislative Council",1999-04-01,-1,1999-03-01,"2014-09-01"
+"1225","Palestinian Legislative Council",1999-05-01,-1,1999-04-01,"2014-09-01"
+"1226","Palestinian Legislative Council",1999-06-01,-1,1999-04-01,"2014-09-01"
+"1227","Palestinian Legislative Council",1999-10-01,-1,1999-08-01,"2014-09-01"
+"1228","Palestinian Legislative Council",1999-11-01,-1,1999-10-01,"2014-09-01"
+"1229","Palestinian Legislative Council",1999-12-01,-1,1999-10-01,"2014-09-01"
+"1230","Palestinian Legislative Council",2000-01-01,-1,1999-10-01,"2014-09-01"
+"1231","Palestinian Legislative Council",2000-02-01,-1,1999-10-01,"2014-09-01"
+"1232","Palestinian Legislative Council",2000-03-01,-1,1999-10-01,"2014-09-01"
+"1233","Palestinian Legislative Council",2000-04-01,-1,1999-10-01,"2014-09-01"
+"1234","Palestinian Legislative Council",2000-05-01,-1,1999-10-01,"2014-09-01"
+"1235","Palestinian Legislative Council",2000-06-01,-1,1999-10-01,"2014-09-01"
+"1236","Palestinian Legislative Council",2000-07-01,-1,1999-10-01,"2014-09-01"
+"1237","Palestinian Legislative Council",2000-08-01,-1,1999-10-01,"2014-09-01"
+"1238","Palestinian Legislative Council",2000-09-01,-1,1999-10-01,"2014-09-01"
+"1239","Palestinian Legislative Council",2000-10-01,-1,1999-10-01,"2014-09-01"
+"1240","Palestinian Legislative Council",2001-03-01,-1.2,2001-02-01,"2014-09-01"
+"1241","Palestinian Legislative Council",2001-06-01,-3.5,2001-04-01,"2014-09-01"
+"1242","Palestinian Legislative Council",2001-07-01,-0.5,2001-06-01,"2014-09-01"
+"1243","Palestinian Legislative Council",2001-08-01,-1.1666667,2001-07-01,"2014-09-01"
+"1244","Palestinian Legislative Council",2002-04-01,-2,2002-03-01,"2014-09-01"
+"1245","Palestinian Legislative Council",2002-05-01,-2,2002-04-01,"2014-09-01"
+"1246","Palestinian Legislative Council",2002-09-01,-2.22,2002-06-01,"2014-09-01"
+"1247","Palestinian Legislative Council",2002-10-01,-4,2002-09-01,"2014-09-01"
+"1248","Palestinian Legislative Council",2003-03-01,-0.4,2003-02-01,"2014-09-01"
+"1249","Palestinian Legislative Council",2003-04-01,-1.7,2003-03-01,"2014-09-01"
+"1250","Palestinian Legislative Council",2003-07-01,-1,2003-06-01,"2014-09-01"
+"1251","Palestinian Legislative Council",2003-08-01,-1,2003-06-01,"2014-09-01"
+"1252","Palestinian Legislative Council",2003-09-01,-0.6666667,2003-07-01,"2014-09-01"
+"1253","Palestinian Legislative Council",2003-10-01,-0.6666667,2003-09-01,"2014-09-01"
+"1254","Palestinian Legislative Council",2003-12-01,-2,2003-11-01,"2014-09-01"
+"1255","Palestinian Legislative Council",2004-01-01,-2,2003-12-01,"2014-09-01"
+"1256","Palestinian Legislative Council",2004-04-01,-2,2004-02-01,"2014-09-01"
+"1257","Palestinian Legislative Council",2004-05-01,-4.5,2004-04-01,"2014-09-01"
+"1258","Palestinian Legislative Council",2004-06-01,-0.05,2004-05-01,"2014-09-01"
+"1259","Palestinian Legislative Council",2004-07-01,-2,2004-06-01,"2014-09-01"
+"1260","Palestinian Legislative Council",2004-08-01,-2,2004-07-01,"2014-09-01"
+"1261","Palestinian Legislative Council",2004-09-01,-2,2004-07-01,"2014-09-01"
+"1262","Palestinian Legislative Council",2004-12-01,-0.35,2004-11-01,"2014-09-01"
+"1263","Palestinian Legislative Council",2005-01-01,-2,2004-12-01,"2014-09-01"
+"1264","Palestinian Legislative Council",2005-02-01,-5,2005-01-01,"2014-09-01"
+"1265","Palestinian Legislative Council",2005-03-01,-5,2005-01-01,"2014-09-01"
+"1266","Palestinian Legislative Council",2005-04-01,-5,2005-02-01,"2014-09-01"
+"1267","Palestinian Legislative Council",2005-05-01,-5,2005-02-01,"2014-09-01"
+"1268","Palestinian Legislative Council",2005-06-01,-5,2005-02-01,"2014-09-01"
+"1269","Palestinian Legislative Council",2005-07-01,-2,2005-04-01,"2014-09-01"
+"1270","Palestinian Legislative Council",2005-08-01,-2,2005-04-01,"2014-09-01"
+"1271","Palestinian Legislative Council",2005-09-01,-2,2005-04-01,"2014-09-01"
+"1272","Palestinian Legislative Council",2005-10-01,-2,2005-04-01,"2014-09-01"
+"1273","Palestinian Legislative Council",2005-11-01,-0.4,2005-07-01,"2014-09-01"
+"1274","Palestinian Legislative Council",2005-12-01,-2,2005-11-01,"2014-09-01"
+"1275","Palestinian Legislative Council",2006-02-01,-0.5,2006-01-01,"2014-09-01"
+"1276","Palestinian Legislative Council",2008-02-01,-2,2008-01-01,"2014-09-01"
+"1277","Palestinian Legislative Council",2008-03-01,-2,2008-01-01,"2014-09-01"
+"1278","Palestinian Legislative Council",2008-04-01,-2,2008-01-01,"2014-09-01"
+"1279","Palestinian Legislative Council",2008-05-01,-2,2008-01-01,"2014-09-01"
+"1280","Palestinian Legislative Council",2010-01-01,-5,2009-08-01,"2014-09-01"
+"1281","Palestinian Legislative Council",2010-02-01,-5,2009-08-01,"2014-09-01"
+"1282","Palestinian Legislative Council",2010-10-01,-1.3333333,2010-07-01,"2014-09-01"
+"1283","Palestinian Legislative Council",2010-11-01,-1.3333333,2010-07-01,"2014-09-01"
+"1284","Palestinian Legislative Council",2010-12-01,-1.3333333,2010-07-01,"2014-09-01"
+"1285","Palestinian Legislative Council",2012-03-01,-4,2012-01-01,"2014-09-01"
+"1286","Palestinian Legislative Council",2012-04-01,-4,2012-01-01,"2014-09-01"
+"1287","Palestinian Legislative Council",2012-05-01,-4,2012-01-01,"2014-09-01"
+"1288","Palestinian Legislative Council",2012-06-01,-4,2012-01-01,"2014-09-01"
+"1289","Palestinian Legislative Council",2012-07-01,-4,2012-01-01,"2014-09-01"
+"1290","Palestinian Preventive Security Agency",1997-03-01,-2,1997-01-01,"2012-10-01"
+"1291","Palestinian Preventive Security Agency",1997-04-01,-2,1997-01-01,"2012-10-01"
+"1292","Palestinian Preventive Security Agency",1997-05-01,-2,1997-01-01,"2012-10-01"
+"1293","Palestinian Preventive Security Agency",1997-06-01,-2,1997-01-01,"2012-10-01"
+"1294","Palestinian Preventive Security Agency",1997-07-01,-3,1997-03-01,"2012-10-01"
+"1295","Palestinian Preventive Security Agency",1997-08-01,-3,1997-03-01,"2012-10-01"
+"1296","Palestinian Preventive Security Agency",1997-09-01,-3,1997-03-01,"2012-10-01"
+"1297","Palestinian Preventive Security Agency",1997-10-01,-3,1997-03-01,"2012-10-01"
+"1298","Palestinian Preventive Security Agency",1997-11-01,-3,1997-03-01,"2012-10-01"
+"1299","Palestinian Preventive Security Agency",1997-12-01,-3,1997-03-01,"2012-10-01"
+"1300","Palestinian Preventive Security Agency",1998-01-01,-3,1997-03-01,"2012-10-01"
+"1301","Palestinian Preventive Security Agency",1998-02-01,-3,1997-03-01,"2012-10-01"
+"1302","Palestinian Preventive Security Agency",1998-03-01,-3,1997-03-01,"2012-10-01"
+"1303","Palestinian Preventive Security Agency",1998-04-01,-3,1997-03-01,"2012-10-01"
+"1304","Palestinian Preventive Security Agency",1998-05-01,-3,1997-03-01,"2012-10-01"
+"1305","Palestinian Preventive Security Agency",1998-06-01,-3,1997-03-01,"2012-10-01"
+"1306","Palestinian Preventive Security Agency",2000-11-01,-9.2,1999-12-01,"2012-10-01"
+"1307","Palestinian Preventive Security Agency",2000-12-01,-9.2,1999-12-01,"2012-10-01"
+"1308","Palestinian Preventive Security Agency",2001-01-01,-9.2,1999-12-01,"2012-10-01"
+"1309","Palestinian Preventive Security Agency",2001-02-01,-9.2,1999-12-01,"2012-10-01"
+"1310","Palestinian Preventive Security Agency",2001-03-01,-9.2,1999-12-01,"2012-10-01"
+"1311","Palestinian Preventive Security Agency",2001-04-01,-9.2,1999-12-01,"2012-10-01"
+"1312","Palestinian Preventive Security Agency",2001-05-01,-9.2,1999-12-01,"2012-10-01"
+"1313","Palestinian Preventive Security Agency",2001-06-01,-9.2,1999-12-01,"2012-10-01"
+"1314","Palestinian Preventive Security Agency",2001-07-01,-9.2,1999-12-01,"2012-10-01"
+"1315","Palestinian Preventive Security Agency",2001-08-01,-9.2,1999-12-01,"2012-10-01"
+"1316","Palestinian Preventive Security Agency",2001-09-01,-9.2,1999-12-01,"2012-10-01"
+"1317","Palestinian Preventive Security Agency",2001-10-01,-9.2,1999-12-01,"2012-10-01"
+"1318","Palestinian Preventive Security Agency",2001-11-01,-9.2,1999-12-01,"2012-10-01"
+"1319","Palestinian Preventive Security Agency",2002-01-01,-2,2000-11-01,"2012-10-01"
+"1320","Palestinian Preventive Security Agency",2002-02-01,-2,2000-11-01,"2012-10-01"
+"1321","Palestinian Preventive Security Agency",2002-03-01,-2,2000-11-01,"2012-10-01"
+"1322","Palestinian Preventive Security Agency",2002-04-01,-2,2000-11-01,"2012-10-01"
+"1323","Palestinian Preventive Security Agency",2002-05-01,-2,2000-11-01,"2012-10-01"
+"1324","Palestinian Preventive Security Agency",2002-06-01,-2,2000-11-01,"2012-10-01"
+"1325","Palestinian Preventive Security Agency",2002-07-01,-2,2000-11-01,"2012-10-01"
+"1326","Palestinian Preventive Security Agency",2003-08-01,-1,2003-07-01,"2012-10-01"
+"1327","Palestinian Preventive Security Agency",2005-01-01,-0.4,2004-08-01,"2012-10-01"
+"1328","Palestinian Preventive Security Agency",2005-02-01,-0.4,2004-08-01,"2012-10-01"
+"1329","Palestinian Preventive Security Agency",2005-04-01,-0.5,2005-03-01,"2012-10-01"
+"1330","Palestinian Preventive Security Agency",2006-04-01,-2,2006-03-01,"2012-10-01"
+"1331","Palestinian Preventive Security Agency",2006-05-01,-2,2006-03-01,"2012-10-01"
+"1332","Palestinian Preventive Security Agency",2006-06-01,-2,2006-03-01,"2012-10-01"
+"1333","Palestinian Preventive Security Agency",2006-07-01,-2,2006-03-01,"2012-10-01"
+"1334","Palestinian Preventive Security Agency",2006-08-01,-2,2006-03-01,"2012-10-01"
+"1335","Palestinian Preventive Security Agency",2006-09-01,-2,2006-03-01,"2012-10-01"
+"1336","Palestinian Preventive Security Agency",2006-10-01,-2,2006-03-01,"2012-10-01"
+"1337","Palestinian Preventive Security Agency",2006-11-01,-2,2006-03-01,"2012-10-01"
+"1338","Palestinian Preventive Security Agency",2006-12-01,-2,2006-03-01,"2012-10-01"
+"1339","Palestinian Preventive Security Agency",2007-01-01,-2,2006-03-01,"2012-10-01"
+"1340","Palestinian Preventive Security Agency",2009-10-01,-2,2008-04-01,"2012-10-01"
+"1341","Palestinian Preventive Security Agency",2009-11-01,-2,2008-04-01,"2012-10-01"
+"1342","Palestinian Preventive Security Agency",2009-12-01,-2,2008-04-01,"2012-10-01"
+"1343","Palestinian Preventive Security Agency",2010-01-01,-2,2008-04-01,"2012-10-01"
+"1344","Palestinian Preventive Security Agency",2010-02-01,-2,2008-04-01,"2012-10-01"
+"1345","Palestinian Preventive Security Agency",2010-03-01,-2,2009-10-01,"2012-10-01"
+"1346","Palestinian Preventive Security Agency",2010-04-01,-2,2010-03-01,"2012-10-01"
+"1347","Palestinian Preventive Security Agency",2010-05-01,-2,2010-03-01,"2012-10-01"
+"1348","Popular Front for the Liberation of Palestine",1995-10-01,-4,1995-09-01,"2014-07-01"
+"1349","Popular Front for the Liberation of Palestine",1995-11-01,-4,1995-09-01,"2014-07-01"
+"1350","Popular Front for the Liberation of Palestine",1995-12-01,-4,1995-09-01,"2014-07-01"
+"1351","Popular Front for the Liberation of Palestine",1996-01-01,-4,1995-09-01,"2014-07-01"
+"1352","Popular Front for the Liberation of Palestine",1996-02-01,-4,1995-10-01,"2014-07-01"
+"1353","Popular Front for the Liberation of Palestine",1996-03-01,-4,1995-10-01,"2014-07-01"
+"1354","Popular Front for the Liberation of Palestine",1996-04-01,-4,1995-10-01,"2014-07-01"
+"1355","Popular Front for the Liberation of Palestine",1996-05-01,-4,1995-10-01,"2014-07-01"
+"1356","Popular Front for the Liberation of Palestine",1996-06-01,-4,1995-10-01,"2014-07-01"
+"1357","Popular Front for the Liberation of Palestine",1996-07-01,-4,1995-10-01,"2014-07-01"
+"1358","Popular Front for the Liberation of Palestine",1996-08-01,-4,1995-10-01,"2014-07-01"
+"1359","Popular Front for the Liberation of Palestine",1996-09-01,-4,1995-10-01,"2014-07-01"
+"1360","Popular Front for the Liberation of Palestine",1996-10-01,-4,1996-02-01,"2014-07-01"
+"1361","Popular Front for the Liberation of Palestine",1996-11-01,-4,1996-02-01,"2014-07-01"
+"1362","Popular Front for the Liberation of Palestine",1996-12-01,-4,1996-10-01,"2014-07-01"
+"1363","Popular Front for the Liberation of Palestine",1997-01-01,-4,1996-10-01,"2014-07-01"
+"1364","Popular Front for the Liberation of Palestine",1997-02-01,-4,1996-10-01,"2014-07-01"
+"1365","Popular Front for the Liberation of Palestine",1997-03-01,-4,1996-12-01,"2014-07-01"
+"1366","Popular Front for the Liberation of Palestine",1997-04-01,-4,1996-12-01,"2014-07-01"
+"1367","Popular Front for the Liberation of Palestine",1997-05-01,-4,1996-12-01,"2014-07-01"
+"1368","Popular Front for the Liberation of Palestine",1997-06-01,-4,1996-12-01,"2014-07-01"
+"1369","Popular Front for the Liberation of Palestine",1997-07-01,-4,1996-12-01,"2014-07-01"
+"1370","Popular Front for the Liberation of Palestine",1997-08-01,-4,1996-12-01,"2014-07-01"
+"1371","Popular Front for the Liberation of Palestine",1997-09-01,-4,1996-12-01,"2014-07-01"
+"1372","Popular Front for the Liberation of Palestine",1997-10-01,-4,1996-12-01,"2014-07-01"
+"1373","Popular Front for the Liberation of Palestine",1997-11-01,-4,1997-03-01,"2014-07-01"
+"1374","Popular Front for the Liberation of Palestine",1997-12-01,-4,1997-11-01,"2014-07-01"
+"1375","Popular Front for the Liberation of Palestine",1998-01-01,-4,1997-11-01,"2014-07-01"
+"1376","Popular Front for the Liberation of Palestine",1998-02-01,-4,1997-11-01,"2014-07-01"
+"1377","Popular Front for the Liberation of Palestine",1998-03-01,-4,1997-11-01,"2014-07-01"
+"1378","Popular Front for the Liberation of Palestine",1998-04-01,-4,1997-11-01,"2014-07-01"
+"1379","Popular Front for the Liberation of Palestine",1998-05-01,-4,1997-11-01,"2014-07-01"
+"1380","Popular Front for the Liberation of Palestine",1998-06-01,-4,1997-11-01,"2014-07-01"
+"1381","Popular Front for the Liberation of Palestine",1998-07-01,-4,1997-11-01,"2014-07-01"
+"1382","Popular Front for the Liberation of Palestine",1998-08-01,-4,1997-11-01,"2014-07-01"
+"1383","Popular Front for the Liberation of Palestine",1998-09-01,-4,1997-11-01,"2014-07-01"
+"1384","Popular Front for the Liberation of Palestine",2001-05-01,-10,2001-02-01,"2014-07-01"
+"1385","Popular Front for the Liberation of Palestine",2001-06-01,-10,2001-05-01,"2014-07-01"
+"1386","Popular Front for the Liberation of Palestine",2001-07-01,-10,2001-05-01,"2014-07-01"
+"1387","Popular Front for the Liberation of Palestine",2001-08-01,-3.25,2001-06-01,"2014-07-01"
+"1388","Popular Front for the Liberation of Palestine",2001-09-01,-4,2001-08-01,"2014-07-01"
+"1389","Popular Front for the Liberation of Palestine",2001-10-01,-6.521739,2001-09-01,"2014-07-01"
+"1390","Popular Front for the Liberation of Palestine",2001-11-01,-5.428571,2001-10-01,"2014-07-01"
+"1391","Popular Front for the Liberation of Palestine",2001-12-01,-8.5,2001-11-01,"2014-07-01"
+"1392","Popular Front for the Liberation of Palestine",2002-01-01,-8.5,2001-12-01,"2014-07-01"
+"1393","Popular Front for the Liberation of Palestine",2002-02-01,-8.5,2001-12-01,"2014-07-01"
+"1394","Popular Front for the Liberation of Palestine",2002-05-01,-6.4,2002-03-01,"2014-07-01"
+"1395","Popular Front for the Liberation of Palestine",2002-06-01,-6.4,2002-03-01,"2014-07-01"
+"1396","Popular Front for the Liberation of Palestine",2002-07-01,-6.4,2002-05-01,"2014-07-01"
+"1397","Popular Front for the Liberation of Palestine",2002-08-01,-4.333333,2002-07-01,"2014-07-01"
+"1398","Popular Front for the Liberation of Palestine",2002-09-01,-4.333333,2002-07-01,"2014-07-01"
+"1399","Popular Front for the Liberation of Palestine",2002-10-01,-4.333333,2002-08-01,"2014-07-01"
+"1400","Popular Front for the Liberation of Palestine",2002-11-01,-4.333333,2002-08-01,"2014-07-01"
+"1401","Popular Front for the Liberation of Palestine",2002-12-01,-4.333333,2002-08-01,"2014-07-01"
+"1402","Popular Front for the Liberation of Palestine",2003-01-01,-10,2002-10-01,"2014-07-01"
+"1403","Popular Front for the Liberation of Palestine",2003-02-01,-10,2002-10-01,"2014-07-01"
+"1404","Popular Front for the Liberation of Palestine",2003-03-01,-10,2002-10-01,"2014-07-01"
+"1405","Popular Front for the Liberation of Palestine",2003-04-01,-10,2003-01-01,"2014-07-01"
+"1406","Popular Front for the Liberation of Palestine",2003-05-01,-10,2003-01-01,"2014-07-01"
+"1407","Popular Front for the Liberation of Palestine",2003-06-01,-10,2003-01-01,"2014-07-01"
+"1408","Popular Front for the Liberation of Palestine",2003-07-01,-7,2003-04-01,"2014-07-01"
+"1409","Popular Front for the Liberation of Palestine",2003-08-01,-7,2003-04-01,"2014-07-01"
+"1410","Popular Front for the Liberation of Palestine",2003-09-01,-7,2003-04-01,"2014-07-01"
+"1411","Popular Front for the Liberation of Palestine",2003-10-01,-2,2003-07-01,"2014-07-01"
+"1412","Popular Front for the Liberation of Palestine",2003-11-01,-7.025,2003-10-01,"2014-07-01"
+"1413","Popular Front for the Liberation of Palestine",2003-12-01,-8.666667,2003-11-01,"2014-07-01"
+"1414","Popular Front for the Liberation of Palestine",2004-01-01,-8.666667,2003-11-01,"2014-07-01"
+"1415","Popular Front for the Liberation of Palestine",2004-02-01,-8.666667,2003-12-01,"2014-07-01"
+"1416","Popular Front for the Liberation of Palestine",2004-03-01,-8.666667,2003-12-01,"2014-07-01"
+"1417","Popular Front for the Liberation of Palestine",2004-04-01,-8.666667,2003-12-01,"2014-07-01"
+"1418","Popular Front for the Liberation of Palestine",2004-05-01,-8.666667,2003-12-01,"2014-07-01"
+"1419","Popular Front for the Liberation of Palestine",2004-06-01,-8.666667,2003-12-01,"2014-07-01"
+"1420","Popular Front for the Liberation of Palestine",2004-07-01,-8.666667,2003-12-01,"2014-07-01"
+"1421","Popular Front for the Liberation of Palestine",2004-08-01,-8.666667,2003-12-01,"2014-07-01"
+"1422","Popular Front for the Liberation of Palestine",2004-09-01,-8.666667,2003-12-01,"2014-07-01"
+"1423","Popular Front for the Liberation of Palestine",2004-10-01,-8.666667,2004-02-01,"2014-07-01"
+"1424","Popular Front for the Liberation of Palestine",2004-12-01,-10,2004-11-01,"2014-07-01"
+"1425","Popular Front for the Liberation of Palestine",2005-01-01,-10,2004-11-01,"2014-07-01"
+"1426","Popular Front for the Liberation of Palestine",2005-02-01,-10,2004-11-01,"2014-07-01"
+"1427","Popular Front for the Liberation of Palestine",2005-03-01,-10,2004-11-01,"2014-07-01"
+"1428","Popular Front for the Liberation of Palestine",2005-04-01,-7,2004-12-01,"2014-07-01"
+"1429","Popular Front for the Liberation of Palestine",2005-05-01,-7,2004-12-01,"2014-07-01"
+"1430","Popular Front for the Liberation of Palestine",2005-06-01,-7,2004-12-01,"2014-07-01"
+"1431","Popular Front for the Liberation of Palestine",2005-07-01,-7,2004-12-01,"2014-07-01"
+"1432","Popular Front for the Liberation of Palestine",2005-08-01,-7,2004-12-01,"2014-07-01"
+"1433","Popular Front for the Liberation of Palestine",2005-09-01,-7,2004-12-01,"2014-07-01"
+"1434","Popular Front for the Liberation of Palestine",2005-10-01,-7,2004-12-01,"2014-07-01"
+"1435","Popular Front for the Liberation of Palestine",2005-11-01,-7,2004-12-01,"2014-07-01"
+"1436","Popular Front for the Liberation of Palestine",2005-12-01,-7,2004-12-01,"2014-07-01"
+"1437","Popular Front for the Liberation of Palestine",2006-01-01,-7,2004-12-01,"2014-07-01"
+"1438","Popular Front for the Liberation of Palestine",2006-02-01,-7,2004-12-01,"2014-07-01"
+"1439","Popular Front for the Liberation of Palestine",2006-03-01,-7.2,2005-04-01,"2014-07-01"
+"1440","Popular Front for the Liberation of Palestine",2006-04-01,-7.2,2006-03-01,"2014-07-01"
+"1441","Popular Front for the Liberation of Palestine",2006-05-01,-7.2,2006-03-01,"2014-07-01"
+"1442","Popular Front for the Liberation of Palestine",2006-06-01,-7.2,2006-03-01,"2014-07-01"
+"1443","Popular Front for the Liberation of Palestine",2006-07-01,-7.2,2006-03-01,"2014-07-01"
+"1444","Popular Front for the Liberation of Palestine",2006-08-01,-7.2,2006-03-01,"2014-07-01"
+"1445","Popular Front for the Liberation of Palestine",2006-09-01,-7.2,2006-03-01,"2014-07-01"
+"1446","Popular Front for the Liberation of Palestine",2006-10-01,-7.2,2006-03-01,"2014-07-01"
+"1447","Popular Front for the Liberation of Palestine",2006-11-01,-7.2,2006-03-01,"2014-07-01"
+"1448","Popular Front for the Liberation of Palestine",2006-12-01,-7.2,2006-03-01,"2014-07-01"
+"1449","Popular Front for the Liberation of Palestine",2007-01-01,-7.2,2006-03-01,"2014-07-01"
+"1450","Popular Front for the Liberation of Palestine",2007-02-01,-7.2,2006-03-01,"2014-07-01"
+"1451","Popular Front for the Liberation of Palestine",2007-03-01,-7.2,2006-03-01,"2014-07-01"
+"1452","Popular Front for the Liberation of Palestine",2007-04-01,-7.2,2006-03-01,"2014-07-01"
+"1453","Popular Front for the Liberation of Palestine",2007-06-01,-10,2007-05-01,"2014-07-01"
+"1454","Popular Front for the Liberation of Palestine",2007-07-01,-10,2007-06-01,"2014-07-01"
+"1455","Popular Front for the Liberation of Palestine",2007-08-01,-10,2007-07-01,"2014-07-01"
+"1456","Popular Front for the Liberation of Palestine",2007-09-01,-10,2007-07-01,"2014-07-01"
+"1457","Popular Front for the Liberation of Palestine",2007-10-01,-10,2007-08-01,"2014-07-01"
+"1458","Popular Front for the Liberation of Palestine",2007-11-01,-10,2007-08-01,"2014-07-01"
+"1459","Popular Front for the Liberation of Palestine",2007-12-01,-10,2007-10-01,"2014-07-01"
+"1460","Popular Front for the Liberation of Palestine",2008-01-01,-10,2007-12-01,"2014-07-01"
+"1461","Popular Front for the Liberation of Palestine",2008-02-01,-8.333333,2008-01-01,"2014-07-01"
+"1462","Popular Front for the Liberation of Palestine",2008-03-01,-10,2008-02-01,"2014-07-01"
+"1463","Popular Front for the Liberation of Palestine",2008-04-01,-7.777778,2008-03-01,"2014-07-01"
+"1464","Popular Front for the Liberation of Palestine",2008-05-01,-10,2008-04-01,"2014-07-01"
+"1465","Popular Front for the Liberation of Palestine",2008-06-01,-10,2008-05-01,"2014-07-01"
+"1466","Popular Front for the Liberation of Palestine",2008-07-01,-10,2008-05-01,"2014-07-01"
+"1467","Popular Front for the Liberation of Palestine",2008-08-01,-10,2008-05-01,"2014-07-01"
+"1468","Popular Front for the Liberation of Palestine",2008-09-01,-10,2008-06-01,"2014-07-01"
+"1469","Popular Front for the Liberation of Palestine",2008-10-01,-7,2008-09-01,"2014-07-01"
+"1470","Popular Front for the Liberation of Palestine",2008-11-01,-10,2008-10-01,"2014-07-01"
+"1471","Popular Front for the Liberation of Palestine",2008-12-01,-7.166667,2008-11-01,"2014-07-01"
+"1472","Popular Front for the Liberation of Palestine",2009-01-01,-7.166667,2008-11-01,"2014-07-01"
+"1473","Popular Front for the Liberation of Palestine",2009-02-01,-7.166667,2008-11-01,"2014-07-01"
+"1474","Popular Front for the Liberation of Palestine",2009-03-01,-7.166667,2008-11-01,"2014-07-01"
+"1475","Popular Front for the Liberation of Palestine",2009-04-01,-7.166667,2008-11-01,"2014-07-01"
+"1476","Popular Front for the Liberation of Palestine",2009-05-01,-7.166667,2008-11-01,"2014-07-01"
+"1477","Popular Front for the Liberation of Palestine",2009-06-01,-7.166667,2008-11-01,"2014-07-01"
+"1478","Popular Front for the Liberation of Palestine",2009-07-01,-7.166667,2008-11-01,"2014-07-01"
+"1479","Popular Front for the Liberation of Palestine",2009-08-01,-7.166667,2008-11-01,"2014-07-01"
+"1480","Popular Front for the Liberation of Palestine",2009-09-01,-7.166667,2008-11-01,"2014-07-01"
+"1481","Popular Front for the Liberation of Palestine",2009-10-01,-7.166667,2008-11-01,"2014-07-01"
+"1482","Popular Front for the Liberation of Palestine",2009-11-01,-7.166667,2008-11-01,"2014-07-01"
+"1483","Popular Front for the Liberation of Palestine",2009-12-01,-7.166667,2008-11-01,"2014-07-01"
+"1484","Popular Front for the Liberation of Palestine",2010-01-01,-7.166667,2008-11-01,"2014-07-01"
+"1485","Popular Front for the Liberation of Palestine",2010-02-01,-7.166667,2008-11-01,"2014-07-01"
+"1486","Popular Front for the Liberation of Palestine",2010-03-01,-7.166667,2008-12-01,"2014-07-01"
+"1487","Popular Front for the Liberation of Palestine",2010-04-01,-7.166667,2008-12-01,"2014-07-01"
+"1488","Popular Front for the Liberation of Palestine",2010-05-01,-7.166667,2008-12-01,"2014-07-01"
+"1489","Popular Front for the Liberation of Palestine",2010-06-01,-7.166667,2010-03-01,"2014-07-01"
+"1490","Popular Front for the Liberation of Palestine",2010-07-01,-7.166667,2010-03-01,"2014-07-01"
+"1491","Popular Front for the Liberation of Palestine",2010-08-01,-7.166667,2010-03-01,"2014-07-01"
+"1492","Popular Front for the Liberation of Palestine",2010-09-01,-7.166667,2010-03-01,"2014-07-01"
+"1493","Popular Front for the Liberation of Palestine",2010-10-01,-7.166667,2010-03-01,"2014-07-01"
+"1494","Popular Front for the Liberation of Palestine",2010-11-01,-7.166667,2010-03-01,"2014-07-01"
+"1495","Popular Front for the Liberation of Palestine",2010-12-01,-7.166667,2010-03-01,"2014-07-01"
+"1496","Popular Front for the Liberation of Palestine",2011-01-01,-7.166667,2010-03-01,"2014-07-01"
+"1497","Popular Front for the Liberation of Palestine",2011-02-01,-7.166667,2010-03-01,"2014-07-01"
+"1498","Popular Front for the Liberation of Palestine",2011-03-01,-7.166667,2010-03-01,"2014-07-01"
+"1499","Popular Front for the Liberation of Palestine",2011-04-01,-7.166667,2010-03-01,"2014-07-01"
+"1500","Popular Front for the Liberation of Palestine",2011-05-01,-7.166667,2010-03-01,"2014-07-01"
+"1501","Popular Front for the Liberation of Palestine",2011-06-01,-7,2010-06-01,"2014-07-01"
+"1502","Popular Front for the Liberation of Palestine",2011-07-01,-7,2010-06-01,"2014-07-01"
+"1503","Popular Front for the Liberation of Palestine",2011-08-01,-2,2011-06-01,"2014-07-01"
+"1504","Popular Front for the Liberation of Palestine",2011-09-01,-2,2011-06-01,"2014-07-01"
+"1505","Popular Front for the Liberation of Palestine",2011-10-01,-10,2011-08-01,"2014-07-01"
+"1506","Popular Front for the Liberation of Palestine",2011-11-01,-10,2011-08-01,"2014-07-01"
+"1507","Popular Front for the Liberation of Palestine",2011-12-01,-10,2011-08-01,"2014-07-01"
+"1508","Popular Front for the Liberation of Palestine",2012-01-01,-10,2011-08-01,"2014-07-01"
+"1509","Popular Front for the Liberation of Palestine",2012-02-01,-10,2011-08-01,"2014-07-01"
+"1510","Popular Front for the Liberation of Palestine",2012-03-01,-10,2011-08-01,"2014-07-01"
+"1511","Popular Front for the Liberation of Palestine",2012-04-01,-10,2011-08-01,"2014-07-01"
+"1512","Popular Front for the Liberation of Palestine",2012-05-01,-10,2011-08-01,"2014-07-01"
+"1513","Popular Front for the Liberation of Palestine",2012-06-01,-10,2011-10-01,"2014-07-01"
+"1514","Popular Front for the Liberation of Palestine",2012-07-01,-7,2012-06-01,"2014-07-01"
+"1515","Popular Front for the Liberation of Palestine",2012-08-01,-7,2012-06-01,"2014-07-01"
+"1516","Popular Front for the Liberation of Palestine",2012-09-01,-7,2012-06-01,"2014-07-01"
+"1517","Popular Front for the Liberation of Palestine",2012-10-01,-7,2012-06-01,"2014-07-01"
+"1518","Popular Front for the Liberation of Palestine",2012-11-01,-7,2012-06-01,"2014-07-01"
+"1519","Popular Front for the Liberation of Palestine",2012-12-01,-7,2012-06-01,"2014-07-01"
+"1520","Popular Front for the Liberation of Palestine",2013-01-01,-7,2012-06-01,"2014-07-01"
+"1521","Popular Front for the Liberation of Palestine",2013-02-01,-7,2012-06-01,"2014-07-01"
+"1522","Popular Front for the Liberation of Palestine",2013-03-01,-7,2012-06-01,"2014-07-01"
+"1523","Popular Front for the Liberation of Palestine",2013-04-01,-7,2012-06-01,"2014-07-01"
+"1524","Popular Front for the Liberation of Palestine",2013-05-01,-7,2012-06-01,"2014-07-01"
+"1525","Popular Front for the Liberation of Palestine",2013-06-01,-7,2012-06-01,"2014-07-01"
+"1526","Popular Front for the Liberation of Palestine",2013-07-01,-7,2012-06-01,"2014-07-01"
+"1527","Popular Front for the Liberation of Palestine",2013-08-01,-7,2012-06-01,"2014-07-01"
+"1528","Popular Front for the Liberation of Palestine",2013-09-01,-7,2012-06-01,"2014-07-01"
+"1529","Popular Front for the Liberation of Palestine",2013-10-01,-7,2012-06-01,"2014-07-01"
+"1530","Popular Front for the Liberation of Palestine",2013-11-01,-7,2012-06-01,"2014-07-01"
+"1531","Popular Front for the Liberation of Palestine",2013-12-01,-7,2012-06-01,"2014-07-01"
+"1532","Popular Front for the Liberation of Palestine",2014-01-01,-7,2012-06-01,"2014-07-01"
+"1533","Popular Front for the Liberation of Palestine",2014-02-01,-7,2012-06-01,"2014-07-01"
+"1534","Popular Front for the Liberation of Palestine",2014-03-01,-7,2012-06-01,"2014-07-01"
+"1535","Popular Front for the Liberation of Palestine",2014-04-01,-7,2012-06-01,"2014-07-01"
+"1536","Popular Front for the Liberation of Palestine",2014-05-01,-7,2012-06-01,"2014-07-01"
+"1537","Popular Front for the Liberation of Palestine",2014-06-01,-7,2012-06-01,"2014-07-01"
+"1538","Tanzim",2000-11-01,-4,2000-11-01,"2005-11-01"
+"1539","Tanzim",2000-12-01,-4,2000-11-01,"2005-11-01"
+"1540","Tanzim",2001-01-01,-4,2000-11-01,"2005-11-01"
+"1541","Tanzim",2001-02-01,-4,2000-11-01,"2005-11-01"
+"1542","Tanzim",2001-03-01,-4,2000-11-01,"2005-11-01"
+"1543","Tanzim",2001-04-01,-4,2000-11-01,"2005-11-01"
+"1544","Tanzim",2001-05-01,-4,2000-11-01,"2005-11-01"
+"1545","Tanzim",2001-06-01,-4,2000-11-01,"2005-11-01"
+"1546","Tanzim",2001-07-01,-4,2000-11-01,"2005-11-01"
+"1547","Tanzim",2001-08-01,-4,2000-11-01,"2005-11-01"
+"1548","Tanzim",2001-09-01,-10,2000-11-01,"2005-11-01"
+"1549","Tanzim",2001-10-01,-10,2000-11-01,"2005-11-01"
+"1550","Tanzim",2001-11-01,-10,2000-11-01,"2005-11-01"
+"1551","Tanzim",2001-12-01,-10,2000-11-01,"2005-11-01"
+"1552","Tanzim",2002-01-01,-10,2001-09-01,"2005-11-01"
+"1553","Tanzim",2002-02-01,-10,2001-09-01,"2005-11-01"
+"1554","Tanzim",2002-03-01,-10,2001-09-01,"2005-11-01"
+"1555","Tanzim",2002-04-01,-10,2001-09-01,"2005-11-01"
+"1556","Tanzim",2002-05-01,-10,2002-01-01,"2005-11-01"
+"1557","Tanzim",2003-08-01,-7,2002-06-01,"2005-11-01"
+"1558","Tanzim",2003-09-01,-7,2002-06-01,"2005-11-01"
+"1559","Tanzim",2003-10-01,-7,2002-06-01,"2005-11-01"
+"1560","Tanzim",2003-11-01,-10,2003-08-01,"2005-11-01"
+"1561","Tanzim",2003-12-01,-10,2003-08-01,"2005-11-01"
+"1562","Tanzim",2004-01-01,-10,2003-08-01,"2005-11-01"
+"1563","Tanzim",2004-02-01,-10,2003-08-01,"2005-11-01"
+"1564","Tanzim",2004-03-01,-10,2003-08-01,"2005-11-01"
+"1565","Tanzim",2004-04-01,-10,2003-08-01,"2005-11-01"
+"1566","Tanzim",2004-05-01,-10,2003-08-01,"2005-11-01"
+"1567","Tanzim",2004-06-01,-10,2003-08-01,"2005-11-01"
+"1568","Tanzim",2004-07-01,-10,2003-08-01,"2005-11-01"
+"1569","Tanzim",2004-08-01,-10,2003-08-01,"2005-11-01"
+"1570","Tanzim",2004-09-01,-10,2003-08-01,"2005-11-01"
+"1571","Tanzim",2004-10-01,-10,2003-08-01,"2005-11-01"
+"1572","Tanzim",2004-11-01,-10,2003-08-01,"2005-11-01"
+"1573","Tanzim",2004-12-01,-10,2003-08-01,"2005-11-01"
+"1574","Tanzim",2005-01-01,-10,2003-08-01,"2005-11-01"
+"1575","Tanzim",2005-02-01,-10,2003-08-01,"2005-11-01"
+"1576","Tanzim",2005-03-01,-10,2003-08-01,"2005-11-01"
+"1577","Tanzim",2005-04-01,-10,2003-08-01,"2005-11-01"
+"1578","Tanzim",2005-05-01,-10,2003-08-01,"2005-11-01"
+"1579","Tanzim",2005-06-01,-10,2003-08-01,"2005-11-01"
+"1580","Tanzim",2005-07-01,-10,2003-08-01,"2005-11-01"
+"1581","Third Way",2007-07-01,-0.76,2007-06-01,"2014-09-01"
+"1582","Third Way",2007-11-01,-4,2007-10-01,"2014-09-01"
+"1583","Third Way",2008-01-01,-2,2007-12-01,"2014-09-01"
+"1584","Third Way",2008-06-01,-2,2008-05-01,"2014-09-01"
+"1585","Third Way",2008-07-01,-2,2008-06-01,"2014-09-01"
+"1586","Third Way",2008-11-01,-4,2008-08-01,"2014-09-01"
+"1587","Third Way",2009-10-01,-4.4,2009-07-01,"2014-09-01"
+"1588","Third Way",2009-11-01,-1.55,2009-10-01,"2014-09-01"
+"1589","Third Way",2009-12-01,-2,2009-11-01,"2014-09-01"
+"1590","Third Way",2010-03-01,-2,2010-02-01,"2014-09-01"
+"1591","Third Way",2010-10-01,-2,2010-09-01,"2014-09-01"
+"1592","Third Way",2011-07-01,-1,2011-06-01,"2014-09-01"
+"1593","Third Way",2011-08-01,-1,2011-07-01,"2014-09-01"
+"1594","Third Way",2011-11-01,-2,2011-09-01,"2014-09-01"
+"1595","Third Way",2011-12-01,-2,2011-11-01,"2014-09-01"
+"1596","Third Way",2012-02-01,-1,2012-01-01,"2014-09-01"
+"1597","Third Way",2012-03-01,-1,2012-01-01,"2014-09-01"
+"1598","Third Way",2012-04-01,-0.7857143,2012-02-01,"2014-09-01"
+"1599","Third Way",2012-05-01,-0.7857143,2012-02-01,"2014-09-01"
+"1600","Third Way",2012-06-01,-0.7857143,2012-02-01,"2014-09-01"
+"1601","Third Way",2014-07-01,-5,2012-12-01,"2014-09-01"
+"1602","Third Way",2014-08-01,-5,2012-12-01,"2014-09-01"
+"1603","Third Way",2014-09-01,-5,2012-12-01,"2014-09-01"
+"1604","Unattributed",1995-01-01,-1.7,1995-01-01,"2014-09-01"
+"1605","Unattributed",1995-02-01,-7,1995-01-01,"2014-09-01"
+"1606","Unattributed",1995-03-01,-0.8,1995-02-01,"2014-09-01"
+"1607","Unattributed",1995-04-01,-0.8,1995-03-01,"2014-09-01"
+"1608","Unattributed",1995-06-01,-3.2777778,1995-05-01,"2014-09-01"
+"1609","Unattributed",1995-07-01,-3.3714286,1995-06-01,"2014-09-01"
+"1610","Unattributed",1995-08-01,-4,1995-07-01,"2014-09-01"
+"1611","Unattributed",1995-09-01,-1.98,1995-08-01,"2014-09-01"
+"1612","Unattributed",1995-10-01,-0.35,1995-09-01,"2014-09-01"
+"1613","Unattributed",1995-12-01,-5.6,1995-11-01,"2014-09-01"
+"1614","Unattributed",1996-01-01,-2.1608696,1995-12-01,"2014-09-01"
+"1615","Unattributed",1996-02-01,-1.0181818,1996-01-01,"2014-09-01"
+"1616","Unattributed",1996-03-01,-3.692,1996-02-01,"2014-09-01"
+"1617","Unattributed",1996-04-01,-0.6272727,1996-03-01,"2014-09-01"
+"1618","Unattributed",1996-05-01,-2.7176471,1996-04-01,"2014-09-01"
+"1619","Unattributed",1996-07-01,-2.9736842,1996-06-01,"2014-09-01"
+"1620","Unattributed",1996-08-01,-0.9666667,1996-07-01,"2014-09-01"
+"1621","Unattributed",1996-09-01,-5.6207547,1996-08-01,"2014-09-01"
+"1622","Unattributed",1996-10-01,-0.669697,1996-09-01,"2014-09-01"
+"1623","Unattributed",1996-12-01,-2.7363636,1996-11-01,"2014-09-01"
+"1624","Unattributed",1997-01-01,-0.33,1996-12-01,"2014-09-01"
+"1625","Unattributed",1997-02-01,-3.05,1997-01-01,"2014-09-01"
+"1626","Unattributed",1997-03-01,-3.9608696,1997-02-01,"2014-09-01"
+"1627","Unattributed",1997-04-01,-3.5027778,1997-03-01,"2014-09-01"
+"1628","Unattributed",1997-05-01,-1.3666667,1997-04-01,"2014-09-01"
+"1629","Unattributed",1997-06-01,-3.06,1997-05-01,"2014-09-01"
+"1630","Unattributed",1997-07-01,-1.5433333,1997-06-01,"2014-09-01"
+"1631","Unattributed",1997-08-01,-1.5909091,1997-07-01,"2014-09-01"
+"1632","Unattributed",1997-09-01,-0.4604167,1997-08-01,"2014-09-01"
+"1633","Unattributed",1997-10-01,-0.1111111,1997-09-01,"2014-09-01"
+"1634","Unattributed",1997-11-01,-1.4333333,1997-10-01,"2014-09-01"
+"1635","Unattributed",1997-12-01,-0.9461538,1997-11-01,"2014-09-01"
+"1636","Unattributed",1998-01-01,-2.5352941,1997-12-01,"2014-09-01"
+"1637","Unattributed",1998-02-01,-3.9545455,1998-01-01,"2014-09-01"
+"1638","Unattributed",1998-03-01,-3.5666667,1998-02-01,"2014-09-01"
+"1639","Unattributed",1998-04-01,-0.8923077,1998-03-01,"2014-09-01"
+"1640","Unattributed",1998-05-01,-6.1363636,1998-04-01,"2014-09-01"
+"1641","Unattributed",1998-06-01,-0.8666667,1998-05-01,"2014-09-01"
+"1642","Unattributed",1998-08-01,-3.5444444,1998-07-01,"2014-09-01"
+"1643","Unattributed",1998-09-01,-1.4208333,1998-08-01,"2014-09-01"
+"1644","Unattributed",1998-10-01,-2.2,1998-09-01,"2014-09-01"
+"1645","Unattributed",1998-12-01,-3.976,1998-11-01,"2014-09-01"
+"1646","Unattributed",1999-03-01,-1.5071429,1999-02-01,"2014-09-01"
+"1647","Unattributed",1999-04-01,-0.8,1999-03-01,"2014-09-01"
+"1648","Unattributed",1999-05-01,-1.0153846,1999-04-01,"2014-09-01"
+"1649","Unattributed",2000-11-01,-4.767,1999-12-01,"2014-09-01"
+"1650","Unattributed",2000-12-01,-3.5318681,2000-11-01,"2014-09-01"
+"1651","Unattributed",2001-01-01,-0.3884211,2000-12-01,"2014-09-01"
+"1652","Unattributed",2001-02-01,-5.4843284,2001-01-01,"2014-09-01"
+"1653","Unattributed",2001-03-01,-7.1626374,2001-02-01,"2014-09-01"
+"1654","Unattributed",2001-04-01,-2.4585106,2001-03-01,"2014-09-01"
+"1655","Unattributed",2001-05-01,-5.9634783,2001-04-01,"2014-09-01"
+"1656","Unattributed",2001-06-01,-5.0668874,2001-05-01,"2014-09-01"
+"1657","Unattributed",2001-07-01,-6.0890511,2001-06-01,"2014-09-01"
+"1658","Unattributed",2001-08-01,-7.2206226,2001-07-01,"2014-09-01"
+"1659","Unattributed",2001-09-01,-4.0684524,2001-08-01,"2014-09-01"
+"1660","Unattributed",2001-10-01,-6.45,2001-09-01,"2014-09-01"
+"1661","Unattributed",2001-11-01,-7.1053892,2001-10-01,"2014-09-01"
+"1662","Unattributed",2001-12-01,-7.1145251,2001-11-01,"2014-09-01"
+"1663","Unattributed",2002-01-01,-7.3980952,2001-12-01,"2014-09-01"
+"1664","Unattributed",2002-02-01,-7.4868687,2002-01-01,"2014-09-01"
+"1665","Unattributed",2002-03-01,-8.2020202,2002-02-01,"2014-09-01"
+"1666","Unattributed",2002-04-01,-6.3415789,2002-03-01,"2014-09-01"
+"1667","Unattributed",2002-05-01,-7.76,2002-04-01,"2014-09-01"
+"1668","Unattributed",2002-06-01,-8.410828,2002-05-01,"2014-09-01"
+"1669","Unattributed",2002-07-01,-6.4067114,2002-06-01,"2014-09-01"
+"1670","Unattributed",2002-08-01,-5.5683168,2002-07-01,"2014-09-01"
+"1671","Unattributed",2002-09-01,-5.8785714,2002-08-01,"2014-09-01"
+"1672","Unattributed",2002-10-01,-7.0229885,2002-09-01,"2014-09-01"
+"1673","Unattributed",2002-11-01,-8.1848,2002-10-01,"2014-09-01"
+"1674","Unattributed",2002-12-01,-7.2020408,2002-11-01,"2014-09-01"
+"1675","Unattributed",2003-01-01,-8.2072289,2002-12-01,"2014-09-01"
+"1676","Unattributed",2003-02-01,-4.832,2003-01-01,"2014-09-01"
+"1677","Unattributed",2003-03-01,-8.4225,2003-02-01,"2014-09-01"
+"1678","Unattributed",2003-04-01,-7.2583333,2003-03-01,"2014-09-01"
+"1679","Unattributed",2003-05-01,-5.4080292,2003-04-01,"2014-09-01"
+"1680","Unattributed",2003-06-01,-4.600641,2003-05-01,"2014-09-01"
+"1681","Unattributed",2003-07-01,-3.8514019,2003-06-01,"2014-09-01"
+"1682","Unattributed",2003-08-01,-6.2954545,2003-07-01,"2014-09-01"
+"1683","Unattributed",2003-09-01,-5.71,2003-08-01,"2014-09-01"
+"1684","Unattributed",2003-10-01,-6.131746,2003-09-01,"2014-09-01"
+"1685","Unattributed",2003-11-01,-2.6909091,2003-10-01,"2014-09-01"
+"1686","Unattributed",2003-12-01,-3.4782609,2003-11-01,"2014-09-01"
+"1687","Unattributed",2004-01-01,-5.91875,2003-12-01,"2014-09-01"
+"1688","Unattributed",2004-02-01,-6.665,2004-01-01,"2014-09-01"
+"1689","Unattributed",2004-03-01,-6.6622951,2004-02-01,"2014-09-01"
+"1690","Unattributed",2004-04-01,-6.6125,2004-03-01,"2014-09-01"
+"1691","Unattributed",2004-05-01,-5.8733333,2004-04-01,"2014-09-01"
+"1692","Unattributed",2004-06-01,-8.3979167,2004-05-01,"2014-09-01"
+"1693","Unattributed",2004-07-01,-8.1903846,2004-06-01,"2014-09-01"
+"1694","Unattributed",2004-08-01,-6.2367347,2004-07-01,"2014-09-01"
+"1695","Unattributed",2004-09-01,-8.4057143,2004-08-01,"2014-09-01"
+"1696","Unattributed",2004-10-01,-7.0616438,2004-09-01,"2014-09-01"
+"1697","Unattributed",2004-11-01,-4.7878788,2004-10-01,"2014-09-01"
+"1698","Unattributed",2004-12-01,-2.8604167,2004-11-01,"2014-09-01"
+"1699","Unattributed",2005-01-01,-4.1908163,2004-12-01,"2014-09-01"
+"1700","Unattributed",2005-02-01,-1.4313043,2005-01-01,"2014-09-01"
+"1701","Unattributed",2005-03-01,-4.45,2005-02-01,"2014-09-01"
+"1702","Unattributed",2005-04-01,-4.6829787,2005-03-01,"2014-09-01"
+"1703","Unattributed",2005-05-01,-2.5931818,2005-04-01,"2014-09-01"
+"1704","Unattributed",2005-06-01,-5.7325301,2005-05-01,"2014-09-01"
+"1705","Unattributed",2005-07-01,-7.0618644,2005-06-01,"2014-09-01"
+"1706","Unattributed",2005-08-01,-5.5408451,2005-07-01,"2014-09-01"
+"1707","Unattributed",2005-09-01,-6.4338028,2005-08-01,"2014-09-01"
+"1708","Unattributed",2005-10-01,-7.8878505,2005-09-01,"2014-09-01"
+"1709","Unattributed",2005-11-01,-0.5688525,2005-10-01,"2014-09-01"
+"1710","Unattributed",2005-12-01,-8.2798077,2005-11-01,"2014-09-01"
+"1711","Unattributed",2006-01-01,-5.9785714,2005-12-01,"2014-09-01"
+"1712","Unattributed",2006-02-01,-7.4453125,2006-01-01,"2014-09-01"
+"1713","Unattributed",2006-03-01,-5.912987,2006-02-01,"2014-09-01"
+"1714","Unattributed",2006-04-01,-7.332381,2006-03-01,"2014-09-01"
+"1715","Unattributed",2006-05-01,-5.244186,2006-04-01,"2014-09-01"
+"1716","Unattributed",2006-06-01,-7.6518987,2006-05-01,"2014-09-01"
+"1717","Unattributed",2006-07-01,-8.1445946,2006-06-01,"2014-09-01"
+"1718","Unattributed",2006-08-01,-5.4454545,2006-07-01,"2014-09-01"
+"1719","Unattributed",2006-09-01,-2.8868421,2006-08-01,"2014-09-01"
+"1720","Unattributed",2006-10-01,-6.8916667,2006-09-01,"2014-09-01"
+"1721","Unattributed",2006-11-01,-6.7893617,2006-10-01,"2014-09-01"
+"1722","Unattributed",2006-12-01,-4.1671053,2006-11-01,"2014-09-01"
+"1723","Unattributed",2007-01-01,-6.7367347,2006-12-01,"2014-09-01"
+"1724","Unattributed",2007-02-01,-4.8020833,2007-01-01,"2014-09-01"
+"1725","Unattributed",2007-03-01,-0.5457143,2007-02-01,"2014-09-01"
+"1726","Unattributed",2007-04-01,-7.3518519,2007-03-01,"2014-09-01"
+"1727","Unattributed",2007-05-01,-8.4436364,2007-04-01,"2014-09-01"
+"1728","Unattributed",2007-06-01,-5.2692308,2007-05-01,"2014-09-01"
+"1729","Unattributed",2007-07-01,-3.2241379,2007-06-01,"2014-09-01"
+"1730","Unattributed",2007-08-01,-4.2,2007-07-01,"2014-09-01"
+"1731","Unattributed",2007-09-01,-4.6486486,2007-08-01,"2014-09-01"
+"1732","Unattributed",2007-10-01,-2.3602564,2007-09-01,"2014-09-01"
+"1733","Unattributed",2007-12-01,-0.9097826,2007-11-01,"2014-09-01"
+"1734","Unattributed",2008-01-01,-2.2960526,2007-12-01,"2014-09-01"
+"1735","Unattributed",2008-02-01,-6.0947368,2008-01-01,"2014-09-01"
+"1736","Unattributed",2008-03-01,-6.1596026,2008-02-01,"2014-09-01"
+"1737","Unattributed",2008-04-01,-5.2209302,2008-03-01,"2014-09-01"
+"1738","Unattributed",2008-05-01,-2.954386,2008-04-01,"2014-09-01"
+"1739","Unattributed",2008-06-01,-4.7690909,2008-05-01,"2014-09-01"
+"1740","Unattributed",2008-07-01,-5.5227848,2008-06-01,"2014-09-01"
+"1741","Unattributed",2008-08-01,-3.3804878,2008-07-01,"2014-09-01"
+"1742","Unattributed",2008-09-01,-2.0425,2008-08-01,"2014-09-01"
+"1743","Unattributed",2008-10-01,-3.4193548,2008-09-01,"2014-09-01"
+"1744","Unattributed",2008-11-01,-4.6071429,2008-10-01,"2014-09-01"
+"1745","Unattributed",2008-12-01,-7.4875,2008-11-01,"2014-09-01"
+"1746","Unattributed",2009-01-01,-6.68,2008-12-01,"2014-09-01"
+"1747","Unattributed",2009-02-01,-7.7291667,2009-01-01,"2014-09-01"
+"1748","Unattributed",2009-03-01,-3.7894737,2009-02-01,"2014-09-01"
+"1749","Unattributed",2009-04-01,-1.9735294,2009-03-01,"2014-09-01"
+"1750","Unattributed",2009-05-01,-5.04,2009-04-01,"2014-09-01"
+"1751","Unattributed",2009-07-01,-3.6111111,2009-06-01,"2014-09-01"
+"1752","Unattributed",2009-08-01,-1.0181818,2009-07-01,"2014-09-01"
+"1753","Unattributed",2009-09-01,-5.1704545,2009-08-01,"2014-09-01"
+"1754","Unattributed",2009-10-01,-5.6283019,2009-09-01,"2014-09-01"
+"1755","Unattributed",2009-11-01,-2.8548387,2009-10-01,"2014-09-01"
+"1756","Unattributed",2009-12-01,-3.824,2009-11-01,"2014-09-01"
+"1757","Unattributed",2010-01-01,-1.8076923,2009-12-01,"2014-09-01"
+"1758","Unattributed",2010-02-01,-4.8464286,2010-01-01,"2014-09-01"
+"1759","Unattributed",2010-03-01,-4.0725806,2010-02-01,"2014-09-01"
+"1760","Unattributed",2010-04-01,-2.624,2010-03-01,"2014-09-01"
+"1761","Unattributed",2010-06-01,-5.1428571,2010-05-01,"2014-09-01"
+"1762","Unattributed",2010-07-01,-4.11,2010-06-01,"2014-09-01"
+"1763","Unattributed",2010-08-01,-2.2052632,2010-07-01,"2014-09-01"
+"1764","Unattributed",2010-09-01,-3.58875,2010-08-01,"2014-09-01"
+"1765","Unattributed",2010-10-01,-2.2407407,2010-09-01,"2014-09-01"
+"1766","Unattributed",2010-11-01,-2.3181818,2010-10-01,"2014-09-01"
+"1767","Unattributed",2010-12-01,-2.66,2010-11-01,"2014-09-01"
+"1768","Unattributed",2011-01-01,-1.0673077,2010-12-01,"2014-09-01"
+"1769","Unattributed",2011-02-01,-1.7769231,2011-01-01,"2014-09-01"
+"1770","Unattributed",2011-03-01,-6.0257143,2011-02-01,"2014-09-01"
+"1771","Unattributed",2011-04-01,-3.8277778,2011-03-01,"2014-09-01"
+"1772","Unattributed",2011-05-01,-1.694,2011-04-01,"2014-09-01"
+"1773","Unattributed",2011-06-01,-2.6235294,2011-05-01,"2014-09-01"
+"1774","Unattributed",2011-07-01,-1.3333333,2011-06-01,"2014-09-01"
+"1775","Unattributed",2011-08-01,-6.1214286,2011-07-01,"2014-09-01"
+"1776","Unattributed",2011-09-01,-2.0925,2011-08-01,"2014-09-01"
+"1777","Unattributed",2011-10-01,-3.4916667,2011-09-01,"2014-09-01"
+"1778","Unattributed",2011-11-01,-3.0482759,2011-10-01,"2014-09-01"
+"1779","Unattributed",2011-12-01,-2.2107143,2011-11-01,"2014-09-01"
+"1780","Unattributed",2012-01-01,-1.15,2011-12-01,"2014-09-01"
+"1781","Unattributed",2012-02-01,-5.62,2012-01-01,"2014-09-01"
+"1782","Unattributed",2012-03-01,-7.8333333,2012-02-01,"2014-09-01"
+"1783","Unattributed",2012-04-01,-1.5285714,2012-03-01,"2014-09-01"
+"1784","Unattributed",2012-05-01,-3.136,2012-04-01,"2014-09-01"
+"1785","Unattributed",2012-06-01,-5.0212121,2012-05-01,"2014-09-01"
+"1786","Unattributed",2012-07-01,-3.2777778,2012-06-01,"2014-09-01"
+"1787","Unattributed",2012-08-01,-2.5166667,2012-07-01,"2014-09-01"
+"1788","Unattributed",2012-09-01,-3.8611111,2012-08-01,"2014-09-01"
+"1789","Unattributed",2012-10-01,-5.38,2012-09-01,"2014-09-01"
+"1790","Unattributed",2012-11-01,-7.4435897,2012-10-01,"2014-09-01"
+"1791","Unattributed",2012-12-01,-4.9913043,2012-11-01,"2014-09-01"
+"1792","Unattributed",2013-01-01,-4.9913043,2012-11-01,"2014-09-01"
+"1793","Unattributed",2013-02-01,-4.9913043,2012-11-01,"2014-09-01"
+"1794","Unattributed",2013-03-01,-4.9913043,2012-11-01,"2014-09-01"
+"1795","Unattributed",2013-04-01,-4.9913043,2012-11-01,"2014-09-01"
+"1796","Unattributed",2013-05-01,-4.9913043,2012-11-01,"2014-09-01"
+"1797","Unattributed",2013-06-01,-4.9913043,2012-11-01,"2014-09-01"
+"1798","Unattributed",2013-07-01,-4.9913043,2012-11-01,"2014-09-01"
+"1799","Unattributed",2013-08-01,-4.9913043,2012-11-01,"2014-09-01"
+"1800","Unattributed",2013-09-01,-4.9913043,2012-11-01,"2014-09-01"
+"1801","Unattributed",2013-10-01,-4.9913043,2012-11-01,"2014-09-01"
+"1802","Unattributed",2013-11-01,-4.9913043,2012-11-01,"2014-09-01"
+"1803","Unattributed",2013-12-01,-4.9913043,2012-11-01,"2014-09-01"
+"1804","Unattributed",2014-01-01,-4.9913043,2012-11-01,"2014-09-01"
+"1805","Unattributed",2014-02-01,-4.9913043,2012-11-01,"2014-09-01"
+"1806","Unattributed",2014-03-01,-4.9913043,2012-11-01,"2014-09-01"
+"1807","Unattributed",2014-04-01,-4.9913043,2012-11-01,"2014-09-01"
+"1808","Unattributed",2014-05-01,-4.9913043,2012-11-01,"2014-09-01"
+"1809","Unattributed",2014-06-01,-4.9913043,2012-11-01,"2014-09-01"
+"1810","Unattributed",2014-07-01,-7.4146341,2012-12-01,"2014-09-01"
+"1811","Unattributed",2014-08-01,-7.403125,2014-07-01,"2014-09-01"
+"1812","Unattributed",2014-09-01,-7.403125,2014-07-01,"2014-09-01"
+"1813","WAFA",2010-07-01,-2,2010-06-01,"2013-12-01"
+"1814","WAFA",2010-08-01,-2,2010-06-01,"2013-12-01"

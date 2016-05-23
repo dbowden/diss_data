@@ -8,10 +8,13 @@ library(stringr)
 library(tidyr)
 library(dplyr)
 library(readr)
+library(countrycode)
 
 #collect the .txt files produced by text_to_cameo_mod.py (1 for every year), and merge into a single dataframe
 files <- list.files(path = "post_python/",pattern='reduced.ICEWS.events.*.txt', full.names = T)
+
 icews <- do.call('rbind', lapply(files, function(x) read_delim(x, delim="\t", quote="\"", col_names = F, escape_double = F)))
+
 rm(files)
 
 #add column names
@@ -72,8 +75,15 @@ ucdp <- ucdp %>%
 #create a country-month id variable for merging
 ucdp$cm <- paste(ucdp$GWNoLoc,ucdp$ym,sep="-")
 
+#get cow number for icews events
+icews$locnum <- countrycode(icews$location, "country.name", "cown")
+
+#it handles palestine and serbia differently
+icews$locnum[icews$location=="Occupied Palestinian Territory"] <- 666
+icews$locnum[icews$location=="Serbia"] <- 345
+
 #create equivalent id variable in ICEWS
-icews$cm <- paste(icews$cow.tgt, icews$ym, sep="-")
+icews$cm <- paste(icews$locnum, icews$ym, sep="-")
 
 #subset to remove icews events not associated with a conflict
 icews <- merge(icews,ucdp)
