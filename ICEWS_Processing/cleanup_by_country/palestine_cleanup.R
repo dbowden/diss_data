@@ -1,3 +1,7 @@
+#TODO: split non-diss actors into separate lines w/ comment justifying each decision
+#TODO: update file structures to relfect changes
+#TODO: replace window arguments with the WINDOW variable
+
 ##############################################
 #### Create Palestinian Dissident Network ####
 ##############################################
@@ -11,7 +15,7 @@ library(ggplot2)
 theme_set(theme_bw())
 
 #import icews w/ group names added for individuals
-icews <- read.csv("~/Google Drive/Dissertation Data/networkcreation/icews_groups.csv", stringsAsFactors = FALSE)
+icews <- read.csv("../icews_with_groups.csv", stringsAsFactors = FALSE)
 
 #fix dates
 icews$date <- ymd(icews$date)
@@ -23,15 +27,21 @@ pal.diss <- subset(icews, (cow.src==0 & iso.src=="PSE" & agent.src!="BUS" & (loc
 #### 1. Attach Src Individuals to Groups ####
 
 #split obs w/ multiple groups into multiple lines (i.e. if an individual is in multiple groups an event is created for each of them)
-pal.diss <- pal.diss %>% 
-  mutate(src.groups=strsplit(src.groups,"; ")) %>% 
+pal.diss <- pal.diss %>%
+  mutate(src.groups=strsplit(src.groups,"; ")) %>%
   unnest(src.groups)
 
 #use group name instead of individual name when available
 pal.diss$alt.src <- ifelse(is.na(pal.diss$src.groups)==T, pal.diss$alt.src, pal.diss$src.groups)
 
 #remove extraneous/invalid groups
-pal.diss <- subset(pal.diss, alt.src!="Palestinian Territory, Occupied" & alt.src!="c(\"Govt\", \"Palestinian Territory, Occupied\")" & alt.src!="Riyad Mansour" & alt.src!="Muhammad Abu Khdeir" & alt.src!="Finance / Economy / Commerce / Trade Ministry (Palestinian Territory, Occupied)" & alt.src!="Intelligence Ministry (Palestinian Territory, Occupied)" & alt.src!="Human Rights NGOs (Palestinian Territory, Occupied)")
+pal.diss <- subset(pal.diss, alt.src!="Palestinian Territory, Occupied")
+ pal.diss <- subset(pal.diss, alt.src!="c(\"Govt\", \"Palestinian Territory, Occupied\")")
+pal.diss <- subset(pal.diss, alt.src!="Finance / Economy / Commerce / Trade Ministry (Palestinian Territory, Occupied)")
+pal.diss <- subset(pal.diss, alt.src!="Intelligence Ministry (Palestinian Territory, Occupied)")
+pal.diss <- subset(pal.diss, alt.src!="Human Rights NGOs (Palestinian Territory, Occupied)")
+pal.diss <- subset(pal.diss, alt.src!="Riyad Mansour") #Palestinian ambassador to the UN
+pal.diss <- subset(pal.diss, alt.src!="Muhammad Abu Khdeir") #child who was kidnapped and murdered
 
 #code a few individuals that weren't in the dictionary
 pal.diss$alt.src[pal.diss$alt.src=="Palestinian Islamic Jihad"] <- "Islamic Jihad"
@@ -70,8 +80,8 @@ pal.diss$alt.src[pal.diss$alt.src=="Government (Hamas)"] <- "Hamas"
 pal.diss$alt.src[pal.diss$alt.src=="Abdel Razak Al-Yahya"] <- "Fatah"
 
 #split again
-pal.diss <- pal.diss %>% 
-  mutate(alt.src=strsplit(alt.src,"; ")) %>% 
+pal.diss <- pal.diss %>%
+  mutate(alt.src=strsplit(alt.src,"; ")) %>%
   unnest(alt.src)
 
 #### 2. ID which groups are dissidents - Nodes for Networks ####
@@ -82,13 +92,13 @@ group.months <- pal.diss
 group.months$gov.gold <- ifelse((group.months$cow.tgt == 666) , group.months$goldstein, NA)
 
 #create monthly summaries of mean gold vs. gov
-group.months <- group.months %>% 
-  group_by(alt.src,ym) %>% 
+group.months <- group.months %>%
+  group_by(alt.src,ym) %>%
   summarize(gov.gold = mean(gov.gold,na.rm = T))
 
 #calculate time since last month w/ events
-group.months <- group.months %>% 
-  group_by(alt.src) %>% 
+group.months <- group.months %>%
+  group_by(alt.src) %>%
   mutate(last=lag(ym))
 
 group.months$last <- ifelse(is.na(group.months$last)==T, paste(group.months$ym), paste(group.months$last))
@@ -96,8 +106,8 @@ group.months$last <- ifelse(is.na(group.months$last)==T, paste(group.months$ym),
 group.months$last <- ymd(group.months$last)
 
 #create end date + 24mos
-group.months <- group.months %>% 
-  group_by(alt.src) %>% 
+group.months <- group.months %>%
+  group_by(alt.src) %>%
   mutate(end=max(ym))
 
 group.months$end <- group.months$end + month(24)
@@ -107,10 +117,10 @@ group.months$end <- ifelse(group.months$end > ymd("2014-09-01"), paste("2014-09-
 group.months$end <- ymd(group.months$end)
 
 #create empty frame of all months while a group is active
-frame <- group.months %>% 
-  group_by(alt.src) %>% 
-  summarize(start=min(ym),end=max(end)) %>% 
-  rowwise() %>% 
+frame <- group.months %>%
+  group_by(alt.src) %>%
+  summarize(start=min(ym),end=max(end)) %>%
+  rowwise() %>%
   do(data.frame(alt.src=.$alt.src, ym=seq(.$start, .$end, by="1 month")))
 
 #merge
@@ -118,8 +128,8 @@ group.months <- merge(frame,group.months,all=T)
 rm(frame)
 
 #roll last obs forward
-group.months <- group.months %>% 
-  group_by(alt.src) %>% 
+group.months <- group.months %>%
+  group_by(alt.src) %>%
   do(na.locf(.))
 
 group.months$gov.gold <- as.numeric(group.months$gov.gold)
@@ -139,7 +149,7 @@ group.months <- subset(group.months,gov.gold<0)
 
 
 ## Use frame as list of nodes ##
-write.csv(group.months, "~/Google Drive/Dissertation Data/networkcreation/Network_Creation/nodes/palestine_nodes.csv")
+write.csv(group.months, "../../Network_Creation/nodes/palestine_nodes.csv")
 
 ## Use frame to remove events that occur while a group is out of dissident network ##
 
@@ -155,8 +165,8 @@ pal.diss <- subset(pal.diss, conmo %in% group.months$conmo)
 #### 3. Attach TGT invididuals to Groups ####
 
 #give individuals with multiple groups an obs for each group
-pal.diss <- pal.diss %>% 
-  mutate(tgt.groups = strsplit(tgt.groups,"; ")) %>% 
+pal.diss <- pal.diss %>%
+  mutate(tgt.groups = strsplit(tgt.groups,"; ")) %>%
   unnest(tgt.groups)
 
 #use group instead of individual name when available
@@ -181,8 +191,8 @@ pal.diss$alt.tgt[pal.diss$name.tgt=="Riyad al-Malki"] <- "Fatah"
 pal.diss$alt.tgt[pal.diss$alt.tgt=="Abdel Razak Al-Yahya"] <- "Fatah"
 
 #unnest again
-pal.diss <- pal.diss %>% 
-  mutate(tgt.groups=strsplit(tgt.groups,"; ")) %>% 
+pal.diss <- pal.diss %>%
+  mutate(tgt.groups=strsplit(tgt.groups,"; ")) %>%
   unnest(tgt.groups)
 
 ## remove events that don't occur during dissident period
@@ -194,6 +204,6 @@ pal.diss <- subset(pal.diss, conmo %in% group.months$conmo)
 pal.diss <- subset(pal.diss, alt.src!=alt.tgt)
 
 #write
-write_csv(pal.diss,"~/Google Drive/Dissertation Data/networkcreation/Network_Creation/edges/palestine_edge_events.csv")
+write_csv(pal.diss,"../../Network_Creation/edges/palestine_edge_events.csv")
 
 rm(group.months, pal.diss)
