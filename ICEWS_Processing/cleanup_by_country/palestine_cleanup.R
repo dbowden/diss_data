@@ -82,80 +82,29 @@ pal.diss <- pal.diss %>%
   mutate(alt.src=strsplit(alt.src,"; ")) %>%
   unnest(alt.src)
 
-#ID which groups are dissidents, save list of node dates -----------------
+#remove unidentified groups
+pal.diss <- subset(pal.diss, alt.src!="Unattributed")
 
-group.months <- pal.diss
+#Get active dates for nodes ---------------------------------------------
 
-#id anti-gov events (all Israeli targets will be used - often it is civilians)
-group.months$gov.gold <- ifelse((group.months$cow.tgt == 666) , group.months$goldstein, NA)
+nodes <- pal.diss
 
-#create monthly summaries of mean gold vs. Israel
-group.months <- group.months %>%
-  group_by(alt.src,ym) %>%
-  summarize(gov.gold = mean(gov.gold,na.rm = T))
+#get goldstein scores for events targeting israeli gov/all israel
+nodes$gov.gold <- ifelse(nodes$cow.tgt==666 & nodes$agent.tgt=="GOV", nodes$goldstein, NA)
+nodes$isr.gold <- ifelse(nodes$cow.tgt==666, nodes$goldstein, NA)
 
-#calculate time since last month w/ events - scores are kept for the duration of the WINDOW variable
-group.months <- group.months %>%
-  group_by(alt.src) %>%
-  mutate(last=lag(ym))
+#weight the material conflict events
+nodes$gov.gold <- ifelse(nodes$gov.gold < -5, nodes$gov.gold*3, nodes$gov.gold)
+nodes$isr.gold <- ifelse(nodes$isr.gold < -5, nodes$isr.gold*3, nodes$isr.gold)
 
-#for the first event for a group there is no lagged value
-group.months$last <- ifelse(is.na(group.months$last)==T, paste(group.months$ym), paste(group.months$last))
+#summaries for entire group existence
+sum <- nodes %>% 
+  group_by(alt.src) %>% 
+  summarize(mean.gov=mean(gov.gold,na.rm=T),min.gov=min(gov.gold,na.rm=T),med.gov=median(gov.gold,na.rm=T),max.gov=max(gov.gold,na.rm=T), mean.isr=mean(isr.gold,na.rm=T),min.isr=min(isr.gold,na.rm=T),med.isr=median(isr.gold,na.rm=T),max.isr=max(isr.gold,na.rm=T))
 
-group.months$last <- ymd(group.months$last)
-
-#create end date + WINDOW
-group.months <- group.months %>%
-  group_by(alt.src) %>%
-  mutate(end=max(ym))
-
-group.months$end <- group.months$end + WINDOW
-
-#fix end dates that fall beyond end of sample
-group.months$end <- ifelse(group.months$end > ymd("2014-09-01"), paste("2014-09-01"), paste(group.months$end))
-
-group.months$end <- ymd(group.months$end)
-
-#create empty frame of all months while a group is active
-frame <- group.months %>%
-  group_by(alt.src) %>%
-  summarize(start=min(ym),end=max(end)) %>%
-  rowwise() %>%
-  do(data.frame(alt.src=.$alt.src, ym=seq(.$start, .$end, by="1 month")))
-
-#merge
-group.months <- merge(frame,group.months,all=T)
-rm(frame)
-
-#roll last obs forward
-group.months <- group.months %>%
-  group_by(alt.src) %>%
-  do(na.locf(.))
-
-group.months$gov.gold <- as.numeric(group.months$gov.gold)
-
-#fix dates
-group.months$ym <- ymd(group.months$ym)
-group.months$last <- ymd(group.months$last)
-
-#drop observations if there hasn't been a new antigov event in longer than the duration of WINDOW
-group.months$gov.gold <- ifelse(as.period(group.months$ym - group.months$last) > WINDOW, NA, group.months$gov.gold)
-
-#remove non-diss obs (cooperative)
-group.months <- subset(group.months,gov.gold<0)
-
-## Use frame as list of nodes ##
-write.csv(group.months, "../Network_Creation/nodes/palestine_nodes.csv")
-
-## Use frame to remove events that occur while a group is out of dissident network
-
-#create group-month id
-group.months$conmo <- paste(group.months$alt.src, group.months$ym, sep="")
-
-#do the same for pal.diss, and subset
-pal.diss$conmo <- paste(pal.diss$alt.src, pal.diss$ym, sep="")
-
-pal.diss <- subset(pal.diss, conmo %in% group.months$conmo)
+sum <- nodes %>% 
+  group_by(alt.src) %>% 
+  summarize(gov.mat.con=sum(gov.gold < -5, na.rm=T),gov.verb.con=sum(gov.gold > -5 & gov.gold < 0, na.rm=T))
 
 
 #Attach TGT invididuals to Groups ---------------------------------------
@@ -210,10 +159,8 @@ pal.diss <- pal.diss %>%
   mutate(tgt.groups=strsplit(tgt.groups,"; ")) %>%
   unnest(tgt.groups)
 
-## remove events that don't occur during dissident period
-pal.diss$conmo <- paste(pal.diss$alt.tgt, pal.diss$ym, sep="")
-
-pal.diss <- subset(pal.diss, conmo %in% group.months$conmo)
+## remove events that where target isn't dissident
+pal.diss <- subset(pal.diss, alt.tgt %in% alt.src)
 
 #remove events w/ self
 pal.diss <- subset(pal.diss, alt.src!=alt.tgt)
@@ -225,6 +172,6 @@ pal.diss <- subset(pal.diss, alt.src!="Unattributed" & alt.tgt!="Unattributed")
 pal.diss <- subset(pal.diss, duplicated(subset(pal.diss,select=c(alt.tgt,alt.src,date,cameo)))==F)
 
 #write
-write_csv(pal.diss,"../../Network_Creation/edges/palestine_edge_events.csv")
+write_csv(pal.diss,"../Network_Creation/edges/palestine_edge_events.csv")
 
-rm(group.months, pal.diss)
+rm(pal.diss)

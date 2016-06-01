@@ -1,3 +1,6 @@
+#TODO: create a file that codes node dates - every spell for which they are active within X months?
+#TODO: add international actors that fight the government
+
 # This file takes the output of text_to_cameo_mod.py, merges them, extracts specific actor names using regex, and merges in group names from the ICEWS dictionary file. It outputs a csv file with the complete ICEWS data ready for country-specific data cleaning.
 
 # Load data and perform initial cleaning --------------------------------
