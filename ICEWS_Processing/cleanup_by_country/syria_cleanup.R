@@ -17,6 +17,7 @@ icews <- read.csv("ICEWS_Processing/icews_with_groups.csv", stringsAsFactors = F
 #fix dates
 icews$date <- ymd(icews$date)
 icews$ym <- floor_date(icews$date,"month")
+icews$year <- year(icews$date)
 
 #subset to actors likely to be syrian dissidents
 syr <- subset(icews, location=="Syria")
@@ -122,6 +123,15 @@ dv <- subset(syr, gov.gold < 0)
 write.csv(dv,"Network_Creation/dv/syr_dv.csv",row.names = F)
 rm(dv)
 
+# Get network composition by year ---------------------
+
+nodes <- syr %>% 
+  group_by(alt.src) %>% 
+  summarize(start=min(year),end=max(year))
+
+write.csv(nodes, "Network_Creation/nodes/syria_nodes.csv",row.names=F)
+rm(nodes)
+
 #Attach TGT invididuals to Groups --------------------------------------
 
 #split obs w/ multiple groups into multiple lines (i.e. if an individual is in multiple groups an event is created for each of them)
@@ -192,7 +202,67 @@ syr <- subset(syr, alt.src!="Unattributed" & alt.tgt!="Unattributed")
 #remove duplicate events
 syr <- subset(syr, duplicated(subset(syr,select=c(alt.tgt,alt.src,date,cameo)))==F)
 
-#write
-write.csv(syr,"Network_Creation/edges/syria_edge_events.csv")
+# Aggregate to yearly summaries ---------------------------
 
+## Create directed dyad IDs
+
+# Create abbrevs for source names
+syr$src <- vector(mode = 'character', length = 414)
+
+syr$src[syr$alt.src=="Government of United States"] <- "US"
+syr$src[syr$alt.src=="Syrian National Council"] <- "SNC"
+syr$src[syr$alt.src=="Free Syrian Army"] <- "FSA"
+syr$src[syr$alt.src=="Government of Qatar"] <- "Qatar"
+syr$src[syr$alt.src=="Syrian Revolution General Commission"] <- "SRGC"
+syr$src[syr$alt.src=="Government of Turkey"] <- "Turkey"
+syr$src[syr$alt.src=="Government of Israel"] <- "Israel"
+syr$src[syr$alt.src=="Government of Saudi Arabia"] <- "Saudi Arabia"
+syr$src[syr$alt.src=="People's Protection Units"] <- "YPG"
+syr$src[syr$alt.src=="National Coalition for Syrian Revolutionary and Opposition Forces"] <- "NCSROF"
+syr$src[syr$alt.src=="Hamas"] <- "Hamas"
+syr$src[syr$alt.src=="High Negotiation Committee"] <- "HNC"
+syr$src[syr$alt.src=="Government of France"] <- "France"
+syr$src[syr$alt.src=="Syrian Observatory for Human Rights"] <- "SOHR"
+syr$src[syr$alt.src=="Jabhat al-Nusra"] <- "Nusra"
+syr$src[syr$alt.src=="Islamic State of Iraq and the Levant"] <- "ISIL"
+syr$src[syr$alt.src=="Government of Australia"] <- "Australia"
+syr$src[syr$alt.src=="Ahrar ash-Sham"] <- "Ahrar ash-Sham"
+syr$src[syr$alt.src=="Syrian Revolutionary Front"] <- "SRF"
+
+# repeat for targets
+syr$tgt <- vector(mode = 'character', length = 414)
+
+syr$tgt[syr$alt.tgt=="Government of United States"] <- "US"
+syr$tgt[syr$alt.tgt=="Syrian National Council"] <- "SNC"
+syr$tgt[syr$alt.tgt=="Free Syrian Army"] <- "FSA"
+syr$tgt[syr$alt.tgt=="Government of Qatar"] <- "Qatar"
+syr$tgt[syr$alt.tgt=="Syrian Revolution General Commission"] <- "SRGC"
+syr$tgt[syr$alt.tgt=="Government of Turkey"] <- "Turkey"
+syr$tgt[syr$alt.tgt=="Government of Israel"] <- "Israel"
+syr$tgt[syr$alt.tgt=="Government of Saudi Arabia"] <- "Saudi Arabia"
+syr$tgt[syr$alt.tgt=="People's Protection Units"] <- "YPG"
+syr$tgt[syr$alt.tgt=="National Coalition for Syrian Revolutionary and Opposition Forces"] <- "NCSROF"
+syr$tgt[syr$alt.tgt=="Hamas"] <- "Hamas"
+syr$tgt[syr$alt.tgt=="High Negotiation Committee"] <- "HNC"
+syr$tgt[syr$alt.tgt=="Government of France"] <- "France"
+syr$tgt[syr$alt.tgt=="Syrian Observatory for Human Rights"] <- "SOHR"
+syr$tgt[syr$alt.tgt=="Jabhat al-Nusra"] <- "Nusra"
+syr$tgt[syr$alt.tgt=="Islamic State of Iraq and the Levant"] <- "ISIL"
+syr$tgt[syr$alt.tgt=="Government of Australia"] <- "Australia"
+syr$tgt[syr$alt.tgt=="Ahrar ash-Sham"] <- "Ahrar ash-Sham"
+syr$tgt[syr$alt.tgt=="Syrian Revolutionary Front"] <- "SRF"
+
+# dyadid
+syr$dirdyad <- paste(syr$src, syr$tgt, sep="-")
+
+# Create yearly summaries 
+
+syr <- syr %>% 
+  group_by(dirdyad, year) %>% 
+  summarize(mean.gold=mean(goldstein))
+
+syr <- subset(syr, mean.gold > 0)
+
+#write
+write.csv(syr,"Network_Creation/edges/syria_edges.csv", row.names = F)
 rm(syr)
