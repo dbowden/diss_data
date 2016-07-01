@@ -24,6 +24,10 @@ syr <- subset(icews, location=="Syria")
 
 syr <- subset(syr, (cow.src==652 & agent.src!="GOV") | (cow.src!=652 & (agent.src=="REB" | agent.src=="GOV" | agent.src=="OPP")))
 
+# Define spells for SAOM ------------------
+#syr$spell <- vector(mode = "numeric", length = length())
+
+
 #Attach Src Individuals to Groups --------------------------------------
 
 #split obs w/ multiple groups into multiple lines (i.e. if an individual is in multiple groups an event is created for each of them)
@@ -119,35 +123,11 @@ syr <- syr %>%
 
 syr <- subset(syr, cow.src==652 | median.gov.gold < 0)
 
-# Create abbrevs for source names
-syr$src <- vector(mode = 'character', length = length(syr$date))
+# create group numbers
+nums <- data.frame(alt.src=unique(syr$alt.src))
+nums$srcnum <- seq(1:length(nums$alt.src))
 
-syr$src[syr$alt.src=="Government of United States"] <- "US"
-syr$src[syr$alt.src=="Syrian National Council"] <- "SNC"
-syr$src[syr$alt.src=="Free Syrian Army"] <- "FSA"
-syr$src[syr$alt.src=="Government of Qatar"] <- "Qatar"
-syr$src[syr$alt.src=="Syrian Revolution General Commission"] <- "SRGC"
-syr$src[syr$alt.src=="Government of Turkey"] <- "Turkey"
-syr$src[syr$alt.src=="Government of Israel"] <- "Israel"
-syr$src[syr$alt.src=="Government of Saudi Arabia"] <- "Saudi Arabia"
-syr$src[syr$alt.src=="People's Protection Units"] <- "YPG"
-syr$src[syr$alt.src=="National Coalition for Syrian Revolutionary and Opposition Forces"] <- "NCSROF"
-syr$src[syr$alt.src=="Hamas"] <- "Hamas"
-syr$src[syr$alt.src=="High Negotiation Committee"] <- "HNC"
-syr$src[syr$alt.src=="Government of France"] <- "France"
-syr$src[syr$alt.src=="Syrian Observatory for Human Rights"] <- "SOHR"
-syr$src[syr$alt.src=="Jabhat al-Nusra"] <- "Nusra"
-syr$src[syr$alt.src=="Islamic State of Iraq and the Levant"] <- "ISIL"
-syr$src[syr$alt.src=="Government of Australia"] <- "Australia"
-syr$src[syr$alt.src=="Ahrar ash-Sham"] <- "Ahrar ash-Sham"
-syr$src[syr$alt.src=="Syrian Revolutionary Front"] <- "SRF"
-syr$src[syr$alt.src=="National Salvation Front"] <- "NSF"
-syr$src[syr$alt.src=="Popular Front for Change and Liberation"] <- "PFCL"
-syr$src[syr$alt.src=="Syrian Liberation Army"] <- "SLA"
-syr$src[syr$alt.src=="National Coordination Body for Democratic Change"] <- "NCBDC"
-syr$src[syr$alt.src=="People’s Will Party"] <- "PWP"
-syr$src[syr$alt.src=="Local Coordination Committees of Syria"] <- "LCCS"
-syr$src[syr$alt.src=="Syrian Free National Party"] <- "SFNP"
+syr <- merge(syr, nums)
 
 #keep anti-gov events
 dv <- subset(syr, gov.gold < 0)
@@ -158,10 +138,10 @@ rm(dv)
 # Get network composition by year ---------------------
 
 nodes <- syr %>% 
-  group_by(src) %>% 
+  group_by(srcnum) %>% 
   summarize(start=min(year),end=max(year))
 
-write.csv(nodes, "Network_Creation/nodes/syria_nodes.csv",row.names=F)
+write.csv(nodes, "Network_Creation/nodes/syria_nodes.csv", row.names = F)
 rm(nodes)
 
 #Attach TGT invididuals to Groups --------------------------------------
@@ -238,47 +218,56 @@ syr <- subset(syr, duplicated(subset(syr,select=c(alt.tgt,alt.src,date,cameo)))=
 
 ## Create directed dyad IDs
 
-# repeat for targets
-syr$tgt <- vector(mode = 'character', length = 414)
+# merge numbers
+colnames(nums) <- c("alt.tgt","tgtnum")
 
-syr$tgt[syr$alt.tgt=="Government of United States"] <- "US"
-syr$tgt[syr$alt.tgt=="Syrian National Council"] <- "SNC"
-syr$tgt[syr$alt.tgt=="Free Syrian Army"] <- "FSA"
-syr$tgt[syr$alt.tgt=="Government of Qatar"] <- "Qatar"
-syr$tgt[syr$alt.tgt=="Syrian Revolution General Commission"] <- "SRGC"
-syr$tgt[syr$alt.tgt=="Government of Turkey"] <- "Turkey"
-syr$tgt[syr$alt.tgt=="Government of Israel"] <- "Israel"
-syr$tgt[syr$alt.tgt=="Government of Saudi Arabia"] <- "Saudi Arabia"
-syr$tgt[syr$alt.tgt=="People's Protection Units"] <- "YPG"
-syr$tgt[syr$alt.tgt=="National Coalition for Syrian Revolutionary and Opposition Forces"] <- "NCSROF"
-syr$tgt[syr$alt.tgt=="Hamas"] <- "Hamas"
-syr$tgt[syr$alt.tgt=="High Negotiation Committee"] <- "HNC"
-syr$tgt[syr$alt.tgt=="Government of France"] <- "France"
-syr$tgt[syr$alt.tgt=="Syrian Observatory for Human Rights"] <- "SOHR"
-syr$tgt[syr$alt.tgt=="Jabhat al-Nusra"] <- "Nusra"
-syr$tgt[syr$alt.tgt=="Islamic State of Iraq and the Levant"] <- "ISIL"
-syr$tgt[syr$alt.tgt=="Government of Australia"] <- "Australia"
-syr$tgt[syr$alt.tgt=="Ahrar ash-Sham"] <- "Ahrar ash-Sham"
-syr$tgt[syr$alt.tgt=="Syrian Revolutionary Front"] <- "SRF"
-syr$tgt[syr$alt.tgt=="National Salvation Front"] <- "NSF"
-syr$tgt[syr$alt.tgt=="Popular Front for Change and Liberation"] <- "PFCL"
-syr$tgt[syr$alt.tgt=="Syrian Liberation Army"] <- "SLA"
-syr$tgt[syr$alt.tgt=="National Coordination Body for Democratic Change"] <- "NCBDC"
-syr$tgt[syr$alt.tgt=="People’s Will Party"] <- "PWP"
-syr$tgt[syr$alt.tgt=="Local Coordination Committees of Syria"] <- "LCCS"
-syr$tgt[syr$alt.tgt=="Syrian Free National Party"] <- "SFNP"
-
+syr <- merge(syr,nums)
 
 # dyadid
-syr$dirdyad <- paste(syr$src, syr$tgt, sep="-")
+syr$dirdyad <- paste(syr$srcnum, syr$tgtnum, sep="-")
 
 # Create yearly summaries 
 syr <- syr %>% 
   group_by(dirdyad, year) %>% 
-  summarize(mean.gold=mean(goldstein))
+  summarize(srcnum=first(srcnum), tgtnum=first(tgtnum), mean.gold=mean(goldstein))
 
 syr <- subset(syr, mean.gold > 0)
 
 #write
 write.csv(syr,"Network_Creation/edges/syria_edges.csv", row.names = F)
 rm(syr)
+
+# save key for id nums ----------------
+
+nums$abbrev <- vector(mode = 'character', length = length(nums$alt.tgt))
+
+#create abbreviations
+nums$abbrev[nums$alt.tgt=="Government of United States"] <- "US"
+nums$abbrev[nums$alt.tgt=="Syrian National Council"] <- "SNC"
+nums$abbrev[nums$alt.tgt=="Free Syrian Army"] <- "FSA"
+nums$abbrev[nums$alt.tgt=="Government of Qatar"] <- "Qatar"
+nums$abbrev[nums$alt.tgt=="Syrian Revolution General Commission"] <- "SRGC"
+nums$abbrev[nums$alt.tgt=="Government of Turkey"] <- "Turkey"
+nums$abbrev[nums$alt.tgt=="Government of Israel"] <- "Israel"
+nums$abbrev[nums$alt.tgt=="Government of Saudi Arabia"] <- "Saudi Arabia"
+nums$abbrev[nums$alt.tgt=="People's Protection Units"] <- "YPG"
+nums$abbrev[nums$alt.tgt=="National Coalition for Syrian Revolutionary and Opposition Forces"] <- "NCSROF"
+nums$abbrev[nums$alt.tgt=="Hamas"] <- "Hamas"
+nums$abbrev[nums$alt.tgt=="High Negotiation Committee"] <- "HNC"
+nums$abbrev[nums$alt.tgt=="Government of France"] <- "France"
+nums$abbrev[nums$alt.tgt=="Syrian Observatory for Human Rights"] <- "SOHR"
+nums$abbrev[nums$alt.tgt=="Jabhat al-Nusra"] <- "Nusra"
+nums$abbrev[nums$alt.tgt=="Islamic State of Iraq and the Levant"] <- "ISIL"
+nums$abbrev[nums$alt.tgt=="Government of Australia"] <- "Australia"
+nums$abbrev[nums$alt.tgt=="Ahrar ash-Sham"] <- "Ahrar ash-Sham"
+nums$abbrev[nums$alt.tgt=="Syrian Revolutionary Front"] <- "SRF"
+nums$abbrev[nums$alt.tgt=="National Salvation Front"] <- "NSF"
+nums$abbrev[nums$alt.tgt=="Popular Front for Change and Liberation"] <- "PFCL"
+nums$abbrev[nums$alt.tgt=="Syrian Liberation Army"] <- "SLA"
+nums$abbrev[nums$alt.tgt=="National Coordination Body for Democratic Change"] <- "NCBDC"
+nums$abbrev[nums$alt.tgt=="People’s Will Party"] <- "PWP"
+nums$abbrev[nums$alt.tgt=="Local Coordination Committees of Syria"] <- "LCCS"
+nums$abbrev[nums$alt.tgt=="Syrian Free National Party"] <- "SFNP"
+
+write_csv(nums, "Network_Creation/ids/syria_ids.csv")
+rm(nums)

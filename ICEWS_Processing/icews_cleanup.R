@@ -14,7 +14,7 @@ library(readr)
 library(countrycode)
 
 #collect the .txt files produced by text_to_cameo_mod.py (1 for every year), and merge into a single dataframe
-files <- list.files(path = "post_python/",pattern='reduced.ICEWS.events.*.txt', full.names = T)
+files <- list.files(path = "ICEWS_Processing/post_python/",pattern='reduced.ICEWS.events.*.txt', full.names = T)
 
 icews <- do.call('rbind', lapply(files, function(x) read_delim(x, delim="\t", quote="\"", col_names = F, escape_double = F)))
 
@@ -32,66 +32,66 @@ icews$ym <- floor_date(icews$date, "month")
 #Subset to months that occur during or within WINDOW prior to conflict months using UCDP 25 death threshold -------------------------------------
 
 # ****set WINDOW variable for how many prior months of events are used to construct the network for the current month. To change the window, the value should be changed here, and the entire "icews_processing.sh" script should be re-run. ****
-WINDOW <- years(2)
-WINDOW_INT <- 2 #can't easily extrac the interval from the date object
-#This will be kept in the workspace for use in subsequent scripts
-
-#import ucdp armed conflict data v.4-2015. this is a set of all conflict-years.
-ucdp <- read_csv("post_python/ucdp_acd.csv")
-
-#remove interstate and extrasystemic wars
-ucdp <- subset(ucdp, TypeOfConflict > 2)
-
-#remove conflict-years prior to 1995
-ucdp <- subset(ucdp, Year > 1994)
-
-#calculate a startmonth that begins prior to the actual conflict start by the value stored in WINDOW. (i.e. if I am using the prior 18 months of events to construct the networks, this will calculate a date 18 months prior to the start of the conflict).
-ucdp$pre_start <- ucdp$StartDate2 - WINDOW
-
-#get months that violence started and ended in a year
-ucdp$stmo <- ifelse(year(ucdp$pre_start)==(ucdp$Year - WINDOW_INT), month(ucdp$pre_start), 1)
-ucdp$emo <- ifelse(year(ucdp$EpEndDate)==ucdp$Year, month(ucdp$EpEndDate),12)
-ucdp$emo[is.na(ucdp$emo)==T] <- 12
-
-#create id for ucdp obs
-ucdp$id <- paste(ucdp$ConflictId,ucdp$Year,sep="-")
-
-#expand month sequence for every conflict-year
-frame <- ucdp %>% 
-  rowwise() %>% 
-  do(data.frame(id=.$id, month=seq(.$stmo,.$emo,by=1)))
-
-#merge conflict years into frame
-ucdp <- merge(frame,ucdp,all=T)
-rm(frame)
-
-#create year-month variable equivalent ot what I have for ICEWS
-ucdp$ym <- paste(ucdp$Year,ucdp$month,sep="-")
-ucdp$ym <- paste(ucdp$ym,1,sep="-")
-ucdp$ym <- ymd(ucdp$ym)
-
-#condense ucdp to country-month summaries
-ucdp <- ucdp %>% 
-  group_by(GWNoLoc,ym) %>% 
-  summarize(conflicts=n_distinct(ConflictId),intensity=max(IntensityLevel))
-
-#create a country-month id variable for merging
-ucdp$cm <- paste(ucdp$GWNoLoc,ucdp$ym,sep="-")
-
-#get cow number for icews events
-icews$locnum <- countrycode(icews$location, "country.name", "cown")
-
-#it handles palestine and serbia differently
-icews$locnum[icews$location=="Occupied Palestinian Territory"] <- 666
-icews$locnum[icews$location=="Serbia"] <- 345
-
-#create equivalent id variable in ICEWS
-icews$cm <- paste(icews$locnum, icews$ym, sep="-")
-
-#subset to remove icews events not associated with a conflict
-icews <- merge(icews,ucdp)
-
-rm(ucdp)
+# WINDOW <- years(2)
+# WINDOW_INT <- 2 #can't easily extrac the interval from the date object
+# #This will be kept in the workspace for use in subsequent scripts
+# 
+# #import ucdp armed conflict data v.4-2015. this is a set of all conflict-years.
+# ucdp <- read_csv("post_python/ucdp_acd.csv")
+# 
+# #remove interstate and extrasystemic wars
+# ucdp <- subset(ucdp, TypeOfConflict > 2)
+# 
+# #remove conflict-years prior to 1995
+# ucdp <- subset(ucdp, Year > 1994)
+# 
+# #calculate a startmonth that begins prior to the actual conflict start by the value stored in WINDOW. (i.e. if I am using the prior 18 months of events to construct the networks, this will calculate a date 18 months prior to the start of the conflict).
+# ucdp$pre_start <- ucdp$StartDate2 - WINDOW
+# 
+# #get months that violence started and ended in a year
+# ucdp$stmo <- ifelse(year(ucdp$pre_start)==(ucdp$Year - WINDOW_INT), month(ucdp$pre_start), 1)
+# ucdp$emo <- ifelse(year(ucdp$EpEndDate)==ucdp$Year, month(ucdp$EpEndDate),12)
+# ucdp$emo[is.na(ucdp$emo)==T] <- 12
+# 
+# #create id for ucdp obs
+# ucdp$id <- paste(ucdp$ConflictId,ucdp$Year,sep="-")
+# 
+# #expand month sequence for every conflict-year
+# frame <- ucdp %>% 
+#   rowwise() %>% 
+#   do(data.frame(id=.$id, month=seq(.$stmo,.$emo,by=1)))
+# 
+# #merge conflict years into frame
+# ucdp <- merge(frame,ucdp,all=T)
+# rm(frame)
+# 
+# #create year-month variable equivalent ot what I have for ICEWS
+# ucdp$ym <- paste(ucdp$Year,ucdp$month,sep="-")
+# ucdp$ym <- paste(ucdp$ym,1,sep="-")
+# ucdp$ym <- ymd(ucdp$ym)
+# 
+# #condense ucdp to country-month summaries
+# ucdp <- ucdp %>% 
+#   group_by(GWNoLoc,ym) %>% 
+#   summarize(conflicts=n_distinct(ConflictId),intensity=max(IntensityLevel))
+# 
+# #create a country-month id variable for merging
+# ucdp$cm <- paste(ucdp$GWNoLoc,ucdp$ym,sep="-")
+# 
+# #get cow number for icews events
+# icews$locnum <- countrycode(icews$location, "country.name", "cown")
+# 
+# #it handles palestine and serbia differently
+# icews$locnum[icews$location=="Occupied Palestinian Territory"] <- 666
+# icews$locnum[icews$location=="Serbia"] <- 345
+# 
+# #create equivalent id variable in ICEWS
+# icews$cm <- paste(icews$locnum, icews$ym, sep="-")
+# 
+# #subset to remove icews events not associated with a conflict
+# icews <- merge(icews,ucdp)
+# 
+# rm(ucdp)
 
 #Extract most specific actor name available (sometimes it is in parentheses) -----------------------------------------------------------------------
 
@@ -118,7 +118,7 @@ rm(re)
 #Add group names for individuals -----------------------------------------
 
 #import the ICEWS actor dictionary, which has names/dates of groups with which individuals are associated
-actors <- read_csv("post_python/icews.actors.20140112.csv")
+actors <- read_csv("ICEWS_Processing/post_python/icews.actors.20140112.csv")
 
 #remove unneeded column and make column names match ICEWS
 actors <- subset(actors,select=-Aliases)
@@ -261,4 +261,4 @@ rm(slim)
 
 #write csv for use later on ----------------------------------------------
 
-write_csv(icews,"icews_with_groups.csv")
+write_csv(icews,"ICEWS_Processing/icews_with_groups.csv")
